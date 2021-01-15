@@ -80,7 +80,7 @@
 
 1. Click on Open ScreenConnect Client and install the required software (One Time).  
 
-    ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.010.png) 
+   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.010.png) 
 
 1. Shadow users VM session (without overtaking RDP session) 
 
@@ -89,6 +89,7 @@
 1. You can initiate a private chat with attendee by clicking on messaging icon.  
 
    ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.011.png) 
+   
 
 ### RDP OVER HTTPS  
 
@@ -104,88 +105,62 @@
 
   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.013.png) 
 
-##Instructor Azure Portal Access 
+## Instructor Azure Portal Access 
 
-- Instructor has access to all attendees Resource groups and resources that are pre-deployed or deployed by attendee as a part of the lab. 
-- Instructor can login to the Azure portal with the credentials identified before and will be able to view the resources of all attendees. 
+Instructor has access to all attendees Resource groups and resources that are pre-deployed or deployed by attendee as a part of the lab. 
+1. Instructor can login to the Azure portal with the credentials identified before and will be able to view the resources of all attendees. 
 
-![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.014.jpeg) 
+   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.014.jpeg) 
 
-![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.015.png) 
+   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.015.png) 
 
-- Since each attendee is assigned with a six-digit Suffix, it is easy for the instructor to view the resources of a particular attendee.  
+1. Since each attendee is assigned with a six-digit Suffix, it is easy for the instructor to view the resources of a particular attendee.  
 
    To find the attendees details:  
 
-- From the Cloud Labs portal home page, Click on **On Demand Labs** select the event ODL then click on user's tab from actions. From here, instructor can find the list of attendees with their deployment id and deployment details for each user. 
-- From the list of attendees, instructor can pick the Suffix of the desired attendee and can view the resources from the Azure portal. 
+1. From the Cloud Labs portal home page, Click on **On Demand Labs** select the event ODL then click on user's tab from actions. From here, instructor can find the list of attendees with their deployment id and deployment details for each user. 
+1. From the list of attendees, instructor can pick the Suffix of the desired attendee and can view the resources from the Azure portal. 
 
 ### How much time does the environment take to get deployed? 
 
-The approximate Duration for deploying a single environment would be **30** minutes. 
+- The approximate Duration for deploying a single environment would be **30** minutes. 
 
 ### What do the attendees get when they sign up for the environment.  
 
-- As soon as attendee’s environment is deployed, he will be able to see the Lab Description page.  
+1. As soon as attendee’s environment is deployed, he will be able to see the Lab Description page.  
 
-![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.016.png) 
+   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.016.png) 
 
-- From the Environment Details tab, attendees can find the Azure Credentials, Virtual Machine Credentials, Service Principal details and other details that are required to perform the lab. 
+1. From the Environment Details tab, attendees can find the Azure Credentials, Virtual Machine Credentials, Service Principal details and other details that are required to perform the lab. 
 
-`            `![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.017.png) 
+    ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.017.png) 
 
-- Scroll down on the Environment Details page and click on the **JumpBox-Suffix**   button to login to the Jumpbox VM. 
+1. Scroll down on the Environment Details page and click on the **JumpBox-Suffix**   button to login to the Jumpbox VM. 
 
+   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.018.png) 
 
+   - Then attendee will be able to see a JumpBox virtual machine in the left to perform the lab and a lab guide in the right which need to be followed throughout the lab. 
 
-![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.018.png) 
+   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.012.png) 
 
+1. Scroll down on the Environment Details page and click on the **GO TO SQL2008-Suffix** button to login to the SQL server VM.  
 
+   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.018.png) 
 
-- Then attendee will be able to see a virtual machine in the left to perform the lab and a lab guide in the right which need to be followed throughout the lab. 
+   - Then attendee will be able to see the SQL virtual machine in the left to perform the lab and a lab guide in the right which need to be followed throughout the lab. 
 
+      ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.012.png) 
 
+     - Attendee can see the number on lab guide bottom area to switch to different exercises of lab guide.  
+     - Attendee can also navigate to previous and next exercise using **Previous** and **Next** button. 
 
-![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.012.png) 
+     ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.012.png) 
 
+1. From the Virtual Machines tab, attendee can find the available virtual machines, their status ( running, pending or deallocated), Uptime, DNS name and can also perform some actions on them. 
 
-
-- Scroll down on the Environment Details page and click on the **GO TO SQL2008-Suffix** button to login to the SQL server VM.  
-
-
-
-![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.018.png) 
-
-
-
-- Then attendee will be able to see a virtual machine in the left to perform the lab and a lab guide in the right which need to be followed throughout the lab. 
-
-
-
-![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.012.png) 
-
-- Attendee can see the number on lab guide bottom area to switch to different exercises of lab guide.  
-- Attendee can also navigate to previous and next exercise using **Previous** and **Next** button. 
-
-
-
-![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.012.png) 
-
-
-
-
-
-- From the Virtual Machines tab, attendee can find the available virtual machines, their status ( running, pending or deallocated), Uptime, DNS name and can also perform some actions on them. 
-
-
-
-![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.019.png)  
-
-
-
-- Attendee can also perform the following operations on the virtual machine. 
-
-
+    ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.019.png)  
+    
+   - Attendee can also perform the following operations on the virtual machine. 
 
                1. Start 
 
@@ -196,53 +171,39 @@ The approximate Duration for deploying a single environment would be **30** min
                4. Open the virtual machine in new tab. 
 
 
+   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.020.png) 
 
-![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.020.png) 
+1. From the Lab Validation tab, attendees can run validation for each exercise after performing it. 
 
+   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.021.png) 
 
-
-- From the Lab Validation tab, attendees can run validation for each exercise after performing it. 
-
-
-
-![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.021.png) 
-
-
-
-Resources that are provided as pre-requisites. 
+### Resources that are provided as pre-requisites. 
 
 Once the attendee login to the Azure portal, following are the Pre-deployed resources that are provided to the attendees to perform the lab. 
 
-
-
 - Resource Group: hands-on-lab- Suffix, SQLMI-Shared-RG 
 
-Resources deployed in hands-on-lab-Suffix: 
+ **Resources deployed in hands-on-lab-Suffix:** 
 
-- Virtual machine:  sqlVirtualMachine (sql2008-Suffix), JumpBox-Suffix 
-- Network security group: JumpBox-Suffix-nsg, sql2008-Suffix-nsg 
-- Network Interfaces: JumpBox-Suffix-nic, sql2008-Suffix-nic 
-- Public Ip Address: JumpBox-Suffix-ip, sql2008-Suffix-ip, vnet-gateway-ip 
-- Data Migration service: wwi-dms 
-- Storage Account: sqlmistoreuniqueString 
-- AppService Plan Name: hands-on-lab-Suffix-asp 
-- WebApp Name: wwi-web-Suffix 
+ - Virtual machine:  sqlVirtualMachine (sql2008-Suffix), JumpBox-Suffix 
+ - Network security group: JumpBox-Suffix-nsg, sql2008-Suffix-nsg 
+ - Network Interfaces: JumpBox-Suffix-nic, sql2008-Suffix-nic 
+ - Public Ip Address: JumpBox-Suffix-ip, sql2008-Suffix-ip, vnet-gateway-ip 
+ - Data Migration service: wwi-dms 
+ - Storage Account: sqlmistoreuniqueString 
+ - AppService Plan Name: hands-on-lab-Suffix-asp 
+ - WebApp Name: wwi-web-Suffix 
 
+ **Resources deployed in SQLMI-Shared-RG:**
 
+ - Virtual Network Gateway: hands-onlab-vnetgateway 
+ - Network security group: nsg-sqlmi—cus 
+ - SQL Managed Instance: sqlmi-cus 
 
-Resources deployed in SQLMI-Shared-RG: 
-
-- Virtual Network Gateway: hands-onlab-vnetgateway 
-- Network security group: nsg-sqlmi—cus 
-- SQL Managed Instance: sqlmi-cus 
-
-
-
-In the upper left corner of the portal window, click the toggle menu icon and then click on **Resource groups,** then select the** hands-on-lab-Suffix/SQLMI-Shared-RG resource group and view the pre-deployed resources**.** 
+  In the upper left corner of the portal window, click the toggle menu icon and then click on **Resource groups,** then select the** hands-on-lab-Suffix/SQLMI-Shared-RG resource group and view the pre-deployed resources**.** 
 
 
-
-**LAB CONTENTS** 
+### LAB CONTENTS
 
 
 
