@@ -160,7 +160,7 @@ Instructor has access to all attendees Resource groups and resources that are pr
 
     ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.019.png)  
     
-   - Attendee can also perform the following operations on the virtual machine. 
+    - Attendee can also perform the following operations on the virtual machine. 
 
                1. Start 
 
@@ -170,8 +170,7 @@ Instructor has access to all attendees Resource groups and resources that are pr
 
                4. Open the virtual machine in new tab. 
 
-
-   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.020.png) 
+      ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.020.png) 
 
 1. From the Lab Validation tab, attendees can run validation for each exercise after performing it. 
 
@@ -206,30 +205,19 @@ Once the attendee login to the Azure portal, following are the Pre-deployed re
 ### LAB CONTENTS
 
 
-
 **Exercise 1: Perform database assessments** 
 
 In this exercise, attendee will the Microsoft Data Migration Assistant (DMA) to perform assessments on the WideWorldImporters database. You create two assessments: one for SQL DB and a second for SQL MI.  
 
 These assessments provide reports about any feature parity, and compatibility issues between the on-premises database and the Azure managed SQL database service options. 
 
-
-
 **Exercise 2: Migrate the database to SQL MI** 
 
 In this exercise, attendee will use the **Azure Database Migration Service** (DMS) to migrate the WideWorldImporters database from an on-premises SQL Server 2008 R2 database into Azure SQL Managed Instance (SQL MI). 
 
-
-
-
-
 **Exercise 3: Update the web application to use the new SQL MI database** 
 
 With the WideWorldImporters  database now running on SQL MI in Azure, attendee will publish the web app to Azure from visual studio then the next step is to make the required modifications to the WideWorldImporters web application to enable it to connect to and utilize the SQL MI database. 
-
-
-
-
 
 **Exercise 4: Integrate App Service with the virtual network** 
 
@@ -247,17 +235,11 @@ SQL Database Advance Data Security (ADS) provides advanced SQL security capabili
 
 In this exercise, attendee will enable Dynamic Data Masking (DDM) on credit card numbers in the  WideWorldImporters  database. 
 
-
-
 DDM limits sensitive data exposure by masking it to non-privileged users which helps prevent unauthorized access to sensitive data. It is a policy-based security feature that hides the sensitive data in the result set of a query over designated database fields, while the data in the database is not changed. 
 
 
+### Lab validation
 
-
-
-
-
-**Lab validation** 
 
 After performing each exercise, the attendees are asked to run validation for the provided tasks to ensure that the expected output is obtained. 
 
@@ -271,79 +253,44 @@ After performing each exercise, the attendees are asked to run validation for th
 
 2. Attendees can find the validation status either Succeeded or failed under status tab 
 
-`                  `If the validation fails, it will give the error message regarding why the validation has failed so that attendee can find the mistake which he committed and rectify it accordingly. 
+     - If the validation fails, it will give the error message regarding why the validation has failed so that attendee can find the mistake which he committed and rectify it accordingly. 
+
+   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.022.png) 
+
+### Help Tab
+
+1. Expand **More** button on the right and click on **Help**.  
+
+   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.023.png) 
+
+2. From Help tab, attendees can find the common issues such as copy-paste, pop-up visibility issues and solutions to resolve them. 
+
+   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.024.png)  
+   
+   
+### Split Window
 
 
-
-`   `![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.022.png) 
-
-**Help Tab** 
-
-
-
-
-
-- Expand **More** button on the right and click on **Help**.  
-
-![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.023.png) 
-
-
-
-- From Help tab, attendees can find the common issues such as copy-paste, pop-up visibility issues and solutions to resolve them. 
-
-
-
-![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.024.png) 
-
-
-
-
-
-
-
-**Split Window** 
-
-
-
-Split window will open the lab guide in new Window by providing the only virtual machine on the current window. 
-
-
+- Split window will open the lab guide in new Window by providing the only virtual machine on the current window. 
 
 ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.025.png) 
 
 
+### Collapse Window
+
+1. Collapse button will collapse the lab guide window and provides the full view of the virtual machine.  
+
+   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.026.png) 
+
+2. Attendee can get back the lab guide when needed by clicking on Expand button. 
+
+   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.027.png) 
 
 
-
-**Collapse Window** 
-
+**Average time taken to complete the lab: 8 hours** 
 
 
-- Collapse button will collapse the lab guide window and provides the full view of the virtual machine.  
-
-
-
-![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.026.png) 
-
-
-
-- Attendee can get back the lab guide when needed by clicking on Expand button. 
-
-
-
-
-
-![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.027.png) 
-
-
-
-
-
-Average time taken to complete the lab: 8 hours 
-
-
-
-**Known issues** 
+### Known issues
 
 
 
@@ -375,73 +322,48 @@ Here attendee needs to select available subnet for the app service, if the atten
 
 
 
-**FAQ’S**: 
+### FAQ’S
 
 
+**How to access lab environment** 
 
-How to access lab environment 
+1. Instructor share the bit.ly link and activation code during the event to attendees. 
 
+    DO NOT share the activation details prior to session (Lab Start time) 
 
+1. All attendees activate the lab instance using the same activation code. 
 
-- Instructor share the bit.ly link and activation code during the event to attendees. 
+   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.028.png) 
 
-`             `DO NOT share the activation details prior to session (Lab Start time) 
+1. Attendee will navigate to the bit.ly link and provide the required details. 
+1. Its mandatory to give company email address and actual organization name. 
 
-- All attendees activate the lab instance using the same activation code. 
+   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.028.png) 
 
-
-
-` `![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.028.png) 
-
-
-
-- Attendee will navigate to the bit.ly link and provide the required details. 
-- Its mandatory to give company email address and actual organization name. 
-
-![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.028.png) 
-
-- Once lab instance is assigned, details are also sent to attendee via email from [noreply@cloudlabs.ai 
+1. Once lab instance is assigned, details are also sent to attendee via email from [noreply@cloudlabs.ai 
   ](mailto:noreply@cloudlabs.ai) 
 1. Once attendee register using Lab activation details, he will click on Launch Lab to get started with the lab. 
 
+    ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.029.png) 
+    
+1. Once the deployment is succeeded, attendee will get the Lab description page with Azure Credentials**,** Virtual Machine Credentials, Service Principal details and **other details that are required to perform the lab**, click on **GO TO SQL2008-Suffix** button to login to the SQL server VM and start with lab.   
 
+   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.030.png) 
+   
+1. Attendee will get the screen with the lab guide, Environment Details (Azure Credentials), etc. on the Right Side and Virtual Machine on the Left. 
 
-![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.029.png) 
+   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.012.png) 
 
+**How to find the **SUFFIX** Value:** 
 
-2. Once the deployment is succeeded, attendee will get the Lab description page with Azure Credentials**,** Virtual Machine Credentials, Service Principal details and **other details that are required to perform the lab**, click on **GO TO SQL2008-Suffix** button to login to the SQL server VM and start with lab.   
-
-
-
-` `![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.030.png) 
-
-
-
-3. Attendee will get the screen with the lab guide, Environment Details (Azure Credentials), etc. on the Right Side and Virtual Machine on the Left. 
-
-` `![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.012.png) 
-
-
-
-
-
-How to find the **SUFFIX** Value: 
-
-Attendee can find the SUFFIX value by navigating to **Environment Details** page. 
-
-
+- Attendee can find the SUFFIX value by navigating to **Environment Details** page. 
 
 ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.031.png) 
 
 
+**How to find the **SERVICE PRINCIPAL** Details:**
 
-
-
-How to find the **SERVICE PRINCIPAL** Details: 
-
-Attendee can find the service principal details by navigating to **Environment Details** page. 
-
-
+- Attendee can find the service principal details by navigating to **Environment Details** page. 
 
 ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.031.png) 
 
