@@ -110,7 +110,7 @@ Instructor has access to all attendees Resource groups and resources that are pr
 
    ![Cloudlabsportal](./images/cloudlabs-instructor-1.png "cloudlabs-instructor")
  
-   ![Cloudlabsportal](./images/cloudlabs-instructor2.png "cloudlabs-instructor")
+   ![Cloudlabsportal](./images/cloudlabsinstructor2.png "cloudlabs-instructor")
  
 1. Since each attendee is assigned with a six-digit Suffix, it is easy for the instructor to view the resources of a particular attendee.  
 
@@ -138,8 +138,8 @@ Instructor has access to all attendees Resource groups and resources that are pr
    ![Cloudlabsportal](./images/Environment3.png "Environment")
  
    - Then attendee will be able to see a JumpBox virtual machine in the left to perform the lab and a lab guide in the right which need to be followed throughout the lab. 
-
-
+   
+    ![Cloudlabsportal](./images/RdpoverHttps.png "RdpoverHttps")
 
 1. Scroll down on the Environment Details page and click on the **GO TO SQL2008-Suffix** button to login to the SQL server VM.  
 
