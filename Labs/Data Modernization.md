@@ -12,7 +12,7 @@
    3. From here you can find instructor credentials. With this credential you can access all the attendee’s azure environments. 
    4. From Users tab, you can find list of lab users with their deployment id. 
 
-![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.001.png) 
+  ![](Labs/images/cloulabsportal.png) 
 
 
 ## How to manage users and Unused instances
