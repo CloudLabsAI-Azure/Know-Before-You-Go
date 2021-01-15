@@ -352,13 +352,5 @@ Here attendee needs to select available subnet for the app service, if the atten
 
 - Attendee can find the service principal details by navigating to **Environment Details** page. 
 
-![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.031.png) 
-
-
-
-
-
-
-
-
+    ![Cloudlabsportal](./images/serviceprincipal.png "Environment")
 
