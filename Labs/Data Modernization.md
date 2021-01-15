@@ -116,8 +116,8 @@ Instructor has access to all attendees Resource groups and resources that are pr
 
    To find the attendees details:  
 
-1. From the Cloud Labs portal home page, Click on **On Demand Labs** select the event ODL then click on user's tab from actions. From here, instructor can find the list of attendees with their deployment id and deployment details for each user. 
-1. From the list of attendees, instructor can pick the Suffix of the desired attendee and can view the resources from the Azure portal. 
+     - From the Cloud Labs portal home page, Click on **On Demand Labs** select the event ODL then click on user's tab from actions. From here, instructor can find the list of attendees with their deployment id and deployment details for each user. 
+     - From the list of attendees, instructor can pick the Suffix of the desired attendee and can view the resources from the Azure portal. 
 
 ### How much time does the environment take to get deployed? 
 
@@ -168,7 +168,7 @@ Instructor has access to all attendees Resource groups and resources that are pr
 
                4. Open the virtual machine in new tab. 
 
-     ![Cloudlabsportal](./images/Environment5.png "Environment")
+   ![Cloudlabsportal](./images/Environment5.png "Environment")
       
 1. From the Lab Validation tab, attendees can run validation for each exercise after performing it. 
 
@@ -288,13 +288,13 @@ After performing each exercise, the attendees are asked to run validation for th
 
 
 
-**IMPORTANT!!** 
+#### IMPORTANT!! 
 
 Whenever attendee is asked to provide value for SUFFIX, it should be replaced with value which can be found from the Environment Details page. Not providing the SUFFIX value will lead to **Deployment issues** while deploying new resources, **Connection issues:** while connecting to database using **Microsoft SQL Server Management Studio 17(SSMS)** and** while performing **Database Assessment and Database Migration**. 
 
 
 
-**Exercise2 Task4 Step5:** 
+#### 1. Exercise2 Task4 Step5:
 
 While creating the storage account, make sure attendee provide the values as follows: 
 
@@ -304,7 +304,7 @@ While creating the storage account, make sure attendee provide the values as f
 
 Attendees can find the SUFFIX value from the Environment Details page. 
 
-**Exercise4 Task1 step4:** 
+#### Exercise4 Task1 step4:
 
 Here attendee needs to select available subnet for the app service, if the attendee is not able to select any subnet then attendee needs to follow the next instructions to create the subnet. while creating the subnet users' needs to make sure the subnet address space is not overlapping other subnet's address space 
 
@@ -312,7 +312,7 @@ Here attendee needs to select available subnet for the app service, if the atten
 ### FAQ’S
 
 
-**How to access lab environment** 
+#### How to access lab environment
 
 1. Instructor share the bit.ly link and activation code during the event to attendees. 
 
@@ -341,14 +341,14 @@ Here attendee needs to select available subnet for the app service, if the atten
 
     ![Cloudlabsportal](./images/Environment8.png "Environment") 
 
-**How to find the **SUFFIX** Value:** 
+#### How to find the **SUFFIX** Value:
 
 - Attendee can find the SUFFIX value by navigating to **Environment Details** page. 
 
-![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.031.png) 
+    ![Cloudlabsportal](./images/suffix.png "Environment")
 
 
-**How to find the **SERVICE PRINCIPAL** Details:**
+#### How to find the **SERVICE PRINCIPAL** Details:
 
 - Attendee can find the service principal details by navigating to **Environment Details** page. 
 
