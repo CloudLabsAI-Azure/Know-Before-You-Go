@@ -95,23 +95,23 @@
 
 - With RDP OVER HTTPS and integrated doc rendering, attendees will be able see the virtual machine and lab guide on the same screen which makes easier to perform the lab.  
 
-` `![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.012.png) 
-
+ ![Cloudlabsportal](./images/RdpoverHttps.png "RdpoverHttps")
+ 
 ### VM Start/Stop  
 
 - Attendees can start/stop the Virtual Machine from the Virtual Machine tab. We have provided button to start/stop VM under Actions.  
 
-  ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.013.png) 
-
+ ![Cloudlabsportal](./images/Vmstartandstop.png "Vmstartandstop")
+ 
 ## Instructor Azure Portal Access 
 
 Instructor has access to all attendees Resource groups and resources that are pre-deployed or deployed by attendee as a part of the lab. 
 1. Instructor can login to the Azure portal with the credentials identified before and will be able to view the resources of all attendees. 
 
-   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.014.jpeg) 
-
-   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.015.png) 
-
+   ![Cloudlabsportal](./images/cloudlabs-instructor-1.png "cloudlabs-instructor")
+ 
+   ![Cloudlabsportal](./images/cloudlabs-instructor2.png "cloudlabs-instructor")
+ 
 1. Since each attendee is assigned with a six-digit Suffix, it is easy for the instructor to view the resources of a particular attendee.  
 
    To find the attendees details:  
@@ -127,32 +127,32 @@ Instructor has access to all attendees Resource groups and resources that are pr
 
 1. As soon as attendee’s environment is deployed, he will be able to see the Lab Description page.  
 
-   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.016.png) 
+    ![Cloudlabsportal](./images/Environment1.png "Environment")
 
 1. From the Environment Details tab, attendees can find the Azure Credentials, Virtual Machine Credentials, Service Principal details and other details that are required to perform the lab. 
 
-    ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.017.png) 
-
+    ![Cloudlabsportal](./images/Environment2.png "Environment")
+ 
 1. Scroll down on the Environment Details page and click on the **JumpBox-Suffix**   button to login to the Jumpbox VM. 
 
-   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.018.png) 
-
+   ![Cloudlabsportal](./images/Environment3.png "Environment")
+ 
    - Then attendee will be able to see a JumpBox virtual machine in the left to perform the lab and a lab guide in the right which need to be followed throughout the lab. 
 
-   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.012.png) 
+   ![Cloudlabsportal](./images/Environment4.png "Environment")
 
 1. Scroll down on the Environment Details page and click on the **GO TO SQL2008-Suffix** button to login to the SQL server VM.  
 
-   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.018.png) 
+   ![Cloudlabsportal](./images/Environment5.png "Environment")
 
    - Then attendee will be able to see the SQL virtual machine in the left to perform the lab and a lab guide in the right which need to be followed throughout the lab. 
 
-      ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.012.png) 
+   ![Cloudlabsportal](./images/Environment6.png "Environment")
 
      - Attendee can see the number on lab guide bottom area to switch to different exercises of lab guide.  
      - Attendee can also navigate to previous and next exercise using **Previous** and **Next** button. 
 
-     ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.012.png) 
+   ![Cloudlabsportal](./images/Environment7.png "Environment")
 
 1. From the Virtual Machines tab, attendee can find the available virtual machines, their status ( running, pending or deallocated), Uptime, DNS name and can also perform some actions on them. 
 
@@ -168,7 +168,7 @@ Instructor has access to all attendees Resource groups and resources that are pr
 
                4. Open the virtual machine in new tab. 
 
-      ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.020.png) 
+   ![Cloudlabsportal](./images/Environment8.png "Environment")
 
 1. From the Lab Validation tab, attendees can run validation for each exercise after performing it. 
 
