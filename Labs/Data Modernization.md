@@ -11,10 +11,9 @@
    2. Navigate to On Demand Labs, then you will be able to find event ODL name.  
    3. From here you can find instructor credentials. With this credential you can access all the attendee’s azure environments. 
    4. From Users tab, you can find list of lab users with their deployment id. 
-
-  ![](Labs/images/cloulabsportal.png) 
-
-
+   
+ ![Cloudlabsportal](./images/cloulabsportal.png "cloudlabsportal")
+ 
 ## How to manage users and Unused instances
 
 - Navigate to user's tab from actions..  
@@ -23,7 +22,7 @@
 - Add / Remove attendees  
 - Each attendee is assigned a six-digit unique id to identify lab resource groups and jump VMs 
 
-![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.002.png) 
+ ![Cloudlabsportal](./images/cloudlabs-users.png "cloudlabsportal")
 
 ## Features available to instructors
 
@@ -41,55 +40,54 @@
     - Use this username and password to login to Azure portal and CloudLabs Shadow  
     - Login from a private browser instance (InPrivate or Incognito)  
 
-   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.003.png) 
+    ![Cloudlabsportal](./images/cloudlabs-instructor.png "cloudlabsportal") 
 
 1. Navigate to user's tab from actions  
 1. You can find the Deployment details for the user here. (you can use azure credentials from this page to access attendee cloud environment)  
 
-    ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.002.png) 
-
+   ![Cloudlabsportal](./images/cloudlabs-users.png "cloudlabsportal")
+ 
    SCREEN CONNECT  
 
 1. Navigate to [https://spektrasystems.screenconnect.com](https://spektrasystems.screenconnect.com/)  
 1. Click on Login  
 
-   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.004.png) 
+   ![VM shadowing](./images/screenconnect1.png "cloudlabsportal")
 
 1. Login with local account, do not choose Azure AD.  
 1. Use same username and password provided for Instructor Access  
 
-   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.005.png) 
-
-   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.006.png) 
+    ![VM shadowing](./images/screenconnect2.png "cloudlabsportal")
+ 
+    ![VM shadowing](./images/screenconnect3.png "cloudlabsportal")
 
 1. OTP is sent to your work email account. Check and provide the OTP then Login.  
      - Please be sure to check junk/spam folder.  
      - Email is sent out from <cloud@screenconnect.com>  
 
-   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.007.png) 
+    ![VM shadowing](./images/screenconnect4.png "cloudlabsportal")
 
 1. Search for specific DID if needed, right Click on Lab User VM (Identified by DID) and Select Shadow Session  
 
-   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.008.png) 
+    ![VM shadowing](./images/screenconnect5.png "cloudlabsportal")
 
 1. Select Login Session – demouser or if you see any other username to connect the VM and click on Join Session 
 
-   >Note: If you only see Console and [Backstage], that means attendee is not connected to VM currently  
+    >Note: If you only see Console and [Backstage], that means attendee is not connected to VM currently  
 
-   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.009.png) 
+    ![VM shadowing](./images/screenconnect6.png "cloudlabsportal")
 
 1. Click on Open ScreenConnect Client and install the required software (One Time).  
 
-   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.010.png) 
+    ![VM shadowing](./images/screenconnect7.png "cloudlabsportal")
+    
+1. Shadow users VM session (without overtaking RDP session).
 
-1. Shadow users VM session (without overtaking RDP session) 
+    ![VM shadowing](./images/screenconnect8.png "cloudlabsportal")
+1. You can initiate a private chat with attendee by clicking on messaging icon.
 
-   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.011.png) 
+    ![VM shadowing](./images/screenconnect9.png "cloudlabsportal")
 
-1. You can initiate a private chat with attendee by clicking on messaging icon.  
-
-   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.011.png) 
-   
 
 ### RDP OVER HTTPS  
 
