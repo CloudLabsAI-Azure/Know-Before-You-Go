@@ -243,27 +243,23 @@ After performing each exercise, the attendees are asked to run validation for th
 
 1. Expand lab validation details and click on validate button. 
 
-
-
-![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.021.png) 
-
-
+    ![Cloudlabsportal](./images/labvalidation1.1.png "labvalidation")
 
 2. Attendees can find the validation status either Succeeded or failed under status tab 
 
      - If the validation fails, it will give the error message regarding why the validation has failed so that attendee can find the mistake which he committed and rectify it accordingly. 
 
-   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.022.png) 
+    ![Cloudlabsportal](./images/labvalidation2.png "labvalidation")
 
 ### Help Tab
 
 1. Expand **More** button on the right and click on **Help**.  
 
-   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.023.png) 
-
+    ![Cloudlabsportal](./images/helptab1.png "Helptab")
+    
 2. From Help tab, attendees can find the common issues such as copy-paste, pop-up visibility issues and solutions to resolve them. 
 
-   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.024.png)  
+    ![Cloudlabsportal](./images/helptab2.png "Helptab")
    
    
 ### Split Window
@@ -271,18 +267,18 @@ After performing each exercise, the attendees are asked to run validation for th
 
 - Split window will open the lab guide in new Window by providing the only virtual machine on the current window. 
 
-![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.025.png) 
+    ![Cloudlabsportal](./images/splitwindow.png "splitwindow")
 
 
 ### Collapse Window
 
 1. Collapse button will collapse the lab guide window and provides the full view of the virtual machine.  
 
-   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.026.png) 
-
+    ![Cloudlabsportal](./images/collapsewindow.png "collapsewindow")
+    
 2. Attendee can get back the lab guide when needed by clicking on Expand button. 
 
-   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.027.png) 
+    ![Cloudlabsportal](./images/collapsewindow1.png "collapsewindow") 
 
 
 **Average time taken to complete the lab: 8 hours** 
@@ -300,8 +296,6 @@ Whenever attendee is asked to provide value for SUFFIX, it should be replaced wi
 
 **Exercise2 Task4 Step5:** 
 
-
-
 While creating the storage account, make sure attendee provide the values as follows: 
 
 - Resource group: select existing then provide name hands-on-lab-SUFFIX 
@@ -310,14 +304,9 @@ While creating the storage account, make sure attendee provide the values as f
 
 Attendees can find the SUFFIX value from the Environment Details page. 
 
-
-
 **Exercise4 Task1 step4:** 
 
 Here attendee needs to select available subnet for the app service, if the attendee is not able to select any subnet then attendee needs to follow the next instructions to create the subnet. while creating the subnet users' needs to make sure the subnet address space is not overlapping other subnet's address space 
-
-
-
 
 
 ### FAQ’S
@@ -331,26 +320,26 @@ Here attendee needs to select available subnet for the app service, if the atten
 
 1. All attendees activate the lab instance using the same activation code. 
 
-   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.028.png) 
+    ![Cloudlabsportal](./images/Environment6.png "Environment")
 
 1. Attendee will navigate to the bit.ly link and provide the required details. 
 1. Its mandatory to give company email address and actual organization name. 
 
-   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.028.png) 
-
+    ![Cloudlabsportal](./images/Environment6.png "Environment")
+        
 1. Once lab instance is assigned, details are also sent to attendee via email from [noreply@cloudlabs.ai 
   ](mailto:noreply@cloudlabs.ai) 
 1. Once attendee register using Lab activation details, he will click on Launch Lab to get started with the lab. 
 
-    ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.029.png) 
+   ![Cloudlabsportal](./images/Environment7.png "Environment")
     
 1. Once the deployment is succeeded, attendee will get the Lab description page with Azure Credentials**,** Virtual Machine Credentials, Service Principal details and **other details that are required to perform the lab**, click on **GO TO SQL2008-Suffix** button to login to the SQL server VM and start with lab.   
 
-   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.030.png) 
+   ![Cloudlabsportal](./images/Environment1.png "Environment")
    
 1. Attendee will get the screen with the lab guide, Environment Details (Azure Credentials), etc. on the Right Side and Virtual Machine on the Left. 
 
-   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.012.png) 
+    ![Cloudlabsportal](./images/Environment8.png "Environment") 
 
 **How to find the **SUFFIX** Value:** 
 
