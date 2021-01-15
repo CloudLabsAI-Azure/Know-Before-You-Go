@@ -139,25 +139,21 @@ Instructor has access to all attendees Resource groups and resources that are pr
  
    - Then attendee will be able to see a JumpBox virtual machine in the left to perform the lab and a lab guide in the right which need to be followed throughout the lab. 
 
-   ![Cloudlabsportal](./images/Environment4.png "Environment")
+
 
 1. Scroll down on the Environment Details page and click on the **GO TO SQL2008-Suffix** button to login to the SQL server VM.  
 
-   ![Cloudlabsportal](./images/Environment5.png "Environment")
 
    - Then attendee will be able to see the SQL virtual machine in the left to perform the lab and a lab guide in the right which need to be followed throughout the lab. 
 
-   ![Cloudlabsportal](./images/Environment6.png "Environment")
 
      - Attendee can see the number on lab guide bottom area to switch to different exercises of lab guide.  
      - Attendee can also navigate to previous and next exercise using **Previous** and **Next** button. 
 
-   ![Cloudlabsportal](./images/Environment7.png "Environment")
-
 1. From the Virtual Machines tab, attendee can find the available virtual machines, their status ( running, pending or deallocated), Uptime, DNS name and can also perform some actions on them. 
 
-    ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.019.png)  
-    
+    ![Cloudlabsportal](./images/Environment4.png "Environment")
+   
     - Attendee can also perform the following operations on the virtual machine. 
 
                1. Start 
@@ -168,11 +164,11 @@ Instructor has access to all attendees Resource groups and resources that are pr
 
                4. Open the virtual machine in new tab. 
 
-   ![Cloudlabsportal](./images/Environment8.png "Environment")
-
+     ![Cloudlabsportal](./images/Environment5.png "Environment")
+      
 1. From the Lab Validation tab, attendees can run validation for each exercise after performing it. 
 
-   ![](MIGRATING%20SQL%20DATABASE%20TO%20AZURE.021.png) 
+    ![Cloudlabsportal](./images/labvalidation1.png "labvalidation")
 
 ### Resources that are provided as pre-requisites. 
 
