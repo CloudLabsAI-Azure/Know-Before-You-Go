@@ -265,7 +265,7 @@ In this exercise, attendee will try to understand customer details using a query
 
 1. Exercise 2: Explore the data lake with Azure Synapse SQL On-demand and Azure Synapse Spark  
 
-    - Sometimes core capacity of the spark pool can exceed, user can refresh the browser/stop the session then restart it and try to access again. 
+    - Sometimes core capacity of the spark pool can exceed, attendee can refresh the browser/stop the session then restart it and try to access again. 
 
 1. Exercise 3 Task 2 - Create a Power BI report in Synapse  
 
