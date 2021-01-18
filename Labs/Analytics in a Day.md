@@ -163,6 +163,21 @@ Instructor has access to all attendees Resource groups and resources that are pr
 
           ![](Analytics%20in%20a%20Day.004.png) 
           
+ ### Lab validation
+
+
+After performing each exercise, the attendees are asked to run validation for the provided tasks to ensure that the expected output is obtained. 
+
+1. Expand lab validation details and click on validate button. 
+
+    ![Cloudlabsportal](./images/labvalidation1.1.png "labvalidation")
+
+2. Attendees can find the validation status either Succeeded or failed under status tab 
+
+     - If the validation fails, it will give the error message regarding why the validation has failed so that attendee can find the mistake which he committed and rectify it accordingly. 
+
+    ![Cloudlabsportal](./images/labvalidation2.png "labvalidation")
+          
 ### Help Tab
 
 1. Expand **More** button on the right and click on **Help**.  
