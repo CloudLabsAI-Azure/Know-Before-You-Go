@@ -278,11 +278,11 @@ In this exercise, attendee will try to understand customer details using a query
      1. Navigate to PowerBI Portal  www.powerbi.com 
      2. Sign in using the Azure Credentials, you can find the Credentials from the **Environment Details** tab.
      
-          ![Linked service](./images/AIAD-powerbi-2.png "Linked service")
+          ![Linked service](./images/AIAD-powerbi-1.png "Linked service")
               
      3. From the left-hand side menu, select **Workspaces** then click on **Create a workspace**.
      
-         ![Linked service](./images/AIAD-powerbi-1.png "Linked service")
+         ![Linked service](./images/AIAD-powerbi-2.png "Linked service")
      
      4. Provide worskpace name as **PowerBIWorkspace{Uniqueid}** and click on **Save**. You can find the **Uniqueid** from the **Environment Details** tab.
      
