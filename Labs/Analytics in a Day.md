@@ -92,7 +92,7 @@
 
 - Rdp over https is a feature which allows attendees to access the virtual machine over the internet. This eliminates the need of logging in into the vm by attendees.   
 
-- With RDP OVER HTTPS and integrated doc rendering, attendees will be able see the virtual machine and lab guide on the same screen which makes easier to perform the lab.  
+- With RDP OVER HTTPS and integrated doc rendering, attendees will be able to see the virtual machine and lab guide on the same screen which makes easier to perform the lab.  
 
  ![Cloudlabsportal](./images/AIAD-RdpoverHttps.png "RdpoverHttps")
  
@@ -239,6 +239,12 @@ Azure Synapse Analytics integrates natively with Power BI, a proven and highly s
 
 In this exercise, attendee will try to understand customer details using a query and chart visualizations Then will  explore the performance of various queries. 
 
+### Exercise 5 - Data Science with Azure Synapse Spark [Read-Only]
+
+Azure Synapse Analytics provides support for using trained models (in ONNX format) directly from dedicated SQL pools. Which means that data engineers can write T-SQL queries that use those models to make predictions against tabular data stored in a SQL Pool database table.
+
+In this exercise, attendee will leverage a previously trained model to make predictions using the T-SQL Predict statement.
+
 ## Known Issues and workarounds 
 
 1. The dedicated SQL pool is paused by default, the attendee must resume the pool before performing the lab by 
@@ -317,6 +323,8 @@ In this exercise, attendee will try to understand customer details using a query
     - Power BI desktop is already downloaded and installed in the virtual machine provided with the lab; the attendees do not have to download it again.
 
 1. Attendee will not be able to perform **Exercise 5 - Data Science with Azure Synapse Spark** as it is Read-Only exercise.
+
+      - Even though synapse workspace is generally available now ,the PREDICT function is still in private preview and needs explicit whitelisting so the Exercise 5 is READONLY AND attendee won't be able to  perform this exercise
 
 ## FAQ’S
 
