@@ -142,13 +142,15 @@ Instructor has access to all attendees Resource groups and resources that are pr
 
           - Attendee can also navigate to previous and next exercise using Previous and Next button. 
              
-           ![](Analytics%20in%20a%20Day.002.png) 
+         ![Cloudlabsportal](./images/AIAD-Environment1.png "Environment") 
            
      1. Environment Details which include user credentials (Azure Credentials), Virtual Machine Credentials and other details. 
+     
+         ![Cloudlabsportal](./images/AIAD-Environment2.png "Environment") 
 
      1. Virtual Machines tab, attendee can find the available virtual machines, their status (running, pending or deallocated), Uptime and can also perform some actions on them.
 
-          ![](Analytics%20in%20a%20Day.003.png) 
+         ![Cloudlabsportal](./images/AIAD-Environment3.png "Environment") 
 
           - Attendee can also perform the following operations on the virtual machine. 
 
@@ -158,10 +160,11 @@ Instructor has access to all attendees Resource groups and resources that are pr
 
                3. Stop  
 
+          ![Cloudlabsportal](./images/AIAD-Environment4.png "Environment") 
+          
      1. From the Lab Validation tab, attendees can run validation for each exercise after performing it. 
 
-
-          ![](Analytics%20in%20a%20Day.004.png) 
+          ![Cloudlabsportal](./images/AIAD-Environment5.png "Environment")  
           
  ### Lab validation
 
@@ -170,23 +173,23 @@ After performing each exercise, the attendees are asked to run validation for th
 
 1. Expand lab validation details and click on validate button. 
 
-    ![Cloudlabsportal](./images/labvalidation1.1.png "labvalidation")
+    ![Cloudlabsportal](./images/AIAD-validation-1.png "labvalidation")
 
 2. Attendees can find the validation status either Succeeded or failed under status tab 
 
      - If the validation fails, it will give the error message regarding why the validation has failed so that attendee can find the mistake which he committed and rectify it accordingly. 
 
-    ![Cloudlabsportal](./images/labvalidation2.png "labvalidation")
+    ![Cloudlabsportal](./images/AIAD-validation-2.png "labvalidation")
           
 ### Help Tab
 
 1. Expand **More** button on the right and click on **Help**.  
 
-    ![Cloudlabsportal](./images/helptab1.png "Helptab")
+    ![Cloudlabsportal](./images/AIAD-Helptab-1.png "Helptab")
     
 2. From Help tab, attendees can find the common issues such as copy-paste, pop-up visibility issues and solutions to resolve them. 
 
-    ![Cloudlabsportal](./images/helptab2.png "Helptab")
+    ![Cloudlabsportal](./images/AIAD-Helptab-2.png "Helptab")
    
    
 ### Split Window
@@ -194,18 +197,18 @@ After performing each exercise, the attendees are asked to run validation for th
 
 - Split window will open the lab guide in new Window by providing the only virtual machine on the current window. 
 
-    ![Cloudlabsportal](./images/splitwindow.png "splitwindow")
+    ![Cloudlabsportal](./images/AIAD-splitwindow.png "splitwindow")
 
 
 ### Collapse Window
 
 1. Collapse button will collapse the lab guide window and provides the full view of the virtual machine.  
 
-    ![Cloudlabsportal](./images/collapsewindow.png "collapsewindow")
+    ![Cloudlabsportal](./images/AIAD-collapsewindow-1.png "collapsewindow")
     
 2. Attendee can get back the lab guide when needed by clicking on Expand button. 
 
-    ![Cloudlabsportal](./images/collapsewindow1.png "collapsewindow") 
+    ![Cloudlabsportal](./images/AIAD-collapsewindow-2.png "collapsewindow") 
 
 ## Resources that are provided as pre-requisites. 
 
