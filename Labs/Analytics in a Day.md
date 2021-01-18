@@ -123,9 +123,6 @@ Instructor has access to all attendees Resource groups and resources that are pr
 
 - The approximate Duration for deploying a single environment would be 45 minutes. 
 
-![](Analytics%20in%20a%20Day.001.png) 
-
-
 ## The total duration of this lab is 4 hours 
 
 - The attendee will have access to the lab environment for 4 hours, unless notified otherwise. 
@@ -134,7 +131,7 @@ Instructor has access to all attendees Resource groups and resources that are pr
 
 1. As soon as the attendee’s environment is deployed, he will be able to see a virtual machine on the left which will be used to perform the lab. 
 
- 1. In the right, Attendee will be able to find 
+ 1. On the right, Attendee will be able to find 
 
      1. A lab guide, which should be followed to perform the lab.  
 
@@ -251,25 +248,34 @@ In this exercise, attendee will try to understand customer details using a query
 
 1. If attendee face issues while trying to access the environment, follow the below steps:
 
-    - they can check to see if the VM is in the running state, if not they can start it from the Virtual machine tab. 
+    - They can check to see if the VM is in the running state, if not they can start it from the Virtual machine tab. 
   
     - It could also be due to a duplicate window open in another browser, we suggest closing all windows and trying again. Or using a private window and clearing the cookies.  
 
-1. If the attendee get an error saying **failed to start the spark session**, there might be multiple notebooks open because of which this issue occurs usually. 
+1. Issue with Spark pool:
 
-    - In such cases, attendee can verify if the mutilple notebooks are opened, if **yes** attendee can close all the notebooks and open the desired one.
-
+	**Failed to start the Spark Session error**
+	
+	Solution: **Refresh** the browser tab
+	
+      There might be multiple notebooks open because of which this issue occurs usually ,Refresh will work and also users can cancel any existing spark applications if they are still running under Monitor section
+      
 1. If **SQL Built in/on demand** is **Unreachable/Offline**, then
 
-     - this can be due to your network preventing communication to Azure Synapse backend. Most frequent case is that port 1443 is blocked. To get the SQL pool to work, unblock this port. 
+     - this can be due to your network preventing communication to Azure Synapse backend. Most frequent case is that port 1443 is blocked. To get the SQL pool to work, unblock this port.
 
-1. Exercise 2: Explore the data lake with Azure Synapse SQL On-demand and Azure Synapse Spark  
+1. Sometimes core capacity of the **spark pool** can exceed, attendee can refresh the browser/stop the session then restart it and try to access again. 
 
-    - Sometimes core capacity of the spark pool can exceed, attendee can refresh the browser/stop the session then restart it and try to access again. 
+1. If the attendee is not able to find the options **Connect to** to attach spark pool and **Language** that is to be used, attendee can follow any on the listed solutions to reslove the issue.
+
+      1. Attendee needs to reset the zoom level accordingly so that he will be able to see the options and provide values accordingly.
+      1. Attendee can click on more button (**...**), then he will be able to see the options and provide values accordingly.
+      
+           ![Linked service](./images/AIAD-integratedenv.png "Linked service")
 
 1. Exercise 3 Task 2 - Create a Power BI report in Synapse  
 
-   If you do not see a list of data fields under Fields, follow the steps 1-14 given in the lab guide after step 2.
+   If attendee is not able to see a list of data fields under Fields, follow the steps 1-14 given in the lab guide after step 2.
 
 1. Exercise 3: Power BI integration 
 
@@ -306,8 +312,9 @@ In this exercise, attendee will try to understand customer details using a query
          
 1. Exercise 3: Power BI integration 
 
-    - Power BI desktop is already present in the virtual machine provided with the lab; the attendees do not have to download it again. (They still must download the dataset at the beginning of exercise 3)
+    - Power BI desktop is already downloaded and installed in the virtual machine provided with the lab; the attendees do not have to download it again.
 
+1. Attendee will not be able to perform **Exercise 5 - Data Science with Azure Synapse Spark** as it is Read-Only exercise.
 
 ## FAQ’S
 
