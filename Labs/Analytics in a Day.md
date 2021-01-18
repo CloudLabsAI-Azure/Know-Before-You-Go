@@ -273,8 +273,36 @@ In this exercise, attendee will try to understand customer details using a query
 
 1. Exercise 3: Power BI integration 
 
-     - Sometimes the PowerBI licence does not get assigned automatically. If the user is unable to find the PowerBI workspace, they can notify us on the support channel.  
+     Sometimes the PowerBI licence does not get assigned automatically. If the attendee is unable to find the PowerBI workspace, they can follow the below steps to create a new workpace:
+     
+     1. Navigate to PowerBI Portal  www.powerbi.com 
+     2. Sign in using the Azure Credentials, you can find the Credentials from the **Environment Details** tab.
+     
+          ![Linked service](./images/AIAD-powerbi-2.png "Linked service")
+              
+     3. From the left-hand side menu, select **Workspaces** then click on **Create a workspace**.
+     
+         ![Linked service](./images/AIAD-powerbi-1.png "Linked service")
+     
+     4. Provide worskpace name as **PowerBIWorkspace{Uniqueid}** and click on **Save**. You can find the **Uniqueid** from the **Environment Details** tab.
+     
+         ![Linked service](./images/AIAD-powerbi-3.png "Linked service")
+         
+     5. Launch Synapse studio, select **Manage** from the left-hand side menu and click on **Linked services**.
+     
+         ![Linked service](./images/AIAD-powerbi-4.png "Linked service")
+              
+     6. Click on **+New**, serach for and slect **PowerBI** then click on **Continue**.
+     
+         ![Linked service](./images/AIAD-powerbi-5.png "Linked service")
+              
+     7. On the **New linked service (Power BI)** blade, provide the following values and click on **Create**.
+            - Name : **PowerBIWorkspace**
+            - Tenant: select the tenant from the dropdown.
+            - Worskpace name : select the workspace **PowerBIWorkspace{Uniqueid}** from the dropdown.
 
+         ![Linked service](./images/AIAD-powerbi-1.png "Linked service")
+         
 1. Exercise 3: Power BI integration 
 
     - Power BI desktop is already present in the virtual machine provided with the lab; the attendees do not have to download it again. (They still must download the dataset at the beginning of exercise 3)
