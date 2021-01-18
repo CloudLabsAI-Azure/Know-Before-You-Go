@@ -226,106 +226,58 @@ After performing each exercise, the attendees are asked to run validation for th
 
 ### Exercise 1: Explore the data lake with Azure Synapse SQL On-demand and Azure Synapse Spark
 
-In this exercise, you will explore data using the engine of your choice (SQL or Spark). 
-
-Understanding data through data exploration is one of the core challenges faced today by data engineers and data scientists as well. Depending on the data's underlying structure and the specific requirements of the exploration process, different data processing engines will offer varying degrees of performance, complexity, and flexibility. 
-
-In Azure Synapse Analytics, you have the possibility of using either the SQL Serverless engine, the big-data Spark engine, or both. 
+Azure Synapse Analytics provide the possibilities of using either the SQL Serverless engine, the big-data Spark engine, or both. In this exercise, attendee will explore data using the engine of your choice (SQL or Spark). 
 
 ### Exercise 2: Build a Modern Data Warehouse with Azure Synapse Pipelines
 
-In this exercise, you will use a pipeline with parallel activities to bring data into the Data Lake, transform it, and load it into the Azure Synapse SQL Pool. You will also monitor the progress of the associated tasks. 
+In this exercise, attendee will use a pipeline with parallel activities to bring data into the Data Lake, transform it, and load it into the Azure Synapse SQL Pool and will also monitor the progress of the associated tasks. 
 
-Once data is properly understood and interpreted, moving it to the various destinations where processing steps occur is the next big task. Any modern data platform must provide a seamless experience for all the typical data wrangling actions like extractions, parsing, joining, standardizing, augmenting, cleansing, consolidating, and filtering. 
-
-Azure Synapse Analytics provides two significant categories of features - data flows and data orchestrations (implemented as pipelines). They cover the whole range of needs, from design and development to triggering, execution, and monitoring. 
-
-In this exercise, you examine various methods for ingesting data into Azure Synapse Analytics and Azure Data Lake Storage Gen2. You use notebooks and Data Flows to ingest, transform, and load data. 
+Attendee will use notebooks and Data Flows to ingest, transform, and load data. Also will examine various methods for ingesting data into Azure Synapse Analytics and Azure Data Lake Storage Gen2. 
 
 ### Exercise 3: Power BI integration
 
-In this exercise, you will build a Power BI report in Azure Synapse Analytics. 
-
-The visual approach in data exploration, analysis, and interpretation is one of the essential tools for both technical users (data engineers, data scientists) and business users. Having a highly flexible and performant data presentation layer is a must for any modern data platform. 
-
-Azure Synapse Analytics integrates natively with Power BI, a proven and highly successful data presentation and exploration platform. The Power BI experience is available inside Synapse Studio. 
-
-In this exercise, you will realize another benefit of the fully integrated environment provided by Azure Synapse Analytics. Here, you will create a Power BI Report and build a visualization within Synapse Analytics Studio. Once you have published a dataset, you will not have to leave this environment to log into a separate Power BI website to view and edit reports. 
-
-The Power BI Workspace has already been created for you. 
+Azure Synapse Analytics integrates natively with Power BI, a proven and highly successful data presentation and exploration platform. The Power BI experience is available inside Synapse Studio. In this exercise, attendee will create a Power BI Report and build a visualization within Synapse Analytics Studio. 
 
 ### Exercise 4: High Performance Analysis with Azure Synapse SQL Pools
 
-In this exercise, you will try to understand customer details using a query and chart visualizations. You will also explore the performance of various queries. 
-
-SQL data warehouses have been for a long time the centres of gravity in data platforms. Modern data warehouses can provide high performance, distributed, and governed workloads, regardless of the data volumes at hand. 
-
-The Azure Synapse SQL Pools in Azure Synapse Analytics is the new incarnation of the former Azure SQL Data Warehouse. It provides all the modern SQL data warehousing features while benefiting from the advanced integration with all the other Synapse services. 
-
+In this exercise, attendee will try to understand customer details using a query and chart visualizations Then will  explore the performance of various queries. 
 
 ## Known Issues and workarounds 
 
-- The attendees can reach out at <cloudlabs-support@spektrasystems.com> for any queries/support 
+1. The dedicated SQL pool is paused by default, the attendee must resume the pool before performing the lab by 
 
+    - Navigateto the **Synapse-AIAD-287302** resource group from the Azure portal.
+    - Select dedicated SQL pool **SQLPool01 (asaworkspaceUniqueID/SQLPool01)** and click on **Resume**. 
 
+1. If attendee face issues while trying to access the environment, follow the below steps:
 
-- If the attendee is unable to copy paste in the environment, they can follow the steps below  
+    - they can check to see if the VM is in the running state, if not they can start it from the Virtual machine tab. 
+  
+    - It could also be due to a duplicate window open in another browser, we suggest closing all windows and trying again. Or using a private window and clearing the cookies.  
 
+1. If the attendee get an error saying **failed to start the spark session**, there might be multiple notebooks open because of which this issue occurs usually. 
 
+    - In such cases, attendee can verify if the mutilple notebooks are opened, if **yes** attendee can close all the notebooks and open the desired one.
 
-Click on SSL certificate symbol Open pop-ups and change the clipboard dropdown to allow. 
+1. If **SQL Built in/on demand** is **Unreachable/Offline**, then
 
-Once clipboard access is enabled, you can use CTRL+C to copy and CTRL+V to paste inside the VM. You can also try copying by right click > Copy on the selected content. It is recommended to use the clipboard copy button wherever available for best experience. 
+     - this can be due to your network preventing communication to Azure Synapse backend. Most frequent case is that port 1443 is blocked. To get the SQL pool to work, unblock this port. 
 
-- The dedicated SQL pool is paused by default, the attendee must resume the pool before performing the lab by going to the Synapse analytics resource group and selecting the SQL Pool and resume. 
+1. Exercise 2: Explore the data lake with Azure Synapse SQL On-demand and Azure Synapse Spark  
 
+    - Sometimes core capacity of the spark pool can exceed, user can refresh the browser/stop the session then restart it and try to access again. 
 
+1. Exercise 3 Task 2 - Create a Power BI report in Synapse  
 
-- The dedicated SQL pool is auto paused due to inactivity. The attendee must resume to SQL pool again from the Resource group to complete the remaining exercises. 
+   If you do not see a list of data fields under Fields, follow the steps 1-14 given in the lab guide after step 2.
 
+1. Exercise 3: Power BI integration 
 
+     - Sometimes the PowerBI licence does not get assigned automatically. If the user is unable to find the PowerBI workspace, they can notify us on the support channel.  
 
+1. Exercise 3: Power BI integration 
 
-
-- The attendees may face issues while trying to access the environment, 
-  they can check to see if the VM is in the running state, if not they can start it from the Virtual machine tab. 
-  It could also be due to a duplicate window open in another browser, we suggest closing all windows and trying again. Or using a private window and clearing the cookies.  
-
-
-
-- The attendee may get an error saying failed to start the spark session, there might be multiple notebooks open because of which this issue occurs usually, Refresh will work, and users can cancel any existing spark applications if they are still running under Monitor section 
-
-
-
-
-
-- SQL on demand/Built in can at times be Unreachable/Offline, this can be due to your network preventing communication to Azure Synapse backend. Most frequent case is that port 1443 is blocked. To get the SQL pool to work, unblock this port. 
-
-
-
-- Exercise 2: Explore the data lake with Azure Synapse SQL On-demand and Azure Synapse Spark  
-
-The core capacity of the spark pool can sometimes exceed, the user can refresh the browser/stop the session then restart it and try to access again. 
-
-
-
-- Exercise 3 - Power BI integration 
-
-Task 2 - Create a Power BI report in Synapse  
-
-If you do not see a list of data fields under Fields, follow the steps given in the lab guide after step 2 
-
-
-
-- Exercise 3: Power BI integration 
-
-Sometimes the PowerBI licence does not get assigned automatically. If the user is unable to find the PowerBI workspace, they can notify us on the support channel.  
-
-
-
-- Exercise 3: Power BI integration 
-
-Power BI desktop is already present in the virtual machine provided with the lab; the attendees do not have to download it again. (They still must download the dataset at the beginning of exercise 3) 
+    - Power BI desktop is already present in the virtual machine provided with the lab; the attendees do not have to download it again. (They still must download the dataset at the beginning of exercise 3)
 
 
 ## FAQ’S
