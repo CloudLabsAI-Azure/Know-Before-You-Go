@@ -325,7 +325,7 @@ Here attendee needs to select available subnet for the app service, if the atten
 1. Attendee will navigate to the bit.ly link and provide the required details. 
 1. Its mandatory to give company email address and actual organization name. 
 
-    ![Cloudlabsportal](./images/Environment6.png "Environment")
+    ![Cloudlabsportal](./images/Environment6.1.png "Environment")
         
 1. Once lab instance is assigned, details are also sent to attendee via email from [noreply@cloudlabs.ai 
   ](mailto:noreply@cloudlabs.ai) 
