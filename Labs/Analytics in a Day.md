@@ -94,13 +94,13 @@
 
 - With RDP OVER HTTPS and integrated doc rendering, attendees will be able see the virtual machine and lab guide on the same screen which makes easier to perform the lab.  
 
- ![Cloudlabsportal](./images/RdpoverHttps.png "RdpoverHttps")
+ ![Cloudlabsportal](./images/AIAD-RdpoverHttps.png "RdpoverHttps")
  
 ### VM Start/Stop  
 
 - Attendees can start/stop the Virtual Machine from the Virtual Machine tab. We have provided button to start/stop VM under Actions.  
 
- ![Cloudlabsportal](./images/Vmstartandstop.png "Vmstartandstop")
+ ![Cloudlabsportal](./images/AIAD-validation.png "Vmstartandstop")
  
 ## Instructor Azure Portal Access 
 
@@ -328,24 +328,38 @@ Sometimes the PowerBI licence does not get assigned automatically. If the user
 Power BI desktop is already present in the virtual machine provided with the lab; the attendees do not have to download it again. (They still must download the dataset at the beginning of exercise 3) 
 
 
+## FAQ’S
 
 
+### How to access lab environment
 
+1. Instructor share the bit.ly link and activation code during the event to attendees. 
 
+    DO NOT share the activation details prior to session (Lab Start time) 
 
+1. All attendees activate the lab instance using the same activation code. 
 
+    ![Cloudlabsportal](./images/AIAD-Environment7.png "Environment")
 
+1. Attendee will navigate to the bit.ly link and provide the required details. 
+1. Its mandatory to give company email address and actual organization name. 
 
+    ![Cloudlabsportal](./images/AIAD-Environment7.1.png "Environment")
+        
+1. Once lab instance is assigned, details are also sent to attendee via email from [noreply@cloudlabs.ai 
+  ](mailto:noreply@cloudlabs.ai) 
+1. Once attendee register using Lab activation details, he will click on Launch Lab to get started with the lab. 
 
+   ![Cloudlabsportal](./images/AIAD-Environment6.png "Environment")
+    
+1. Once the deployment is succeeded, attendee will get the screen with the lab guide, Environment Details (Azure Credentials), etc. on the Right Side and Virtual Machine on the Left. 
 
+ ![Cloudlabsportal](./images/AIAD-RdpoverHttps.png "RdpoverHttps") 
 
+### How to find the **UniqueId** Value:
 
+- Attendee can find the UniqueId value by navigating to **Environment Details** page. 
 
-
-
-
-
-
-
+    ![Cloudlabsportal](./images/AIAD-suffix.png "Environment")
 
 
