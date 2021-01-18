@@ -262,7 +262,9 @@ In this exercise, attendee will try to understand customer details using a query
       
 1. If **SQL Built in/on demand** is **Unreachable/Offline**, then
 
-     - this can be due to your network preventing communication to Azure Synapse backend. Most frequent case is that port 1443 is blocked. To get the SQL pool to work, unblock this port.
+     - Your network prevents communication to Azure Synapse backend. Most frequent case is that port 1443 is blocked. To get the builtin to work, unblock this port. Other problems could prevent builtin to work as well. Attendee can follow the below link to troubleshoot the issue.
+     
+        https://docs.microsoft.com/en-us/azure/synapse-analytics/troubleshoot/troubleshoot-synapse-studio
 
 1. Sometimes core capacity of the **spark pool** can exceed, attendee can refresh the browser/stop the session then restart it and try to access again. 
 
