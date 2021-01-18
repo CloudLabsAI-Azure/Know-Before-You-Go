@@ -297,11 +297,12 @@ In this exercise, attendee will try to understand customer details using a query
          ![Linked service](./images/AIAD-powerbi-5.png "Linked service")
               
      7. On the **New linked service (Power BI)** blade, provide the following values and click on **Create**.
-            - Name : **PowerBIWorkspace**
-            - Tenant: select the tenant from the dropdown.
-            - Worskpace name : select the workspace **PowerBIWorkspace{Uniqueid}** from the dropdown.
+     
+           - Name : **PowerBIWorkspace**
+           - Tenant: select the tenant from the dropdown.
+           - Worskpace name : select the workspace **PowerBIWorkspace{Uniqueid}** from the dropdown.
 
-         ![Linked service](./images/AIAD-powerbi-1.png "Linked service")
+         ![Linked service](./images/AIAD-powerbi-6.png "Linked service")
          
 1. Exercise 3: Power BI integration 
 
