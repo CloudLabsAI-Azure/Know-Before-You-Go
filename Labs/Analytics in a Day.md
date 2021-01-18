@@ -100,7 +100,7 @@
 
 - Attendees can start/stop the Virtual Machine from the Virtual Machine tab. We have provided button to start/stop VM under Actions.  
 
- ![Cloudlabsportal](./images/AIAD-validation.png "Vmstartandstop")
+ ![Cloudlabsportal](./images/AIAD-vmstartandstop.png "Vmstartandstop")
  
 ## Instructor Azure Portal Access 
 
