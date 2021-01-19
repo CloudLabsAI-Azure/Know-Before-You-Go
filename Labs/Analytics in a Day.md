@@ -1,6 +1,6 @@
 # Analytics in a Day: Build an end-to-end analytics solution with Azure Synapse
 
-**Contents**
+## Contents
 
 - [How to navigate to the cloud labs portal](#how-to-navigate-to-the-cloud-labs-portal)
 - [How to manage users and Unused instances](#how-to-manage-users-and-Unused-instances)
