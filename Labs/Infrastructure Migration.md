@@ -90,21 +90,22 @@
 
 ### RDP OVER HTTPS  
 
-Rdp over https is a feature which allows attendees to access the virtual machine over the internet. This eliminates the need of logging in into the vm by attendees.   
+- Rdp over https is a feature which allows attendees to access the virtual machine over the internet. This eliminates the need of logging in into the vm by attendees.   
 
-With RDP OVER HTTPS and integrated doc rendering, attendees will be able see the virtual machine and lab guide on the same screen which makes easier to perform the lab.  
+- With RDP OVER HTTPS and integrated doc rendering, attendees will be able see the virtual machine and lab guide on the same screen which makes easier to perform the lab.  
 
-` `![](Infrastrure%20Migration.001.png) 
-
+   ![Cloudlabsportal](./images/InfrastrureMigration-RdpoverHttps.png "Environment") 
+    
 ### VM Start/Stop  
 
-Attendees can start/stop the Virtual Machine from the Virtual Machine tab. We have provided button to start/stop VM under Actions.  
+- Attendees can start/stop the Virtual Machine from the Virtual Machine tab. We have provided button to start/stop VM under Actions.  
 
-` `![](Infrastrure%20Migration.002.png) 
-
+   ![Cloudlabsportal](./images/InfrastrureMigration-vmstartandstop.png "vmstartandstop") 
+    
 ### Instructor Azure Portal Access 
 
 1. Instructor has access to all attendees Resource groups and resources that are pre-deployed or deployed by attendee as a part of the lab. 
+
 1. Instructor can login to the Azure portal with the credentials identified before and will be able to view the resources of all attendees. 
 
    ![Cloudlabsportal](./images/cloudlabs-instructor-1.png "cloudlabs-instructor")
@@ -120,7 +121,7 @@ Attendees can start/stop the Virtual Machine from the Virtual Machine tab. We ha
 
 ## How much time does the environment take to get deployed? 
 
-The approximate Duration for deploying a single environment would be 20 minutes. 
+The approximate Duration for deploying a single environment would be 120 minutes. 
 
 ## What do the attendees get when they sign up for the environment.  
 
@@ -134,15 +135,15 @@ The approximate Duration for deploying a single environment would be 20 minutes.
 
           - Attendee can also navigate to previous and next exercise using Previous and Next button. 
              
-         ![Cloudlabsportal](./images/AIAD-Environment1.png "Environment") 
+         ![Cloudlabsportal](./images/InfrastrureMigration-Envrionment1.png "Environment") 
            
      1. Environment Details which include user credentials (Azure Credentials), Virtual Machine Credentials and other details. 
      
-         ![Cloudlabsportal](./images/AIAD-Environment2.png "Environment") 
+         ![Cloudlabsportal](./images/InfrastrureMigration-Envrionment2.png "Environment") 
 
      1. Virtual Machines tab, attendee can find the available virtual machines, their status (running, pending or deallocated), Uptime and can also perform some actions on them.
 
-         ![Cloudlabsportal](./images/AIAD-Environment3.png "Environment") 
+         ![Cloudlabsportal](./images/InfrastrureMigration-Envrionment3.png "Environment") 
 
           - Attendee can also perform the following operations on the virtual machine. 
 
@@ -152,21 +153,21 @@ The approximate Duration for deploying a single environment would be 20 minutes.
 
                3. Stop  
 
-          ![Cloudlabsportal](./images/AIAD-Environment4.png "Environment") 
+          ![Cloudlabsportal](./images/InfrastrureMigration-Envrionment4.png "Environment") 
           
      1. From the Lab Validation tab, attendees can run validation for each exercise after performing it. 
 
-          ![Cloudlabsportal](./images/AIAD-Environment5.png "Environment")  
+          ![Cloudlabsportal](./images/InfrastrureMigration-Envrionment5.png "Environment")  
 
 ### Help Tab
 
 1. Expand **More** button on the right and click on **Help**.  
 
-    ![Cloudlabsportal](./images/helptab1.png "Helptab")
+    ![Cloudlabsportal](./images/InfrastrureMigration-helptab-1.png "Helptab")
     
 2. From Help tab, attendees can find the common issues such as copy-paste, pop-up visibility issues and solutions to resolve them. 
 
-    ![Cloudlabsportal](./images/helptab2.png "Helptab")
+    ![Cloudlabsportal](./images/InfrastrureMigration-helptab-2.png "Helptab")
    
    
 ### Split Window
@@ -174,18 +175,18 @@ The approximate Duration for deploying a single environment would be 20 minutes.
 
 - Split window will open the lab guide in new Window by providing the only virtual machine on the current window. 
 
-    ![Cloudlabsportal](./images/splitwindow.png "splitwindow")
+    ![Cloudlabsportal](./images/InfrastrureMigration-splitwindow.png "splitwindow")
 
 
 ### Collapse Window
 
 1. Collapse button will collapse the lab guide window and provides the full view of the virtual machine.  
 
-    ![Cloudlabsportal](./images/collapsewindow.png "collapsewindow")
+    ![Cloudlabsportal](./images/InfrastrureMigration-collapsewindow-1.png "collapsewindow")
     
 2. Attendee can get back the lab guide when needed by clicking on Expand button. 
 
-    ![Cloudlabsportal](./images/collapsewindow1.png "collapsewindow") 
+    ![Cloudlabsportal](./images/InfrastrureMigration-collapsewindow-2.png "collapsewindow") 
 
 
 **Average time taken to complete the lab: 8 hours** 
@@ -194,23 +195,23 @@ The approximate Duration for deploying a single environment would be 20 minutes.
 
 Once the attendee logs in to the Azure portal, the following are the Pre-deployed resources that are provided to the attendees to perform the lab. 
 
-- Resource Groups: 
-- AzureMigrateRG 
-- SmartHotelDBRG 
-- SmartHotelHostRG 
-- SmartHotelRG and 
-- BastionRG 
-- NetworkWatcherRG 
+   - Resource Groups: 
+      - AzureMigrateRG 
+      - SmartHotelDBRG 
+      - SmartHotelHostRG 
+      - SmartHotelRG and 
+      - BastionRG 
+      - NetworkWatcherRG 
 
-- Resources deployed in SmartHotelHostRG : 
+   - Resources deployed in SmartHotelHostRG : 
 
-- Virtual machine:  SmarthostSuffix 
-- Virtual Network: smarthotelhostvnet, DMSvnet 
-- Networksecuritygroup: smarthotelhostnsg 
-- NetworkInterfaces: smarthotelhostnic 
-- publicIpAddress: smarthotelhostip 
+      - Virtual machine:  SmarthostSuffix 
+      - Virtual Network: smarthotelhostvnet, DMSvnet 
+      - Networksecuritygroup: smarthotelhostnsg 
+      - NetworkInterfaces: smarthotelhostnic 
+      - publicIpAddress: smarthotelhostip 
 
-In the upper left corner of the portal window, click the toggle menu icon and then click on **Resource groups,** then select the** SmartHotelHostRG resource group and view the pre-deployed resources**.** 
+  - In the upper left corner of the portal window, click the toggle menu icon and then click on **Resource groups,** then select the **SmartHotelHostRG** resource group and view the pre-deployed resources**.** 
 
 **LAB CONTENTS** 
 
@@ -235,13 +236,13 @@ After performing each exercise, the attendees are asked to run validation for th
 
 1. Expand lab validation details and click on the validate button. 
 
-![](Infrastrure%20Migration.012.png) 
+    ![Cloudlabsportal](./images/InfrastrureMigration-validation-1.png "labvalidation")
 
 2. Attendees can find the validation status either Success or failed under status tab. 
 
     - If the validation fails, it will give the error message regarding why the validation has failed so that the attendee can find the mistake which he committed and rectify it accordingly. 
 
-![](Infrastrure%20Migration.013.png) 
+    ![Cloudlabsportal](./images/InfrastrureMigration-validation-2.png "labvalidation") 
 
 #### Average time taken to complete the lab: 8 hours 
 
@@ -273,26 +274,23 @@ he can wait for 5-10 minutes and refresh the browser the attendee will be able t
 
 1. All attendees activate the lab instance using the same activation code. 
 
-    ![Cloudlabsportal](./images/Environment6.png "Environment")
+    ![Cloudlabsportal](./images/InfrastrureMigration-Envrionment6.png "Environment")
 
 1. Attendee will navigate to the bit.ly link and provide the required details. 
 1. Its mandatory to give company email address and actual organization name. 
 
-    ![Cloudlabsportal](./images/Environment6.1.png "Environment")
+    ![Cloudlabsportal](./images/InfrastrureMigration-Envrionment7.png "Environment")
         
 1. Once lab instance is assigned, details are also sent to attendee via email from [noreply@cloudlabs.ai 
   ](mailto:noreply@cloudlabs.ai) 
 1. Once attendee register using Lab activation details, he will click on Launch Lab to get started with the lab. 
 
-   ![Cloudlabsportal](./images/Environment7.png "Environment")
+   ![Cloudlabsportal](./images/InfrastrureMigration-Envrionment8.png "Environment")
     
-1. Once the deployment is succeeded, attendee will get the Lab description page with Azure Credentials**,** Virtual Machine Credentials, Service Principal details and **other details that are required to perform the lab**, click on **GO TO SQL2008-Suffix** button to login to the SQL server VM and start with lab.   
+1. Once the deployment is succeeded, attendee will get the screen with the lab guide, Environment Details (Azure Credentials), etc. on the Right Side and Virtual Machine on the Left. 
 
-   ![Cloudlabsportal](./images/Environment1.png "Environment")
-   
-1. Attendee will get the screen with the lab guide, Environment Details (Azure Credentials), etc. on the Right Side and Virtual Machine on the Left. 
-
-    ![Cloudlabsportal](./images/Environment8.png "Environment") 
+    ![Cloudlabsportal](./images/InfrastrureMigration-RdpoverHttps.png "Environment") 
+    
 
 #### How to find the **SUFFIX** Value:
 
@@ -301,39 +299,27 @@ he can wait for 5-10 minutes and refresh the browser the attendee will be able t
     ![Cloudlabsportal](./images/suffix.png "Environment")
 
 
-
-
-
-
-
-
-
-
-
-
 **Resource Deployment Time** 
 
-Following are the resources along with deployment duration that are deployed as a part of the lab. 
+- Following are the resources along with deployment duration that are deployed as a part of the lab. 
 
+    - Azure migrate Project: 30 secs 
 
+    - Log Analytics workspace: 30 - 60 secs 
 
-Azure migrate Project: 30 secs 
+    - SQL database: 3 - 5 minutes 
 
-Log Analytics workspace: 30 - 60 secs 
+    - Azure Database Migration Service: 15-20 minutes 
 
-SQL database: 3 - 5 minutes 
+    - Private endpoint: 2 - 3 minutes 
 
-Azure Database Migration Service: 15-20 minutes 
+    - Storage Account: 30 - 60 secs 
 
-Private endpoint: 2 - 3 minutes 
+    - Virtual Network: 10 – 20 secs 
 
-Storage Account: 30 - 60 secs 
+    - Replication of Virtual machines: 10 – 15 mins 
 
-Virtual Network: 10 – 20 secs 
+    - Migration of Virtual machines: 5 – 10 mins 
 
-Replication of Virtual machines: 10 – 15 mins 
-
-Migration of Virtual machines: 5 – 10 mins 
-
-Bastion: 4 – 5 minutes 
+    - Bastion: 4 – 5 minutes 
 
