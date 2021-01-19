@@ -1,5 +1,24 @@
 # Infrastructure Migration
 
+## Contents
+
+- [How to navigate to the cloud labs portal](#how-to-navigate-to-the-cloud-labs-portal)
+- [How to manage users and Unused instances](#how-to-manage-users-and-Unused-instances)
+- [Vm Shadowing](#vm-shadowing)
+- [RDP Over Https](#rdp-over-https)
+- [VM Start/Stop ](#vm-startstop)
+- [Instructor Azure Portal Access ](#instructor-azure-portal-access)
+- [Help Tab](#help-tab)
+- [Split Window](#split-window)
+- [Collapse Window](#collapse-window)
+- [What do the attendees get when they sign up for the environment](#What-do-the-attendees-get-when-they-sign-up-for-the-environment)
+- [Resources that are provided as pre-requisites ](#resourcesthat-are-provided-as-pre-requisites)
+- [LAB CONTENTS](#lab-contents)
+- [Lab validation](#lab-validation)
+- [Known Issues and workarounds ](#known-issues-and-workarounds)
+- [FAQ'S](#faqs)
+
+
 ## How to navigate to the cloud labs portal
 
 - Open any browser and navigate to <https://admin.cloudlabs.ai/>  
