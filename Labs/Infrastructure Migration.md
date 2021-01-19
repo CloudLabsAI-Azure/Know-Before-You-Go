@@ -8,10 +8,10 @@
 - [RDP Over Https](#rdp-over-https)
 - [VM Start/Stop ](#vm-startstop)
 - [Instructor Azure Portal Access ](#instructor-azure-portal-access)
+- [What do the attendees get when they sign up for the environment](#What-do-the-attendees-get-when-they-sign-up-for-the-environment)
 - [Help Tab](#help-tab)
 - [Split Window](#split-window)
 - [Collapse Window](#collapse-window)
-- [What do the attendees get when they sign up for the environment](#What-do-the-attendees-get-when-they-sign-up-for-the-environment)
 - [Resources that are provided as pre-requisites ](#resourcesthat-are-provided-as-pre-requisites)
 - [LAB CONTENTS](#lab-contents)
 - [Lab validation](#lab-validation)
@@ -232,7 +232,7 @@ Once the attendee logs in to the Azure portal, the following are the Pre-deploye
 
   - In the upper left corner of the portal window, click the toggle menu icon and then click on **Resource groups,** then select the **SmartHotelHostRG** resource group and view the pre-deployed resources**.** 
 
-**LAB CONTENTS** 
+### LAB CONTENTS
 
 **Exercise 1: Discover and assess the on-premises environment** 
 
@@ -249,7 +249,7 @@ Once the attendee logs in to the Azure portal, the following are the Pre-deploye
 - In this exercise, attendee will migrate the web tier and application tiers of the application from on-premises to Azure using **Azure Migrate: Server Migration**. 
 - Having migrated to the virtual machines, attendee will reconfigure the application tier to use the application database hosted in Azure SQL. This will enable you to verify that the migration application is working end-to-end. 
 
-**Lab validation** 
+### Lab validation
 
 After performing each exercise, the attendees are asked to run validation for the tasks provided to ensure that the expected output is obtained. 
 
