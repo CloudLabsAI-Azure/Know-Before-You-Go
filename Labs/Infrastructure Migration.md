@@ -157,17 +157,17 @@ The approximate Duration for deploying a single environment would be 120 minutes
           
      1. From the Lab Validation tab, attendees can run validation for each exercise after performing it. 
 
-          ![Cloudlabsportal](./images/InfrastrureMigration-Envrionment5.png "Environment")  
+          ![Cloudlabsportal](./images/InfrastrureMigration-labvalidation.png "Environment")  
 
 ### Help Tab
 
 1. Expand **More** button on the right and click on **Help**.  
 
-    ![Cloudlabsportal](./images/InfrastrureMigration-helptab-1.png "Helptab")
+    ![Cloudlabsportal](./images/InfrastrureMigration-Helptab1.png "Helptab")
     
 2. From Help tab, attendees can find the common issues such as copy-paste, pop-up visibility issues and solutions to resolve them. 
 
-    ![Cloudlabsportal](./images/InfrastrureMigration-helptab-2.png "Helptab")
+    ![Cloudlabsportal](./images/InfrastrureMigration-Helptab2.png "Helptab")
    
    
 ### Split Window
@@ -236,13 +236,13 @@ After performing each exercise, the attendees are asked to run validation for th
 
 1. Expand lab validation details and click on the validate button. 
 
-    ![Cloudlabsportal](./images/InfrastrureMigration-validation-1.png "labvalidation")
+    ![Cloudlabsportal](./images/InfrastrureMigration--labvalidation-1.png "labvalidation")
 
 2. Attendees can find the validation status either Success or failed under status tab. 
 
     - If the validation fails, it will give the error message regarding why the validation has failed so that the attendee can find the mistake which he committed and rectify it accordingly. 
 
-    ![Cloudlabsportal](./images/InfrastrureMigration-validation-2.png "labvalidation") 
+    ![Cloudlabsportal](./images/InfrastrureMigration-labvalidation-2.png "labvalidation") 
 
 #### Average time taken to complete the lab: 8 hours 
 
