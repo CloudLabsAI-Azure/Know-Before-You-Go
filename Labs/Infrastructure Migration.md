@@ -258,7 +258,7 @@ Exercise1 Task2 Step2:
 
 If an attendee is not able to see the virtual machines in the Hyper-V manager  
 
-![](Infrastrure%20Migration.014.png) 
+   ![Cloudlabsportal](./images/InfrastrureMigration-issue.png "Environment")
 
 he can wait for 5-10 minutes and refresh the browser the attendee will be able to see the 4 virtual machines in the Hyper-V manager. 
 
@@ -296,7 +296,7 @@ he can wait for 5-10 minutes and refresh the browser the attendee will be able t
 
 - Attendee can find the SUFFIX value by navigating to **Environment Details** page. 
 
-    ![Cloudlabsportal](./images/suffix.png "Environment")
+    ![Cloudlabsportal](./images/InfrastrureMigration-suffix.png "Environment")
 
 
 **Resource Deployment Time** 
