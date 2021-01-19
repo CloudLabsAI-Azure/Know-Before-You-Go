@@ -6,7 +6,7 @@
 - [How to manage users and Unused instances](#how-to-manage-users-and-Unused-instances)
 - [Vm Shadowing](#vm-shadowing)
 - [RDP OVER HTTPS](#rdp-over-https)
-- [VM Start/Stop ](#vm-start/stop)
+- [VM Start/Stop ](#vm-startstop)
 - [Instructor Azure Portal Access ](#instructor-azure-portal-access)
 - [Lab validation](#lab-validation)
 - [Help Tab](#help-tab)
@@ -17,7 +17,7 @@
 - [LAB CONTENTS](#lab-contents)
 - [Lab validation](#lab-validation)
 - [Known Issues and workarounds ](#known-issues-and-workarounds)
-- [FAQ'S](#faq's)
+- [FAQ'S](#faqs)
 
 ## How to navigate to the cloud labs portal
 
