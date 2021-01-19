@@ -3,7 +3,21 @@
 **Contents**
 
 - [How to navigate to the cloud labs portal](#how-to-navigate-to-the-cloud-labs-portal)
-- [How to manage users and Unused instances](how-to-manage-users-and-Unused-instances)
+- [How to manage users and Unused instances](#how-to-manage-users-and-Unused-instances)
+- [Vm Shadowing](#vm-shadowing)
+- [RDP OVER HTTPS](#rdp-over-https)
+- [VM Start/Stop ](#vm-start/stop)
+- [Instructor Azure Portal Access ](#instructor-azure-portal-access)
+- [Lab validation](#lab-validation)
+- [Help Tab](#help-tab)
+- [Split Window](#split-window)
+- [Collapse Window](#collapse-window)
+- [What do the attendees get when they sign up for the environment](#What-do-the-attendees-get-when-they-sign-up-for-the-environment)
+- [Resources that are provided as pre-requisites](#resources-that-are-provided-as-pre-requisites)
+- [LAB CONTENTS](#lab-contents)
+- [Lab validation](#lab-validation)
+- [Known Issues and workarounds ](#known-issues-and-workarounds)
+- [FAQ'S](#faq's)
 
 ## How to navigate to the cloud labs portal
 
@@ -107,7 +121,7 @@
 
  ![Cloudlabsportal](./images/AIAD-vmstartandstop.png "Vmstartandstop")
  
-## Instructor Azure Portal Access 
+### Instructor Azure Portal Access 
 
 Instructor has access to all attendees Resource groups and resources that are pre-deployed or deployed by attendee as a part of the lab. 
 1. Instructor can login to the Azure portal with the credentials identified before and will be able to view the resources of all attendees. 
@@ -132,7 +146,7 @@ Instructor has access to all attendees Resource groups and resources that are pr
 
 - The attendee will have access to the lab environment for 4 hours, unless notified otherwise. 
 
-## What do the attendees get when they sign up for the environment.  
+## What do the attendees get when they sign up for the environment?
 
 1. As soon as the attendee’s environment is deployed, he will be able to see a virtual machine on the left which will be used to perform the lab. 
 
@@ -168,20 +182,6 @@ Instructor has access to all attendees Resource groups and resources that are pr
 
           ![Cloudlabsportal](./images/AIAD-Environment5.png "Environment")  
           
- ### Lab validation
-
-
-After performing each exercise, the attendees are asked to run validation for the provided tasks to ensure that the expected output is obtained. 
-
-1. Expand lab validation details and click on validate button. 
-
-    ![Cloudlabsportal](./images/AIAD-validation-1.png "labvalidation")
-
-2. Attendees can find the validation status either Succeeded or failed under status tab 
-
-     - If the validation fails, it will give the error message regarding why the validation has failed so that attendee can find the mistake which he committed and rectify it accordingly. 
-
-    ![Cloudlabsportal](./images/AIAD-validation-2.png "labvalidation")
           
 ### Help Tab
 
@@ -250,6 +250,23 @@ Azure Synapse Analytics provides support for using trained models (in ONNX forma
 
 In this exercise, attendee will leverage a previously trained model to make predictions using the T-SQL Predict statement.
 
+
+ ### Lab validation
+
+
+After performing each exercise, the attendees are asked to run validation for the provided tasks to ensure that the expected output is obtained. 
+
+1. Expand lab validation details and click on validate button. 
+
+    ![Cloudlabsportal](./images/AIAD-validation-1.png "labvalidation")
+
+2. Attendees can find the validation status either Succeeded or failed under status tab 
+
+     - If the validation fails, it will give the error message regarding why the validation has failed so that attendee can find the mistake which he committed and rectify it accordingly. 
+
+    ![Cloudlabsportal](./images/AIAD-validation-2.png "labvalidation")
+    
+    
 ## Known Issues and workarounds 
 
 1. The dedicated SQL pool is paused by default, the attendee must resume the pool before performing the lab by 
