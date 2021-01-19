@@ -5,7 +5,7 @@
 - [How to navigate to the cloud labs portal](#how-to-navigate-to-the-cloud-labs-portal)
 - [How to manage users and Unused instances](#how-to-manage-users-and-Unused-instances)
 - [Vm Shadowing](#vm-shadowing)
-- [RDP OVER HTTPS](#rdp-over-https)
+- [RDP Over Https](#rdp-over-https)
 - [VM Start/Stop ](#vm-startstop)
 - [Instructor Azure Portal Access ](#instructor-azure-portal-access)
 - [Help Tab](#help-tab)
@@ -106,7 +106,7 @@
     ![VM shadowing](./images/screenconnect9.png "cloudlabsportal")
 
 
-### RDP OVER HTTPS  
+### RDP Over Https
 
 - Rdp over https is a feature which allows attendees to access the virtual machine over the internet. This eliminates the need of logging in into the vm by attendees.   
 
