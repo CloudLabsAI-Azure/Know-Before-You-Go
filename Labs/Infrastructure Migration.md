@@ -1,5 +1,93 @@
 # Infrastructure Migration
 
+## How to navigate to the cloud labs portal
+
+- Open any browser and navigate to <https://admin.cloudlabs.ai/>  
+- Click on sign in and then sign with Work or School Account.  
+- Upon login, on demand lab will be available for management. 
+
+   1. Ensure to select the right Cloud Labs tenant. 
+   2. Navigate to On Demand Labs, then you will be able to find event ODL name.  
+   3. From here you can find instructor credentials. With this credential you can access all the attendee’s azure environments. 
+   4. From Users tab, you can find list of lab users with their deployment id. 
+   
+ ![Cloudlabsportal](./images/cloulabsportal.png "cloudlabsportal")
+ 
+## How to manage users and Unused instances
+
+- Navigate to user's tab from actions..  
+- From here you can find the list of users with their deployment id and deployment details for each user.  
+- You can manage attendees from this page  
+- Add / Remove attendees  
+- Each attendee is assigned a six-digit unique id to identify lab resource groups and jump VMs 
+
+ ![Cloudlabsportal](./images/cloudlabs-users.png "cloudlabsportal")
+
+## Features available to instructors
+
+### Vm Shadowing  
+
+- You can shadow multiple attendee VMs at the same time.  
+- Multiple instructors / proctors can shadow same attendee VM concurrently.  
+- If you don’t see the username upon clicking “Shadow Session”, student may not have launched their Lab VM yet or is disconnected.  
+
+1. Login to [https://admin.cloudlabs.ai](https://admin.cloudlabs.ai/) with your work account (<alias@microsoft.com> or <alias@partner.com>)   
+1. Ensure to select the right Cloud Labs tenant (Microsoft – In a Day)  
+1. Navigate to On Demand Labs  
+1. Using instructor credentials, you can access all the attendee’s azure environments.  
+    - Click on information icon from Actions to get Instructor Azure Credentials  
+    - Use this username and password to login to Azure portal and CloudLabs Shadow  
+    - Login from a private browser instance (InPrivate or Incognito)  
+
+    ![Cloudlabsportal](./images/cloudlabs-instructor.png "cloudlabsportal") 
+
+1. Navigate to user's tab from actions  
+1. You can find the Deployment details for the user here. (you can use azure credentials from this page to access attendee cloud environment)  
+
+   ![Cloudlabsportal](./images/cloudlabs-users.png "cloudlabsportal")
+ 
+   SCREEN CONNECT  
+
+1. Navigate to [https://spektrasystems.screenconnect.com](https://spektrasystems.screenconnect.com/)  
+1. Click on Login  
+
+   ![VM shadowing](./images/screenconnect1.png "cloudlabsportal")
+
+1. Login with local account, do not choose Azure AD.  
+1. Use same username and password provided for Instructor Access  
+
+    ![VM shadowing](./images/screenconnect2.png "cloudlabsportal")
+ 
+    ![VM shadowing](./images/screenconnect3.png "cloudlabsportal")
+
+1. OTP is sent to your work email account. Check and provide the OTP then Login.  
+     - Please be sure to check junk/spam folder.  
+     - Email is sent out from <cloud@screenconnect.com>  
+
+    ![VM shadowing](./images/screenconnect4.png "cloudlabsportal")
+
+1. Search for specific DID if needed, right Click on Lab User VM (Identified by DID) and Select Shadow Session  
+
+    ![VM shadowing](./images/screenconnect5.png "cloudlabsportal")
+
+1. Select Login Session – demouser or if you see any other username to connect the VM and click on Join Session 
+
+    >Note: If you only see Console and [Backstage], that means attendee is not connected to VM currently  
+
+    ![VM shadowing](./images/screenconnect6.png "cloudlabsportal")
+
+1. Click on Open ScreenConnect Client and install the required software (One Time).  
+
+    ![VM shadowing](./images/screenconnect7.png "cloudlabsportal")
+    
+1. Shadow users VM session (without overtaking RDP session).
+
+    ![VM shadowing](./images/screenconnect8.png "cloudlabsportal")
+1. You can initiate a private chat with attendee by clicking on messaging icon.
+
+    ![VM shadowing](./images/screenconnect9.png "cloudlabsportal")
+
+
 ### RDP OVER HTTPS  
 
 Rdp over https is a feature which allows attendees to access the virtual machine over the internet. This eliminates the need of logging in into the vm by attendees.   
