@@ -236,7 +236,7 @@ After performing each exercise, the attendees are asked to run validation for th
 
 1. Expand lab validation details and click on the validate button. 
 
-    ![Cloudlabsportal](./images/InfrastrureMigration--labvalidation-1.png "labvalidation")
+    ![Cloudlabsportal](./images/InfrastrureMigration-labvalidation-1.png "labvalidation")
 
 2. Attendees can find the validation status either Success or failed under status tab. 
 
@@ -277,12 +277,14 @@ he can wait for 5-10 minutes and refresh the browser the attendee will be able t
     ![Cloudlabsportal](./images/InfrastrureMigration-Envrionment6.png "Environment")
 
 1. Attendee will navigate to the bit.ly link and provide the required details. 
+
 1. Its mandatory to give company email address and actual organization name. 
 
     ![Cloudlabsportal](./images/InfrastrureMigration-Envrionment7.png "Environment")
         
 1. Once lab instance is assigned, details are also sent to attendee via email from [noreply@cloudlabs.ai 
   ](mailto:noreply@cloudlabs.ai) 
+  
 1. Once attendee register using Lab activation details, he will click on Launch Lab to get started with the lab. 
 
    ![Cloudlabsportal](./images/InfrastrureMigration-Envrionment8.png "Environment")
@@ -294,7 +296,7 @@ he can wait for 5-10 minutes and refresh the browser the attendee will be able t
 
 #### How to find the **SUFFIX** Value:
 
-- Attendee can find the SUFFIX value by navigating to **Environment Details** page. 
+- Attendee can find the **Suffix** value by navigating to **Environment Details** page. 
 
     ![Cloudlabsportal](./images/InfrastrureMigration-suffix.png "Environment")
 
