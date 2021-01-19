@@ -12,7 +12,7 @@
 - [Split Window](#split-window)
 - [Collapse Window](#collapse-window)
 - [What do the attendees get when they sign up for the environment](#What-do-the-attendees-get-when-they-sign-up-for-the-environment)
-- [Resources that are provided as pre-requisites](#resources-that-are-provided-as-pre-requisites)
+- [Resources that are provided as pre-requisites ](#resources-that-are-provided-as-pre-requisites)
 - [LAB CONTENTS](#lab-contents)
 - [Lab validation](#lab-validation)
 - [Known Issues and workarounds ](#known-issues-and-workarounds)
