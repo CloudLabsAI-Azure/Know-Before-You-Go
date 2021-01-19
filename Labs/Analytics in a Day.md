@@ -8,7 +8,6 @@
 - [RDP OVER HTTPS](#rdp-over-https)
 - [VM Start/Stop ](#vm-startstop)
 - [Instructor Azure Portal Access ](#instructor-azure-portal-access)
-- [Lab validation](#lab-validation)
 - [Help Tab](#help-tab)
 - [Split Window](#split-window)
 - [Collapse Window](#collapse-window)
@@ -212,7 +211,7 @@ Instructor has access to all attendees Resource groups and resources that are pr
 
     ![Cloudlabsportal](./images/AIAD-collapsewindow-2.png "collapsewindow") 
 
-## Resources that are provided as pre-requisites. 
+## Resources that are provided as pre-requisites
 
 - Once the attendee’s login to the Azure portal, the following are the Pre-deployed resources that are provided to the attendees to perform the lab. 
    - Resource Groups: Synapse-AIAD-UniqueID 
