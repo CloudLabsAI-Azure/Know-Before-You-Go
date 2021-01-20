@@ -13,7 +13,7 @@
 - [Split Window](#split-window)
 - [Collapse Window](#collapse-window)
 - [Resources that are provided as pre-requisites ](#resources-that-are-provided-as-pre-requisites)
-- [LAB CONTENTS](#lab-contents)
+- [Lab Contents](#lab-contents)
 - [Lab validation](#lab-validation)
 - [Known Issues and workarounds ](#known-issues-and-workarounds)
 - [FAQ'S](#faqs)
@@ -226,7 +226,7 @@ Once the attendee login to the Azure portal, following are the Pre-deployed r
    - In the upper left corner of the portal window, click the toggle menu icon and then click on **Resource groups,** then select the **fabmedical-DeploymentID** resource group and view the pre-deployed resources**.** 
 
 
-### LAB CONTENTS
+### Lab Contents
 
 **Exercise 1: Create and run a Docker application**
 
@@ -295,7 +295,7 @@ After performing each exercise, the attendees are asked to run validation for
 
    - If attendee get no such file or directory error, run the below command, and retry step 17 
      ```
-         **ng build** 
+      **ng build** 
      ```
 1. Exercise1 task9:  
 
