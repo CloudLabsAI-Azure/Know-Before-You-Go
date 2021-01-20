@@ -178,338 +178,206 @@ The approximate Duration for deploying a single environment would be 30 minutes
 
           ![Cloudlabsportal](./images/Cloudnative-Environment5.png "Environment")  
 
-
-Help Tab 
+### Help Tab 
 
 1. Expand **More** button on the right and click on **Help**. 
 
     ![Cloudlabsportal](./images/Cloudnative-helptab-1.png "Helptab")
 
-
-
 1. From the Help tab, attendees can find the common issues such as copy-paste, pop-up visibility issues and solutions to resolve them. 
 
     ![Cloudlabsportal](./images/Cloudnative-helptab-2.png "Helptab")
     
-**Split Window** 
-
-
+### Split Window
 
 - Split window will open the lab guide in new Window by providing only virtual machine on the current window. 
 
     ![Cloudlabsportal](./images/Cloudnative-splitwindow.png "splitwindow")
 
-**Collapse Window** 
+### Collapse Window
 
+1. The collapse button will collapse the lab guide window and provide a full view of the virtual machine.  
 
+    ![Cloudlabsportal](./images/Cloudnative-collapsewindow-1.png "collapsewindow")
 
-- The collapse button will collapse the lab guide window and provide a full view of the virtual machine.  
+1. Attendee can get back the lab guide when needed by clicking on Expand button. 
 
+    ![Cloudlabsportal](./images/Cloudnative-collapsewindow-1.png "collapsewindow")
+    
 
-
-![](Cloud%20native.001.png) 
-
-
-
-- Attendee can get back the lab guide when needed by clicking on Expand button. 
-
-
-
-
-
-![](Cloud%20native.001.png) 
-
-
-
-
-
-Resources that are provided as pre-requisites. 
+## Resources that are provided as pre-requisites. 
 
 Once the attendee login to the Azure portal, following are the Pre-deployed resources that are provided to the attendees to perform the lab. 
 
+   - Resource Group : fabmedical-DeploymentID 
+   - Resources deployed in fabmedical-DeploymentID: 
+   
+       - Virtual machine: fabmedical 
+       - virtualNetwork : fabmedical-vnet 
+       - Networksecuritygroup : fabmedical-nsg 
+       - NetworkInterfaces : fabmedical-DeploymentID 
+       - publicIpAddress: fabmedical-ip 
+       - Container registry: acrDeploymentID 
+       - Kubernetes Service : fabmedical-DeploymentID 
+       - Log analytics workspace : fabmedical-DeploymentID 
+       - Application insights : Content-web and Content-api 
+       - Cosmos DB : fabmedical-DeploymentID 
+
+   - In the upper left corner of the portal window, click the toggle menu icon and then click on **Resource groups,** then select the **fabmedical-DeploymentID** resource group and view the pre-deployed resources**.** 
 
 
-- Resource Group : fabmedical-DeploymentID 
+### LAB CONTENTS
 
-
-
-- Resources deployed in fabmedical-DeploymentID: 
-
-
-
-- Virtual machine: fabmedical 
-- virtualNetwork : fabmedical-vnet 
-- Networksecuritygroup : fabmedical-nsg 
-- NetworkInterfaces : fabmedical-DeploymentID 
-- publicIpAddress: fabmedical-ip 
-- Container registry: acrDeploymentID 
-- Kubernetes Service : fabmedical-DeploymentID 
-- Log analytics workspace : fabmedical-DeploymentID 
-- Application insights : Content-web and Content-api 
-- Cosmos DB : fabmedical-DeploymentID 
-
-
-
-In the upper left corner of the portal window, click the toggle menu icon and then click on **Resource groups,** then select the **fabmedical-DeploymentID** resource group and view the pre-deployed resources**.** 
-
-
-
-
-
-Lab Contents 
-
-There are 4 exercises in cloud-native applications developer edition. They are 
-
-Exercise 1: Create and run a Docker application 
+**Exercise 1: Create and run a Docker application**
 
 In this exercise, attendee will take the starter files and run the node.js application as a Docker application. Attendee will create a Docker file, build Docker images, and run containers to execute the application. 
 
-
-
-Exercise 2: Migrate MongoDB to Cosmos DB using Azure Database Migration Service 
+**Exercise 2: Migrate MongoDB to Cosmos DB using Azure Database Migration Service**
 
 At this point, attendee have the web and API applications running in Azure Kubernetes Service. The next, step is to migrate the MongoDB database data over to Azure Cosmos DB. This exercise will use the Azure Database Migration Service to migrate the data from the MongoDB database into Azure Cosmos DB. 
 
-Exercise 3: Deploy the solution to Azure Kubernetes Service 
+**Exercise 3: Deploy the solution to Azure Kubernetes Service**
 
 In this exercise, attendee will connect to the Azure Kubernetes Service cluster that is pre-created as a part of pre-requisite and deploy the Docker application to the cluster using Kubernetes. 
 
-
-
-Exercise 4: Scale the application and test HA 
+**Exercise 4: Scale the application and test HA**
 
 At this point, attendee had deployed a single instance of the web and API service containers. In this exercise, he will increase the number of container instances for the web service and scale the front-end on the existing cluster. 
 
-
-
-Exercise 5: Working with services and routing application traffic 
+**Exercise 5: Working with services and routing application traffic**
 
 In the previous exercise, we introduced a restriction to the scale properties of the service. In this exercise, attendee will configure the api deployments to create pods that use dynamic port mappings to eliminate the port resource constraint during scale activities. 
 
 
-
-**Lab validation** 
+## Lab validation
 
 After performing each exercise, the attendees are asked to run validation for the provided tasks to ensure that the expected output is obtained. 
 
 1. Expand lab validation details and click on validate button. 
 
-![](Cloud%20native.001.png) 
-
-
-
+    ![Cloudlabsportal](./images/Cloudnative-validation1.png "labvalidation")
+    
 2. Attendees can find the validation status either Succeeded or failed under status tab. 
 - If the validation fails, it will give the error message regarding why the validation has failed so that attendee can find the mistake which he committed and rectify it accordingly. 
 
+    ![Cloudlabsportal](./images/Cloudnative-validation2.png "labvalidation")
 
 
+#### Average time taken to complete the lab: 8 hours 
 
+### Known Issues and workarounds
 
-![](Cloud%20native.005.png) 
+1. Instructor should make sure that the attendees follow the lab guide provided in the environment to perform the lab instead of lab guide from MCW repo. Because few instructions may differ from the provided lab guide and MCW repo lab guide. 
 
+1. Attendees should make sure that they will go through every instruction properly while performing the before hands-on-lab. If at all the lab guide is not followed correctly, attendees will be facing issues in next part of the lab. 
 
+1. Yaml files 
 
+   While editing or inserting the content into the yaml files, attendees should make sure they read the instructions properly and edit the files accordingly. It is better to cross check the files once, after editing and before saving them. 
 
+1. If attendee’s session to build agent vm gets disconnected,  
 
-Average time taken to complete the lab: 8 hours 
+   To reconnect to the vm, follow the instruction provided in the before hands-on-lab. 
 
-
-
-
-
-Known Issues/Workarounds 
-
-
-
-- Instructor should make sure that the attendees follow the lab guide provided in the environment to perform the lab instead of lab guide from MCW repo. Because few instructions may differ from the provided lab guide and MCW repo lab guide. 
-
-
-
-- Attendees should make sure that they will go through every instruction properly while performing the before hands-on-lab. If at all the lab guide is not followed correctly, attendees will be facing issues in next part of the lab. 
-
-
-
-- Yaml files 
-
-
-
-While editing or inserting the content into the yaml files, attendees should make sure they read the instructions properly and edit the files accordingly. 
-
-`             `It is better to cross check the files once, after editing and before saving them. 
-
-
-
-- If attendee’s session to build agent vm gets disconnected,  
-
-
-
-To reconnect to the vm, follow the instruction provided in the before hands-on-lab. 
-
-
-
-1. From Environment details page go to **Command to Connect to Build Agent VM** copy the ssh key and paste in cloud shell. 
-2. In the cloud shell output, paste the ssh key that you copied earlier enter **yes** when prompted. 
-3. Enter the Buid Agent VM password provided in environment details, you will be connected to Build Agent VM. 
-
-
-
-
-
-Frequently Faced issues 
-
-
+    1. From Environment details page go to **Command to Connect to Build Agent VM** copy the ssh key and paste in cloud shell. 
+    2. In the cloud shell output, paste the ssh key that you copied earlier enter **yes** when prompted. 
+    3. Enter the Buid Agent VM password provided in environment details, you will be connected to Build Agent VM. 
 
 1. Issue in before hands-on-lab task 3 step13 
 
-When the attendee faces an issue while pushing the changes to the master branch,  
+    - When the attendee faces an issue while pushing the changes to the master branch, make sure the GitHub repo URL and the provided credentials are correct. Then ask the attendee to rerun the command **git push -u origin master** to push the changes. 
 
-make sure the GitHub repo URL and the provided credentials are correct. Then ask the attendee to rerun the command **git push -u origin master** to push the changes. 
+1. Issues in Exercise 1 due to unsuccessful cloning of **Fabmedical** repo. 
 
+    - Ask attendee to verify that whether he had cloned the **Fabmedical** repository properly. If   not, ask the attendee to run the command,  **git clone <GITHUB\_REPOSITORY\_URL>** to clone the **Fabmedical** repo and perform the step again. 
 
+1. Exercise1 Task1 Step17: 
 
-2. Issues in Exercise 1 due to unsuccessful cloning of **Fabmedical** repo. 
+   - If attendee get no such file or directory error, run the below command, and retry step 17 
+     ```
+         **ng build** 
+     ```
+1. Exercise1 task9:  
 
+   - If the Workflow execution fails follow the below instruction to resolve the issue. 
+   
+        - Make sure that attendee has provided the correct values for resourceGroupName, containerRegistryName and containerRegistry correctly. Then ask attendee to run the workflow again. 
+ 
+   Even after providing the correct values if workflow fails,follow the below steps: 
+   
+     - Go to cloud shell and open content-web.yml by running the command vi content-web.yml.   
+     - In the browser open a new tab and navigate to <https://raw.githubusercontent.com/CloudLabs-MCW/MCW-Cloud-native-applications/fix/Hands-on%20lab/content-web.yml>.   
+     - Copy the content till the line ${{ env.containerRegistry }}/${{ env.imageRepository }}:latest, switch back to cloud shell and replace the existing content with the copied content. Make sure to replace [SUFFIX] with your DeploymentId.   
+     - Now redo the steps from 10-14. 
+     
+1. Issue while using Kubernetes Dashboard 
 
+   - If attendee lose the connection to Kubernetes dashboard, he should run the command again in Cloud Shell to re-establish the connection.  
 
-`     `Ask attendee to verify that whether he had cloned the **Fabmedical** repository properly. If   not, ask the attendee to run the command,  **git clone <GITHUB\_REPOSITORY\_URL>** to clone the **Fabmedical** repo and perform the step again. 
+   - If the Kubernetes dashboard becomes unresponsive in the browser this is an indication to return cloud shell and check your tunnel or rerun the command. 
 
+   - If attendee is facing the issue as mentioned in the below screenshot. Follow any one of the provided solutions to resolve the issue. 
 
+        ![Cloudlabsportal](./images/Cloudnative-issue.png "Environment") 
 
-3. Exercise1 Task1 Step17: 
+       - Then ask the attendee to click on the "user/profile" icon in the upper-right of the dashboard, select "Sign out", then sign back into the K8s dashboard and it will work again.  
 
-`        `If attendee get no such file or directory error, run the below command, and retry step 17 
+      - Restart the cloud shell and rerun the command to establish the connection then browse to the Kubernetes dashboard. 
 
-`                `**ng build** 
+1. Issue in Exercise 2 Task 2 Step 4 
 
+   When adding migration project if attendee gets the error “the connection timed out. Possible reasons for this include 
 
+     - the address and/or port was not correct, or the server is not running.” its temporary issue wait for 5-10 minutes then retry again 
 
-4. Exercise1 task9:  
+1. Exercise 5 Task3 Step6: 
 
-If the Workflow execution fails follow the below instruction to resolve the issue. 
+   - Even after increasing CPU to 125m, if scaling of pods fails with error “invalid syntax and insufficient CPU”. Follow the below steps. 
 
-`        `Make sure that attendee has provided the correct values for resourceGroupName, containerRegistryName and containerRegistry correctly. Then ask attendee to run the workflow again. 
 
 
+## FAQ’s 
 
-Even after providing the correct values if workflow fails,follow the below steps: 
 
+#### How to access lab environment
 
+1. Instructor share the bit.ly link and activation code during the event to attendees. 
 
-- Go to cloud shell and open content-web.yml by running the command vi content-web.yml.   
-- In the browser open a new tab and navigate to <https://raw.githubusercontent.com/CloudLabs-MCW/MCW-Cloud-native-applications/fix/Hands-on%20lab/content-web.yml>.   
-- Copy the content till the line ${{ env.containerRegistry }}/${{ env.imageRepository }}:latest, switch back to cloud shell and replace the existing content with the copied content. Make sure to replace [SUFFIX] with your DeploymentId.   
-- Now redo the steps from 10-14. 
+    DO NOT share the activation details prior to session (Lab Start time) 
 
+1. All attendees activate the lab instance using the same activation code. 
 
+    ![Cloudlabsportal](./images/Cloudnative-Environment6.png "Environment")
 
+1. Attendee will navigate to the bit.ly link and provide the required details. 
 
+1. Its mandatory to give company email address and actual organization name. 
 
-5. Issue while using Kubernetes Dashboard 
+    ![Cloudlabsportal](./images/Cloudnative-Environment7.png "Environment")
+        
+1. Once lab instance is assigned, details are also sent to attendee via email from [noreply@cloudlabs.ai 
+  ](mailto:noreply@cloudlabs.ai) 
+  
+1. Once attendee register using Lab activation details, he will click on Launch Lab to get started with the lab. 
 
+   ![Cloudlabsportal](./images/Cloudnative-Environment8.png "Environment")
+    
+1. Once the deployment is succeeded, attendee will get the screen with the lab guide, Environment Details (Azure Credentials), etc. on the Right Side and Virtual Machine on the Left. 
 
+    ![Cloudlabsportal](./images/Cloudnative-Rdpoverhttps.png "Environment") 
+    
 
-If attendee lose the connection to Kubernetes dashboard, he should run the command again in Cloud Shell to re-establish the connection.  
+#### How to find the DeploymentID Value: 
 
-If the Kubernetes dashboard becomes unresponsive in the browser this is an indication to return cloud shell and check your tunnel or rerun the command. 
 
+- Attendee can find the DeploymentID value under Resource group by navigating to **Environment Details** page then selecting Azure Credentials tab. 
 
 
-If attendee is facing the issue as mentioned in the below screenshot. Follow any of the provided solution to resolve the issue. 
+    ![Cloudlabsportal](./images/Cloudnative-did.png "Environment") 
 
+#### How to find the **SERVICE PRINCIPAL** Details: 
 
+- Attendee can find the service principal details by navigating to **Environment Details** page then selecting Service Principal tab. 
 
-![](Cloud%20native.006.png) 
-
-
-
-
-
-1. Then ask the attendee to click on the "user/profile" icon in the upper-right of the dashboard, select "Sign out", then sign back into the K8s dashboard and it will work again.  
-
-
-
-2. Restart the cloud shell and rerun the command to establish the connection then browse to the Kubernetes dashboard. 
-
-
-
-6. Issue in Exercise 2 Task 2 Step 4 
-
-
-
-`      `When adding migration project if attendee gets the error “the connection timed out. Possible reasons for this include 
-
-- ` `the address and/or port was not correct, or the server is not running.” its temporary issue wait for 5-10 minutes then retry again 
-
-
-
-7. Exercise 5 Task3 Step6: 
-
-`                 `Even after increasing CPU to 125m, if scaling of pods fails with error “invalid syntax and insufficient CPU”. Follow the below steps. 
-
-
-
-FAQ’S   
-
-
-
-How to access lab environment 
-
-
-
-- Instructor share the bit.ly link and activation code during the event to attendees. 
-
-`             `DO NOT share the activation details prior to session (Lab Start time) 
-
-- All attendees activate the lab instance using the same activation code. 
-
-
-
-` `![](Cloud%20native.007.png) 
-
-
-
-- Attendee will navigate to the bit.ly link and provide the required details. 
-- Its mandatory to give company email address and actual organization name. 
-
-![](Cloud%20native.008.png) 
-
-- Once lab instance is assigned, details are also sent to attendee via email from [noreply@cloudlabs.ai 
-  ](mailto:noreply@cloudlabs.ai) 
-- Once attendee register using Lab activation details, he will click on Launch Lab to get started with the lab. 
-
-
-
-![](Cloud%20native.009.png) 
-
-
-- Once the deployment is succeeded, Attendee will get the screen with the lab guide, Environment Details (Azure Credentials), etc. on the Right Side and Virtual Machine on the Left. 
-
-` `![](Cloud%20native.001.png) 
-
-
-
-
-
-How to find the DeploymentID Value: 
-
-
-
-Attendee can find the DeploymentID value under Resource group by navigating to **Environment Details** page then selecting Azure Credentials tab. 
-
-
-
-![](Cloud%20native.010.png) 
-
-
-
-
-
-How to find the **SERVICE PRINCIPAL** Details: 
-
-
-
-Attendee can find the service principal details by navigating to **Environment Details** page then selecting Service Principal tab. 
-
-
-
-![](Cloud%20native.011.png) 
+    ![Cloudlabsportal](./images/Cloudnative-spdetails.png "Environment") 
+    
