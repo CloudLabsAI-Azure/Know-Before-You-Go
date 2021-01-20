@@ -113,13 +113,13 @@
 
 - With RDP OVER HTTPS and integrated doc rendering, attendees will be able see the virtual machine and lab guide on the same screen which makes easier to perform the lab.  
 
-   ![Cloudlabsportal](./images/InfrastrureMigration-RdpoverHttps.png "Environment") 
+   ![Cloudlabsportal](./images/Cloudnative-Rdpoverhttps.png "Environment") 
     
 ### VM Start/Stop  
 
 - Attendees can start/stop the Virtual Machine from the Virtual Machine tab. We have provided button to start/stop VM under Actions.  
 
-   ![Cloudlabsportal](./images/InfrastrureMigration-vmstartandstop.png "vmstartandstop") 
+   ![Cloudlabsportal](./images/Cloudnative-vmstartandstop.png "vmstartandstop") 
     
 ### Instructor Azure Portal Access 
 
@@ -137,108 +137,67 @@
     
       - From the Cloud Labs portal home page, Click on **On Demand Labs** select the event ODL then click on user's tab from actions. From here, instructor can find the list of attendees with their deployment id and deployment details for each user. 
       - From the list of attendees, instructor can pick the Suffix of the desired attendee and can view the resources from the Azure portal. 
-How much time does the environment take to get deployed? 
+      
+## How much time does the environment take to get deployed? 
 
 The approximate Duration for deploying a single environment would be 30 minutes. 
 
+## What do the attendees get when they sign up for the environment.  
 
+1. As soon as the attendee’s environment is deployed, he will be able to see a virtual machine on the left which will be used to perform the lab. 
 
-What do the attendees get when they sign up for the environment.  
+ 1. On the right, Attendee will be able to find 
 
-- As soon as attendee’s environment is deployed, he will be able to see a virtual machine in the left which will be used to perform the lab. 
-- ` `In the right, Attendee will be able to find 
+     1. A lab guide, which should be followed to perform the lab.  
 
+          - Attendee can see the number on lab guide bottom area to switch to different exercises of lab guide.  
 
+          - Attendee can also navigate to previous and next exercise using Previous and Next button. 
+             
+         ![Cloudlabsportal](./images/InfrastrureMigration-Envrionment1.png "Environment") 
+           
+     1. Environment Details which include user credentials (Azure Credentials), Virtual Machine Credentials and other details. 
+     
+         ![Cloudlabsportal](./images/InfrastrureMigration-Envrionment2.png "Environment") 
 
-- A lab guide which should be followed to perform the lab. Click on next to navigate to the next lab exercise 
-- Attendee can see the number on lab guide bottom area to switch to different exercises of lab guide.  
-- Attendee can also navigate to previous and next exercise using **Previous** and **Next** button 
+     1. Virtual Machines tab, attendee can find the available virtual machines, their status (running, pending or deallocated), Uptime and can also perform some actions on them.
 
+         ![Cloudlabsportal](./images/InfrastrureMigration-Envrionment3.png "Environment") 
 
+          - Attendee can also perform the following operations on the virtual machine. 
 
-![](Cloud%20native.001.png) 
+               1. Start 
 
+               2. Restart and
 
+               3. Stop  
 
-- ` `Environment Details which include user credentials (Azure Credentials), Virtual Machine Credentials, Service principal details and other details. 
+          ![Cloudlabsportal](./images/InfrastrureMigration-Envrionment4.png "Environment") 
+          
+     1. From the Lab Validation tab, attendees can run validation for each exercise after performing it. 
 
+          ![Cloudlabsportal](./images/InfrastrureMigration-labvalidation.png "Environment")  
 
-
-![](Cloud%20native.001.png) 
-
-
-
-- Virtual Machines tab, attendee can find the available virtual machines, their status (running, pending or deallocated), Uptime and can also perform some actions on them. 
-
-
-
-![](Cloud%20native.001.png) 
-
-
-
-- Attendee can also perform the following operations on the virtual machine from the Virtual machines tab. 
-
-
-
-`               `1. Start 
-
-`               `2. Restart and 
-
-`               `3. Stop  
-
-
-
-![](Cloud%20native.002.png) 
-
-
-
-
-
-
-
-- Lab Validation tab, which allows attendees to run validation for each exercise. 
-
-
-
-![](Cloud%20native.001.png) 
 
 Help Tab 
 
+1. Expand **More** button on the right and click on **Help**. 
 
-
-- Expand **More** button on the right and click on **Help**. 
-
-
-
-![](Cloud%20native.003.png) 
+    ![Cloudlabsportal](./images/Cloudnative-helptab-1.png "Helptab")
 
 
 
-- `   `From the Help tab, attendees can find the common issues such as copy-paste, pop-up visibility issues and solutions to resolve them. 
+1. From the Help tab, attendees can find the common issues such as copy-paste, pop-up visibility issues and solutions to resolve them. 
 
-
-
-
-
-![](Cloud%20native.004.png) 
-
-
-
-
-
+    ![Cloudlabsportal](./images/Cloudnative-helptab-2.png "Helptab")
+    
 **Split Window** 
 
 
 
 - Split window will open the lab guide in new Window by providing only virtual machine on the current window. 
 
-
-
-![](Cloud%20native.001.png) 
-
-
-
-
+    ![Cloudlabsportal](./images/Cloudnative-splitwindow.png "splitwindow")
 
 **Collapse Window** 
 
