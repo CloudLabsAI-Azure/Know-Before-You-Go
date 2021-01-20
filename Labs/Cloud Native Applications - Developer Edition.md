@@ -267,13 +267,13 @@ After performing each exercise, the attendees are asked to run validation for
 
 ### Known Issues and workarounds
 
-1. Instructor should make sure that the attendees follow the lab guide provided in the environment to perform the lab instead of lab guide from MCW repo. Because few instructions may differ from the provided lab guide and MCW repo lab guide. 
+1. Instructor should make sure that the attendees follow the **lab guide** provided in the environment to perform the lab instead of lab guide from MCW repo. Because few instructions may differ from the provided lab guide and MCW repo lab guide. 
 
 1. Attendees should make sure that they will go through every instruction properly while performing the before hands-on-lab. If at all the lab guide is not followed correctly, attendees will be facing issues in next part of the lab. 
 
 1. Yaml files 
 
-   While editing or inserting the content into the yaml files, attendees should make sure they read the instructions properly and edit the files accordingly. It is better to cross check the files once, after editing and before saving them. 
+   While **editing or inserting** the content into the yaml files, attendees should make sure they read the instructions properly and edit the files accordingly. It is better to cross check the files once, after editing and before saving them. 
 
 1. If attendee’s session to build agent vm gets disconnected,  
 
@@ -293,10 +293,8 @@ After performing each exercise, the attendees are asked to run validation for
 
 1. Exercise1 Task1 Step17: 
 
-   - If attendee get no such file or directory error, run the below command, and retry step 17 
-     ```
-      **ng build** 
-     ```
+   - If attendee get **no such file or directory** error, run the command  **ng build** , and retry step 17 
+   
 1. Exercise1 task9:  
 
    - If the Workflow execution fails follow the below instruction to resolve the issue. 
