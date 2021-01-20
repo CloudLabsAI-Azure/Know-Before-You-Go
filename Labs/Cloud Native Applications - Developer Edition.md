@@ -154,15 +154,15 @@ The approximate Duration for deploying a single environment would be 30 minutes
 
           - Attendee can also navigate to previous and next exercise using Previous and Next button. 
              
-         ![Cloudlabsportal](./images/InfrastrureMigration-Envrionment1.png "Environment") 
+         ![Cloudlabsportal](./images/Cloudnative-Environment1.png "Environment") 
            
      1. Environment Details which include user credentials (Azure Credentials), Virtual Machine Credentials and other details. 
      
-         ![Cloudlabsportal](./images/InfrastrureMigration-Envrionment2.png "Environment") 
+         ![Cloudlabsportal](./images/Cloudnative-Environment2.png "Environment") 
 
      1. Virtual Machines tab, attendee can find the available virtual machines, their status (running, pending or deallocated), Uptime and can also perform some actions on them.
 
-         ![Cloudlabsportal](./images/InfrastrureMigration-Envrionment3.png "Environment") 
+         ![Cloudlabsportal](./images/Cloudnative-Environment3.png "Environment") 
 
           - Attendee can also perform the following operations on the virtual machine. 
 
@@ -172,11 +172,11 @@ The approximate Duration for deploying a single environment would be 30 minutes
 
                3. Stop  
 
-          ![Cloudlabsportal](./images/InfrastrureMigration-Envrionment4.png "Environment") 
+          ![Cloudlabsportal](./images/Cloudnative-Environment4.png "Environment") 
           
      1. From the Lab Validation tab, attendees can run validation for each exercise after performing it. 
 
-          ![Cloudlabsportal](./images/InfrastrureMigration-labvalidation.png "Environment")  
+          ![Cloudlabsportal](./images/Cloudnative-Environment5.png "Environment")  
 
 
 Help Tab 
