@@ -112,13 +112,13 @@
 
 - With RDP OVER HTTPS and integrated doc rendering, attendees will be able to see the virtual machine and lab guide on the same screen which makes easier to perform the lab.  
 
- ![Cloudlabsportal](./images/AIAD-RdpoverHttps.png "RdpoverHttps")
+    ![Cloudlabsportal](./images/appmod-RdpoverHttps.png "Environment") 
  
 ### VM Start/Stop  
 
 - Attendees can start/stop the Virtual Machine from the Virtual Machine tab. We have provided button to start/stop VM under Actions.  
 
-    ![Cloudlabsportal](./images/appmod-RdpoverHttps.png "Environment") 
+     ![Cloudlabsportal](./images/appmod-vmstartandstop.png "Vmstartandstop")
  
 ### Instructor Azure Portal Access 
 
@@ -139,31 +139,6 @@ Instructor has access to all attendees Resource groups and resources that are pr
 #### How much time does the environment take to get deployed? 
 
 The approximate Duration for deploying a single environment would be 35 minutes. 
-
-### Resources that are provided as pre-requisites. 
-
-Once the attendee login to the Azure portal, following are the Pre-deployed resources that are provided to the attendees to perform the lab. 
-
-   - Resource Group: hands-on-lab-UniqueID 
-   - Storage account: contosoUniqueID 
-   - Virtual machine (VM): LabVM-UniqueID  
-   - SQL VM: Sql2008-UniqueID 
-   - Azure SQL Database: ContosoInsurance 
-   - Azure Database Migration Service (DMS): contoso-dms-UniqueID 
-   - Azure App Service Plan: contoso-asp-UniqueID 
-   - App Service (Web App): contoso-web-UniqueID 
-   - App Service (API App): contoso-api-UniqueID 
-   - Function App: contoso-func-UniqueID 
-   - API Management: contoso-apim-UniqueID 
-   - Key Vault: contoso-kv-UniqueID 
-   - Azure Cognitive Search: contoso-search- 
-   - Azure Cognitive Services account: cog-services-UniqueID 
-   - Virtual Network: vnet-UniqueID 
-   - Networksecuritygroup: jbVirtualMachineName-nsg, sqlVirtualMachineName-nsg 
-   - NetworkInterfaces : jbVirtualMachineName-nic, sqlVirtualMachineName-nic 
-   - publicIpAddress : jbVirtualMachineName-ip, sqlVirtualMachineName-ip 
-
- - In the upper left corner of the portal window, click the toggle menu icon and then click on **Resource groups,** then select the **hands-on-lab-Uniqueid** resource group and view the pre-deployed resources**.** 
 
 ### What do the attendees get when they sign up for the environment?  
 
@@ -253,7 +228,30 @@ Once the attendee login to the Azure portal, following are the Pre-deployed re
 ![](appmod.008.png) 
 
 
+### Resources that are provided as pre-requisites. 
 
+Once the attendee login to the Azure portal, following are the Pre-deployed resources that are provided to the attendees to perform the lab. 
+
+   - Resource Group: hands-on-lab-UniqueID 
+   - Storage account: contosoUniqueID 
+   - Virtual machine (VM): LabVM-UniqueID  
+   - SQL VM: Sql2008-UniqueID 
+   - Azure SQL Database: ContosoInsurance 
+   - Azure Database Migration Service (DMS): contoso-dms-UniqueID 
+   - Azure App Service Plan: contoso-asp-UniqueID 
+   - App Service (Web App): contoso-web-UniqueID 
+   - App Service (API App): contoso-api-UniqueID 
+   - Function App: contoso-func-UniqueID 
+   - API Management: contoso-apim-UniqueID 
+   - Key Vault: contoso-kv-UniqueID 
+   - Azure Cognitive Search: contoso-search- 
+   - Azure Cognitive Services account: cog-services-UniqueID 
+   - Virtual Network: vnet-UniqueID 
+   - Networksecuritygroup: jbVirtualMachineName-nsg, sqlVirtualMachineName-nsg 
+   - NetworkInterfaces : jbVirtualMachineName-nic, sqlVirtualMachineName-nic 
+   - publicIpAddress : jbVirtualMachineName-ip, sqlVirtualMachineName-ip 
+
+ - In the upper left corner of the portal window, click the toggle menu icon and then click on **Resource groups,** then select the **hands-on-lab-Uniqueid** resource group and view the pre-deployed resources**.** 
 
 
 ### Lab Contents 
@@ -359,8 +357,6 @@ After performing each exercise, the attendees are asked to run validation for th
 
 
 
-
-
 ## FAQ’S: 
 
 
@@ -399,19 +395,11 @@ How to find the **UniqueID** Value: 
 
 Attendee can find the UniqueID value by navigating to **Environment Details** page then selecting Azure Credentials tab. 
 
-
-
-![](appmod.019.png) 
-
-
-
-
+   ![Cloudlabsportal](./images/appmod-suffix.png "Environment")
 
 How to find the **SERVICE PRINCIPAL** Details: 
 
 Attendee can find the service principal details by navigating to **Environment Details** page then selecting Service Principal tab. 
 
-
-
-![](appmod.020.png) 
+   ![Cloudlabsportal](./images/serviceprincipal.png "Environment")
 
