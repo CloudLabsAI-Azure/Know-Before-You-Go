@@ -118,7 +118,7 @@
 
 - Attendees can start/stop the Virtual Machine from the Virtual Machine tab. We have provided button to start/stop VM under Actions.  
 
- ![Cloudlabsportal](./images/AIAD-vmstartandstop.png "Vmstartandstop")
+    ![Cloudlabsportal](./images/appmod-RdpoverHttps.png "Environment") 
  
 ### Instructor Azure Portal Access 
 
@@ -326,64 +326,34 @@ After performing each exercise, the attendees are asked to run validation for th
 
 **Help Tab** 
 
+1. Expand **More** button on the right and click on **Help**.  
 
+    ![Cloudlabsportal](./images/appmod-helptab-1.png "Helptab")
 
+1. From Help tab, attendees can find the common issues such as copy-paste, pop-up visibility issues and solutions to resolve them. 
 
-
-- Expand **More** button on the right and click on **Help**.  
-
-![](appmod.012.png) 
-
-
-
-- From Help tab, attendees can find the common issues such as copy-paste, pop-up visibility issues and solutions to resolve them. 
-
-
-
-![](appmod.013.png) 
+    ![Cloudlabsportal](./images/appmod-helptab-2.png "Helptab")
 
 
 **Split Window** 
 
+- Split window will open the lab guide in new Window by providing the only virtual machine on the current window. 
 
-
-Split window will open the lab guide in new Window by providing the only virtual machine on the current window. 
-
-
-
-![](appmod.014.png) 
+    ![Cloudlabsportal](./images/appmod-splitwindow.png "splitwindow")
+ 
 
 **Collapse Window** 
 
+1. Collapse button will collapse the lab guide window and provides the full view of the virtual machine.  
 
+    ![Cloudlabsportal](./images/appmod-collapsewindow-1.png "collapsewindow")
 
-Collapse button will collapse the lab guide window and provides the full view of the virtual machine.  
+2. Attendee can get back the lab guide when needed by clicking on Expand button. 
 
+    ![Cloudlabsportal](./images/appmod-collapsewindow-1.png "collapsewindow")
+    
 
-
-![](appmod.014.png) 
-
-
-
-Attendee can get back the lab guide when needed by clicking on Expand button. 
-
-
-
-
-
-![](appmod.004.png) 
-
-
-
-
-
-
-
-Average time taken to complete the lab: 8 hours 
-
-
-
-
+#### Average time taken to complete the lab: 8 hours 
 
 ### Known Issues/Workarounds 
 
@@ -391,54 +361,38 @@ Average time taken to complete the lab: 8 hours 
 
 
 
-**FAQ’S**: 
+## FAQ’S: 
 
 
 
-How to access lab environment 
+#### How to access lab environment 
 
 
 
-- Instructor share the bit.ly link and activation code during the event to attendees. 
+1. Instructor share the bit.ly link and activation code during the event to attendees. 
 
-`             `DO NOT share the activation details prior to session (Lab Start time) 
+             DO NOT share the activation details prior to session (Lab Start time) 
 
-- All attendees activate the lab instance using the same activation code. 
+1. All attendees activate the lab instance using the same activation code. 
 
-` `![](appmod.016.png) 
-
-
-
+    ![Cloudlabsportal](./images/appmod-Environment-1.png "Environment")
+    
 - Attendee will navigate to the bit.ly link and provide the required details. 
+
 - Its mandatory to give company email address and actual organization name. 
 
-![](appmod.017.png) 
-
-
+    ![Cloudlabsportal](./images/appmod-Environment-2.png "Environment")
 
 - Once lab instance is assigned, details are also sent to attendee via email from [noreply@cloudlabs.ai 
   ](mailto:noreply@cloudlabs.ai) 
-1. Once attendee register using Lab activation details, he will click on Launch Lab to get started with the lab. 
+  
+1. Once attendee register using Lab activation details, he will click on **Launch Lab** to get started with the lab. 
 
+    ![Cloudlabsportal](./images/appmod-Environment-3.png "Environment")
 
+1. Once the deployment is succeeded, attendee will get the screen with the lab guide, Environment Details (Azure Credentials), etc. on the Right Side and Virtual Machine on the Left. 
 
-![](appmod.018.png) 
-
-
-2. Once the deployment is succeeded, attendee will get the Lab description page with Azure Credentials**,** Virtual Machine Credentials, Service Principal details and **other details that are required to perform the lab**, click on **GO TO SQL2008-Suffix** button to login to the SQL server VM and start with lab.   
-
-
-
-` `![](appmod.001.png) 
-
-
-
-3. Attendee will get the screen with the lab guide, Environment Details (Azure Credentials), etc. on the Right Side and Virtual Machine on the Left. 
-
-` `![](appmod.005.png) 
-
-
-
+    ![Cloudlabsportal](./images/appmod-RdpoverHttps.png "Environment") 
 
 
 How to find the **UniqueID** Value: 
@@ -460,8 +414,4 @@ Attendee can find the service principal details by navigating to **Environment 
 
 
 ![](appmod.020.png) 
-
-
-
-
 
