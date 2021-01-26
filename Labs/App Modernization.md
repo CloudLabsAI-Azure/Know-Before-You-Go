@@ -322,7 +322,7 @@ After performing each exercise, the attendees are asked to run validation for th
 
 
 
-**Help Tab** 
+### Help Tab
 
 1. Expand **More** button on the right and click on **Help**.  
 
@@ -333,14 +333,14 @@ After performing each exercise, the attendees are asked to run validation for th
     ![Cloudlabsportal](./images/appmod-helptab-2.png "Helptab")
 
 
-**Split Window** 
+### Split Window
 
 - Split window will open the lab guide in new Window by providing the only virtual machine on the current window. 
 
     ![Cloudlabsportal](./images/appmod-splitwindow.png "splitwindow")
  
 
-**Collapse Window** 
+### Collapse Window
 
 1. Collapse button will collapse the lab guide window and provides the full view of the virtual machine.  
 
