@@ -308,7 +308,7 @@ After performing each exercise, the attendees are asked to run validation for th
 
 1. Instructor share the bit.ly link and activation code during the event to attendees. 
 
-             DO NOT share the activation details prior to session (Lab Start time) 
+       >DO NOT share the activation details prior to session (Lab Start time) 
 
 1. All attendees activate the lab instance using the same activation code. 
 
@@ -341,5 +341,5 @@ Attendee can find the UniqueID value by navigating to **Environment Details**
 
 Attendee can find the service principal details by navigating to **Environment Details** page then selecting Service Principal tab. 
 
-   ![Cloudlabsportal](./images/serviceprincipal.png "Environment")
+   ![Cloudlabsportal](./images/appmod-spdetails.png "Environment")
 
