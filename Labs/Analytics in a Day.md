@@ -338,6 +338,8 @@ After performing each exercise, the attendees are asked to run validation for th
            - Worskpace name : select the workspace **PowerBIWorkspace{Uniqueid}** from the dropdown.
 
          ![Linked service](./images/AIAD-powerbi-6.png "Linked service")
+	 
+     8. Once created, click on **PunlishAll** then **publish**.
          
 1. Exercise 3: Power BI integration 
 
