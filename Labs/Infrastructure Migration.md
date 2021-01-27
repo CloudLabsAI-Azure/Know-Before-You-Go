@@ -12,7 +12,7 @@
 - [Help Tab](#help-tab)
 - [Split Window](#split-window)
 - [Collapse Window](#collapse-window)
-- [Resources that are provided as pre-requisites ](#resourcesthat-are-provided-as-pre-requisites)
+- [Resources that are provided as pre-requisites ](#resources-that-are-provided-as-pre-requisites)
 - [LAB CONTENTS](#lab-contents)
 - [Lab validation](#lab-validation)
 - [Known Issues and workarounds ](#known-issues-and-workarounds)
