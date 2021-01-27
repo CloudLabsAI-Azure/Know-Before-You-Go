@@ -10,10 +10,10 @@
 - [Instructor Azure Portal Access ](#instructor-azure-portal-access)
 - [What do the attendees get when they sign up for the environment](#What-do-the-attendees-get-when-they-sign-up-for-the-environment)
 - [Resources that are provided as pre-requisites ](#resourcesthat-are-provided-as-pre-requisites)
-- [Lab Contents](#lab-contents)
 - [Help Tab](#help-tab)
 - [Split Window](#split-window)
 - [Collapse Window](#collapse-window)
+- [Lab Contents](#lab-contents)
 - [Lab validation](#lab-validation)
 - [Known Issues and workarounds ](#known-issues-and-workarounds)
 - [FAQ'S](#faqs)
@@ -306,7 +306,6 @@ After performing each exercise, the attendees are asked to run validation for th
 #### How to access lab environment 
 
 
-
 1. Instructor share the bit.ly link and activation code during the event to attendees. 
 
              DO NOT share the activation details prior to session (Lab Start time) 
@@ -315,14 +314,13 @@ After performing each exercise, the attendees are asked to run validation for th
 
     ![Cloudlabsportal](./images/appmod-Environment-1.png "Environment")
     
-- Attendee will navigate to the bit.ly link and provide the required details. 
+1. Attendee will navigate to the bit.ly link and provide the required details. 
 
-- Its mandatory to give company email address and actual organization name. 
+1. Its mandatory to give company email address and actual organization name. 
 
     ![Cloudlabsportal](./images/appmod-Environment-2.png "Environment")
 
-- Once lab instance is assigned, details are also sent to attendee via email from [noreply@cloudlabs.ai 
-  ](mailto:noreply@cloudlabs.ai) 
+1. Once lab instance is assigned, details are also sent to attendee via email from [noreply@cloudlabs.ai ](mailto:noreply@cloudlabs.ai) 
   
 1. Once attendee register using Lab activation details, he will click on **Launch Lab** to get started with the lab. 
 
@@ -333,13 +331,13 @@ After performing each exercise, the attendees are asked to run validation for th
     ![Cloudlabsportal](./images/appmod-RdpoverHttps.png "Environment") 
 
 
-How to find the **UniqueID** Value: 
+#### How to find the **UniqueID** Value: 
 
 Attendee can find the UniqueID value by navigating to **Environment Details** page then selecting Azure Credentials tab. 
 
    ![Cloudlabsportal](./images/appmod-suffix.png "Environment")
 
-How to find the **SERVICE PRINCIPAL** Details: 
+#### How to find the **SERVICE PRINCIPAL** Details: 
 
 Attendee can find the service principal details by navigating to **Environment Details** page then selecting Service Principal tab. 
 
