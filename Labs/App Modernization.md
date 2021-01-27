@@ -10,12 +10,12 @@
 - [Instructor Azure Portal Access ](#instructor-azure-portal-access)
 - [What do the attendees get when they sign up for the environment](#What-do-the-attendees-get-when-they-sign-up-for-the-environment)
 - [Resources that are provided as pre-requisites ](#resourcesthat-are-provided-as-pre-requisites)
-- [LAB CONTENTS](#lab-contents)
+- [Lab Contents](#lab-contents)
 - [Help Tab](#help-tab)
 - [Split Window](#split-window)
 - [Collapse Window](#collapse-window)
 - [Lab validation](#lab-validation)
-- [Known Issues and workarounds ](#known-issues-and-workarounds)
+- [Known Issues and workarounds ](#known-issues-and-workarounds)https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/App%20Modernization.md#known-issuesworkarounds
 - [FAQ'S](#faqs)
 
 ## How to navigate to the cloud labs portal
@@ -295,7 +295,7 @@ After performing each exercise, the attendees are asked to run validation for th
 
 #### Average time taken to complete the lab: 8 hours 
 
-### Known Issues/Workarounds 
+### Known Issues and workarounds 
 
 
 
