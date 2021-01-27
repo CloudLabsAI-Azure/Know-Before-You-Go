@@ -15,7 +15,7 @@
 - [Split Window](#split-window)
 - [Collapse Window](#collapse-window)
 - [Lab validation](#lab-validation)
-- [Known Issues and workarounds ](#known-issues-and-workarounds)https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/App%20Modernization.md#known-issuesworkarounds
+- [Known Issues and workarounds ](#known-issues-and-workarounds)
 - [FAQ'S](#faqs)
 
 ## How to navigate to the cloud labs portal
