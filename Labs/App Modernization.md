@@ -290,7 +290,7 @@ After performing each exercise, the attendees are asked to run validation for th
 
 2. Attendee can get back the lab guide when needed by clicking on Expand button. 
 
-    ![Cloudlabsportal](./images/appmod-collapsewindow-1.png "collapsewindow")
+    ![Cloudlabsportal](./images/appmod-collapsewindow-2.png "collapsewindow")
     
 
 #### Average time taken to complete the lab: 8 hours 
