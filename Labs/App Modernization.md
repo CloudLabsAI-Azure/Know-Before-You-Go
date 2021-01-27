@@ -207,7 +207,6 @@ Once the attendee login to the Azure portal, following are the Pre-deployed re
 ### Lab Contents 
 
 
-
 **Exercise 1: Migrate the on-premises database to Azure SQL Database** 
 
 In this exercise, attendee will use the Microsoft Data Migration Assistant (DMA) to assess the ContosoInsurance database for a migration to Azure SQL Database.  
@@ -247,7 +246,6 @@ In this exercise, attendee will configure the cognitive search for the poli
 **Exercise 9: Create an app in PowerApps** 
 
 In this exercise, attendee will a new app in PowerApps, which connects to the ContosoInsurance database and performs basic CRUD (Create, Read, Update, and Delete) operations against the Policies table. 
-
 
 
 ### Lab validation
@@ -297,10 +295,18 @@ After performing each exercise, the attendees are asked to run validation for th
 
 ### Known Issues and workarounds 
 
-Whenever attendee is asked to provide value for **UniqueID**, it should be replaced with value which can be found from the Environment Details page. Not providing the UniqueID value will lead to 
-     - **Deployment issues** while deploying new resources, 
-     - **Connection issues:** while connecting to database using **Microsoft SQL Server Management Studio 17(SSMS)** and** while performing **Database Assessment and Database Migration**. 
+#### Important!
 
+- Whenever attendee is asked to provide value for **UniqueID**, it should be replaced with value which can be found from the Environment Details page. Not providing the UniqueID value will lead to 
+     - **Deployment issues** : while deploying new resources, 
+     - **Connection issues** : while connecting to database using **Microsoft SQL Server Management Studio 17(SSMS)** and** while performing **Database Assessment and Database Migration**. 
+
+#### Exercise 3 Task 4 Step4:
+
+- While running the command to assign permissions to your service principal to read Secrets from Key Vault, make sure to replace the following values.
+
+    - your-key-vault-name : **contoso-kv-UniqueId** ( You can find the UniqueID value by navigating to **Environment Details** page then selecting **Azure Credentials** tab)
+    - http://contoso-apps :  **application id** ( You can find the service principal details by navigating to **Environment Details** page then selecting **Service Principal** tab)
 
 ## FAQ’S: 
 
@@ -334,13 +340,13 @@ Whenever attendee is asked to provide value for **UniqueID**, it should be repla
 
 #### How to find the **UniqueID** Value: 
 
-Attendee can find the UniqueID value by navigating to **Environment Details** page then selecting Azure Credentials tab. 
+Attendee can find the UniqueID value by navigating to **Environment Details** page then selecting **Azure Credentials** tab. 
 
    ![Cloudlabsportal](./images/appmod-suffix.png "Environment")
 
 #### How to find the **SERVICE PRINCIPAL** Details: 
 
-Attendee can find the service principal details by navigating to **Environment Details** page then selecting Service Principal tab. 
+Attendee can find the service principal details by navigating to **Environment Details** page then selecting **Service Principal** tab. 
 
    ![Cloudlabsportal](./images/appmod-spdetails.png "Environment")
 
