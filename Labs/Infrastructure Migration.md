@@ -265,7 +265,7 @@ After performing each exercise, the attendees are asked to run validation for th
 
 #### Average time taken to complete the lab: 8 hours 
 
-## Known issues 
+## Known issues and workarounds
 
 ### Important!! 
 
