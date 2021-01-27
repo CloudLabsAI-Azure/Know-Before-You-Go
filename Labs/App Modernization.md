@@ -306,11 +306,11 @@ After performing each exercise, the attendees are asked to run validation for th
 #### How to access lab environment 
 
 
-1. Instructor share the bit.ly link and activation code during the event to attendees. 
+1. Instructor share the bit.ly link and activation code during the event to attendees. 
 
-       >DO NOT share the activation details prior to session (Lab Start time) 
+    DO NOT share the activation details prior to session (Lab Start time) 
 
-1. All attendees activate the lab instance using the same activation code. 
+1. All attendees activate the lab instance using the same activation code. 
 
     ![Cloudlabsportal](./images/appmod-Environment-1.png "Environment")
     
