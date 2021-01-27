@@ -13,7 +13,7 @@
 - [Split Window](#split-window)
 - [Collapse Window](#collapse-window)
 - [Resources that are provided as pre-requisites ](#resourcesthat-are-provided-as-pre-requisites)
-- [LAB CONTENTS](#lab-contents)
+- [Lab Contents](#lab-contents)
 - [Lab validation](#lab-validation)
 - [Known Issues and workarounds ](#known-issues-and-workarounds)
 - [FAQ'S](#faqs)
