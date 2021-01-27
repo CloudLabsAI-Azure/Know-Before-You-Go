@@ -142,90 +142,40 @@ The approximate Duration for deploying a single environment would be 35 minutes
 
 ### What do the attendees get when they sign up for the environment?  
 
-- As soon as attendee’s environment is deployed, he will be able to see the Lab Description page.  
+1. As soon as the attendee’s environment is deployed, he will be able to see a virtual machine on the left which will be used to perform the lab. 
 
+ 1. On the right, Attendee will be able to find 
 
+     1. A lab guide, which should be followed to perform the lab.  
 
-![](appmod.001.png) 
+          - Attendee can see the number on lab guide bottom area to switch to different exercises of lab guide.  
 
-
-
-- From the Environment Details tab, attendees can find the Azure Credentials, Virtual Machine Credentials, Service Principal details and other details that are required to perform the lab. 
-
-![](appmod.002.png) 
-
-- Scroll down on the Environment Details page and click on the LabVM**-Suffix**   button to login to the Lab VM. 
-
-
-
-![](appmod.003.png) 
-
-
-
-- Then attendee will be able to see a virtual machine in the left to perform the lab and a lab guide in the right which need to be followed throughout the lab. 
-
-
-
-![](appmod.004.png) 
-
-
-
-- Scroll down on the Environment Details page and click on the **GO TO SQL2008-Suffix** button to login to the SQL server VM.  
-
-
-
-![](appmod.003.png) 
-
-
-
-- Then attendee will be able to see a virtual machine in the left to perform the lab and a lab guide in the right which need to be followed throughout the lab. 
-
-
-
-![](appmod.005.png) 
-
-- Attendee can see the number on lab guide bottom area to switch to different exercises of lab guide.  
-- Attendee can also navigate to previous and next exercise using **Previous** and **Next** button. 
-
-
-
-![](appmod.005.png) 
-
-
-
-
-
-- From the Virtual Machines tab, attendee can find the available virtual machines, their status (running, pending or deallocated), Uptime, DNS name and can also perform some actions on them. 
-
-
-
-![](appmod.006.png)  
-
-
-
-- Attendee can also perform the following operations on the virtual machine. 
-
-
-
-                 1. Start 
-
-                 2. Restart 
+          - Attendee can also navigate to previous and next exercise using Previous and Next button. 
+             
+         ![Cloudlabsportal](./images/appmod-Environment-4.png "Environment") 
+           
+     1. Environment Details which include user credentials (Azure Credentials), Virtual Machine Credentials and other details. 
      
-                 3. Stop and 
+         ![Cloudlabsportal](./images/appmod-Environment-5.png "Environment") 
 
-                 4. Open the virtual machine in new tab. 
+     1. Virtual Machines tab, attendee can find the available virtual machines, their status (running, pending or deallocated), Uptime and can also perform some actions on them.
 
+         ![Cloudlabsportal](./images/appmod-Environment-6.png "Environment") 
 
+          - Attendee can also perform the following operations on the virtual machine. 
 
-![](appmod.007.png) 
+               1. Start 
 
+               2. Restart and
 
+               3. Stop  
 
-- From the Lab Validation tab, attendees can run validation for each exercise after performing it. 
+          ![Cloudlabsportal](./images/appmod-Environment-7.png "Environment") 
+          
+     1. From the Lab Validation tab, attendees can run validation for each exercise after performing it. 
 
+          ![Cloudlabsportal](./images/appmod-Environment-8.png "Environment")  
 
-
-![](appmod.008.png) 
 
 
 ### Resources that are provided as pre-requisites. 
@@ -306,21 +256,13 @@ After performing each exercise, the attendees are asked to run validation for th
 
 1. Expand lab validation details and click on validate button. 
 
-
-
-![](appmod.009.png) 
-
-
+    ![Cloudlabsportal](./images/appmod-labvalidation-1.png "labvalidation")
 
 2. Attendees can find the validation status either Succeeded or failed under status tab 
 
-`                  `If the validation fails, it will give the error message regarding why the validation has failed so that attendee can find the mistake which he committed and rectify it accordingly. 
-
-
-
-`   `![](appmod.010.png) 
-
-
+      - If the validation fails, it will give the error message regarding why the validation has failed so that attendee can find the mistake which he committed and rectify it accordingly. 
+      
+    ![Cloudlabsportal](./images/appmod-labvalidation-2.png "labvalidation")
 
 ### Help Tab
 
