@@ -338,9 +338,9 @@ he can wait for 5-10 minutes and refresh the browser the attendee will be able t
 
     - Virtual Network: 10 – 20 secs 
 
-    - Replication of Virtual machines: 10 – 15 mins 
+    - Replication of Virtual machines: 5 – 10 mins 
 
-    - Migration of Virtual machines: 5 – 10 mins 
+    - Migration of Virtual machines: 15 – 20 mins 
 
     - Bastion: 4 – 5 minutes 
 
