@@ -242,7 +242,7 @@ The approximate Duration for deploying a single environment would be 120 minutes
 
     - Machine Learning workspace: amlWorkspaceNameUniqueID 
 
-  - In the upper left corner of the portal window, click the toggle menu icon and then click on **Resource groups,** then select the **SmartHotelHostRG** resource group and view the pre-deployed resources**.** 
+ - In the upper left corner of the portal window, click the toggle menu icon and then click on **Resource groups,** then select the **SmartHotelHostRG** resource group and view the pre-deployed resources**.** 
 
 ### LAB CONTENTS
 
