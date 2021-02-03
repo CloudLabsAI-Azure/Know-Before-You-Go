@@ -259,3 +259,74 @@ Once the attendee logs in to the Azure portal, the following are the Pre-deploye
 **AI, Experience 6 - MLOps with Azure Machine Learning and Azure DevOps**
 
 - In this experience, attendee will learn how to use MLOps to formalize the process of training and deploying new models using the DevOps approach.
+
+### Lab validation
+
+After performing each exercise, the attendees are asked to run validation for the tasks provided to ensure that the expected output is obtained. 
+
+1. Expand lab validation details and click on the validate button. 
+
+    ![Cloudlabsportal](./images/InfrastrureMigration-labvalidation-1.png "labvalidation")
+
+2. Attendees can find the validation status either Success or failed under status tab. 
+
+    - If the validation fails, it will give the error message regarding why the validation has failed so that the attendee can find the mistake which he committed and rectify it accordingly. 
+
+    ![Cloudlabsportal](./images/InfrastrureMigration-labvalidation-2.png "labvalidation") 
+
+#### Average time taken to complete the lab: 8 hours 
+
+## Known issues and workarounds
+
+### Important!! 
+
+Whenever attendee is asked to provide value for **SUFFIX**, it should be replaced with value which can be found from the Environment Details page. Not providing the SUFFIX value will lead to **Deployment issues** while deploying new resources. 
+
+Wherever attendee is asked to provide value for **Location** same as your Azure SQL Database, make sure to select the same region because selecting the different region will not allow the replication and migration of resources. 
+
+Exercise1 Task2 Step2: 
+
+If an attendee is not able to see the virtual machines in the Hyper-V manager  
+
+   ![Cloudlabsportal](./images/InfrastrureMigration-issue.png "Environment")
+
+he can wait for 5-10 minutes and refresh the browser the attendee will be able to see the 4 virtual machines in the Hyper-V manager. 
+
+
+## FAQ’s 
+
+
+#### How to access lab environment
+
+1. Instructor share the bit.ly link and activation code during the event to attendees. 
+
+    DO NOT share the activation details prior to session (Lab Start time) 
+
+1. All attendees activate the lab instance using the same activation code. 
+
+    ![Cloudlabsportal](./images/InfrastrureMigration-Envrionment6.png "Environment")
+
+1. Attendee will navigate to the bit.ly link and provide the required details. 
+
+1. Its mandatory to give company email address and actual organization name. 
+
+    ![Cloudlabsportal](./images/InfrastrureMigration-Envrionment7.png "Environment")
+        
+1. Once lab instance is assigned, details are also sent to attendee via email from [noreply@cloudlabs.ai 
+  ](mailto:noreply@cloudlabs.ai) 
+  
+1. Once attendee register using Lab activation details, he will click on Launch Lab to get started with the lab. 
+
+   ![Cloudlabsportal](./images/InfrastrureMigration-Envrionment8.png "Environment")
+    
+1. Once the deployment is succeeded, attendee will get the screen with the lab guide, Environment Details (Azure Credentials), etc. on the Right Side and Virtual Machine on the Left. 
+
+    ![Cloudlabsportal](./images/InfrastrureMigration-RdpoverHttps.png "Environment") 
+    
+
+#### How to find the **SUFFIX** Value:
+
+- Attendee can find the **Suffix** value by navigating to **Environment Details** page. 
+
+    ![Cloudlabsportal](./images/InfrastrureMigration-suffix.png "Environment")
+
