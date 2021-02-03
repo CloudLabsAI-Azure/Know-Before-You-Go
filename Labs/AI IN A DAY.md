@@ -14,7 +14,6 @@
 - [Collapse Window](#collapse-window)
 - [Resources that are provided as pre-requisites ](#resources-that-are-provided-as-pre-requisites)
 - [Lab Contents](#lab-contents)
-- [Lab validation](#lab-validation)
 - [Known Issues and workarounds ](#known-issues-and-workarounds)
 - [FAQ'S](#faqs)
 
@@ -310,6 +309,3 @@ Wherever attendee is asked to provide value for **Location** same as your Azure 
 #### How to find the **SUFFIX** Value:
 
 - Attendee can find the **Suffix** value by navigating to **Environment Details** page. 
-
-        ![Cloudlabsportal](./images/InfrastrureMigration-suffix.png "Environment")
-
