@@ -212,23 +212,35 @@ The approximate Duration for deploying a single environment would be 120 minutes
 
 ## Resources that are provided as pre-requisites. 
 
-Once the attendee logs in to the Azure portal, the following are the Pre-deployed resources that are provided to the attendees to perform the lab. 
+- Once the attendee logs in to the Azure portal, the following are the Pre-deployed resources that are provided to the attendees to perform the lab. 
 
-   - Resource Groups: 
-      - AzureMigrateRG 
-      - SmartHotelDBRG 
-      - SmartHotelHostRG 
-      - SmartHotelRG and 
-      - BastionRG 
-      - NetworkWatcherRG 
+    - Resource Group: hands-on-lab-UniqueID 
 
-   - Resources deployed in SmartHotelHostRG : 
+    - Virtual machine: VM-UniqueID and  
 
-      - Virtual machine:  SmarthostSuffix 
-      - Virtual Network: smarthotelhostvnet, DMSvnet 
-      - Networksecuritygroup: smarthotelhostnsg 
-      - NetworkInterfaces: smarthotelhostnic 
-      - publicIpAddress: smarthotelhostip 
+    - virtualNetwork: vNet1 
+
+    - Networksecuritygroup: nsg-jumpvm 
+
+    - NetworkInterfaces : jumpvmnic 
+
+    - publicIpAddress: pip-jumpvm 
+
+    - Storage account: techimmersionstrgUniqueID, mlstrgUniqueID 
+
+    - CognitiveService: tech-immersion-translator, tech-immersion-cogserv, tech-immersion-form-recog-UniqueID, tech-immersion-anomaly-detector-UniqueID, techimmersion UniqueID 
+
+    - Cosmosdb: tech-immersionUniqueID 
+
+    - Functionapp: ti-function-day2-UniqueID 
+
+    - Keyvault: tech-immersion-kv-UniqueID 
+
+    - Appinsight: tech-immersion-appinsight-UniqueID, techimmersionaisightUniqueID 
+
+    - ContainerRegistry: techimmersioncrUniqueID 
+
+    - Machine Learning workspace: amlWorkspaceNameUniqueID 
 
   - In the upper left corner of the portal window, click the toggle menu icon and then click on **Resource groups,** then select the **SmartHotelHostRG** resource group and view the pre-deployed resources**.** 
 
@@ -252,9 +264,9 @@ Once the attendee logs in to the Azure portal, the following are the Pre-deploye
 
 - The machine learning pipeline in this QuickStart is organized into three steps: 
 
-         - Pre-process Training and Input Data 
-         - Model Training 
-         - Model Inference  
+     1. Pre-process Training and Input Data 
+     2. Model Training 
+     3. Model Inference  
 
 **AI, Experience 6 - MLOps with Azure Machine Learning and Azure DevOps**
 
