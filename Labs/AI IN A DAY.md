@@ -309,3 +309,9 @@ Wherever attendee is asked to provide value for **Location** same as your Azure 
 #### How to find the **SUFFIX** Value:
 
 - Attendee can find the **Suffix** value by navigating to **Environment Details** page. 
+
+#### How to find the **SERVICE PRINCIPAL** Details: 
+
+Attendee can find the service principal details by navigating to **Environment Details** page then selecting **Service Principal** tab. 
+
+   ![Cloudlabsportal](./images/Ai-in-a-day-spdetails.png "Environment")
