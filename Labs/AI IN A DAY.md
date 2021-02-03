@@ -113,13 +113,13 @@
 
 - With RDP OVER HTTPS and integrated doc rendering, attendees will be able see the virtual machine and lab guide on the same screen which makes easier to perform the lab.  
 
-   ![Cloudlabsportal](./images/InfrastrureMigration-RdpoverHttps.png "Environment") 
+   ![Cloudlabsportal](./images/Ai-in-a-day-Rdpoverhttps.png "Environment") 
     
 ### VM Start/Stop  
 
 - Attendees can start/stop the Virtual Machine from the Virtual Machine tab. We have provided button to start/stop VM under Actions.  
 
-   ![Cloudlabsportal](./images/InfrastrureMigration-vmstartandstop.png "vmstartandstop") 
+   ![Cloudlabsportal](./images/Ai-in-a-day-vmstartandstop.png "vmstartandstop") 
     
 ### Instructor Azure Portal Access 
 
@@ -154,15 +154,15 @@ The approximate Duration for deploying a single environment would be 120 minutes
 
           - Attendee can also navigate to previous and next exercise using Previous and Next button. 
              
-         ![Cloudlabsportal](./images/InfrastrureMigration-Envrionment1.png "Environment") 
+         ![Cloudlabsportal](./images/Ai-in-a-day-Environment1.png "Environment") 
            
      1. Environment Details which include user credentials (Azure Credentials), Virtual Machine Credentials and other details. 
      
-         ![Cloudlabsportal](./images/InfrastrureMigration-Envrionment2.png "Environment") 
+         ![Cloudlabsportal](./images/Ai-in-a-day-Environment2.png "Environment") 
 
      1. Virtual Machines tab, attendee can find the available virtual machines, their status (running, pending or deallocated), Uptime and can also perform some actions on them.
 
-         ![Cloudlabsportal](./images/InfrastrureMigration-Envrionment3.png "Environment") 
+         ![Cloudlabsportal](./images/Ai-in-a-day-Environment3.png "Environment") 
 
           - Attendee can also perform the following operations on the virtual machine. 
 
@@ -172,11 +172,8 @@ The approximate Duration for deploying a single environment would be 120 minutes
 
                3. Stop  
 
-          ![Cloudlabsportal](./images/InfrastrureMigration-Envrionment4.png "Environment") 
-          
-     1. From the Lab Validation tab, attendees can run validation for each exercise after performing it. 
-
-          ![Cloudlabsportal](./images/InfrastrureMigration-labvalidation.png "Environment")  
+          ![Cloudlabsportal](./images/Ai-in-a-day-Environment3.1.png "Environment") 
+           
 
 ### Help Tab
 
@@ -316,24 +313,24 @@ he can wait for 5-10 minutes and refresh the browser the attendee will be able t
 
 1. All attendees activate the lab instance using the same activation code. 
 
-    ![Cloudlabsportal](./images/InfrastrureMigration-Envrionment6.png "Environment")
+    ![Cloudlabsportal](./images/Ai-in-a-day-Environment4.png "Environment")
 
 1. Attendee will navigate to the bit.ly link and provide the required details. 
 
 1. Its mandatory to give company email address and actual organization name. 
 
-    ![Cloudlabsportal](./images/InfrastrureMigration-Envrionment7.png "Environment")
+    ![Cloudlabsportal](./images/Ai-in-a-day-Environment5.png "Environment")
         
 1. Once lab instance is assigned, details are also sent to attendee via email from [noreply@cloudlabs.ai 
   ](mailto:noreply@cloudlabs.ai) 
   
 1. Once attendee register using Lab activation details, he will click on Launch Lab to get started with the lab. 
 
-   ![Cloudlabsportal](./images/InfrastrureMigration-Envrionment8.png "Environment")
+   ![Cloudlabsportal](./images/Ai-in-a-day-Environment6.png "Environment")
     
 1. Once the deployment is succeeded, attendee will get the screen with the lab guide, Environment Details (Azure Credentials), etc. on the Right Side and Virtual Machine on the Left. 
 
-    ![Cloudlabsportal](./images/InfrastrureMigration-RdpoverHttps.png "Environment") 
+    ![Cloudlabsportal](./images/Ai-in-a-day-Rdpoverhttps.png "Environment") 
     
 
 #### How to find the **SUFFIX** Value:
