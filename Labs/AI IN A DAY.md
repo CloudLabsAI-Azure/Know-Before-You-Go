@@ -140,7 +140,7 @@
 
 ## How much time does the environment take to get deployed? 
 
-The approximate Duration for deploying a single environment would be 120 minutes. 
+The approximate Duration for deploying a single environment would be 30 minutes. 
 
 ## What do the attendees get when they sign up for the environment.  
 
@@ -176,14 +176,10 @@ The approximate Duration for deploying a single environment would be 120 minutes
            
 
 ### Help Tab
-
-1. Expand **More** button on the right and click on **Help**.  
-
-    ![Cloudlabsportal](./images/InfrastrureMigration-Helptab1.png "Helptab")
     
-2. From Help tab, attendees can find the common issues such as copy-paste, pop-up visibility issues and solutions to resolve them. 
+1. From Help tab, attendees can find the common issues such as copy-paste, pop-up visibility issues and solutions to resolve them. 
 
-    ![Cloudlabsportal](./images/InfrastrureMigration-Helptab2.png "Helptab")
+    ![Cloudlabsportal](./images/Ai-in-a-day-Environment4.png "Helptab")
    
    
 ### Split Window
@@ -191,18 +187,18 @@ The approximate Duration for deploying a single environment would be 120 minutes
 
 - Split window will open the lab guide in new Window by providing the only virtual machine on the current window. 
 
-    ![Cloudlabsportal](./images/InfrastrureMigration-splitwindow.png "splitwindow")
+    ![Cloudlabsportal](./images/Ai-in-a-day-splitwindow.png "splitwindow")
 
 
 ### Collapse Window
 
 1. Collapse button will collapse the lab guide window and provides the full view of the virtual machine.  
 
-    ![Cloudlabsportal](./images/InfrastrureMigration-collapsewindow-1.png "collapsewindow")
+    ![Cloudlabsportal](./images/Ai-in-a-day-collapsewindow1.png "collapsewindow")
     
 2. Attendee can get back the lab guide when needed by clicking on Expand button. 
 
-    ![Cloudlabsportal](./images/InfrastrureMigration-collapsewindow-2.png "collapsewindow") 
+    ![Cloudlabsportal](./images/Ai-in-a-day-collapsewindow2.png "collapsewindow") 
 
 
 **Average time taken to complete the lab: 8 hours** 
@@ -269,20 +265,6 @@ The approximate Duration for deploying a single environment would be 120 minutes
 
 - In this experience, attendee will learn how to use MLOps to formalize the process of training and deploying new models using the DevOps approach.
 
-### Lab validation
-
-After performing each exercise, the attendees are asked to run validation for the tasks provided to ensure that the expected output is obtained. 
-
-1. Expand lab validation details and click on the validate button. 
-
-    ![Cloudlabsportal](./images/InfrastrureMigration-labvalidation-1.png "labvalidation")
-
-2. Attendees can find the validation status either Success or failed under status tab. 
-
-    - If the validation fails, it will give the error message regarding why the validation has failed so that the attendee can find the mistake which he committed and rectify it accordingly. 
-
-    ![Cloudlabsportal](./images/InfrastrureMigration-labvalidation-2.png "labvalidation") 
-
 #### Average time taken to complete the lab: 8 hours 
 
 ## Known issues and workarounds
@@ -292,14 +274,6 @@ After performing each exercise, the attendees are asked to run validation for th
 Whenever attendee is asked to provide value for **SUFFIX**, it should be replaced with value which can be found from the Environment Details page. Not providing the SUFFIX value will lead to **Deployment issues** while deploying new resources. 
 
 Wherever attendee is asked to provide value for **Location** same as your Azure SQL Database, make sure to select the same region because selecting the different region will not allow the replication and migration of resources. 
-
-Exercise1 Task2 Step2: 
-
-If an attendee is not able to see the virtual machines in the Hyper-V manager  
-
-   ![Cloudlabsportal](./images/InfrastrureMigration-issue.png "Environment")
-
-he can wait for 5-10 minutes and refresh the browser the attendee will be able to see the 4 virtual machines in the Hyper-V manager. 
 
 
 ## FAQ’s 
@@ -313,20 +287,20 @@ he can wait for 5-10 minutes and refresh the browser the attendee will be able t
 
 1. All attendees activate the lab instance using the same activation code. 
 
-    ![Cloudlabsportal](./images/Ai-in-a-day-Environment4.png "Environment")
+    ![Cloudlabsportal](./images/Ai-in-a-day-Environment5.png "Environment")
 
 1. Attendee will navigate to the bit.ly link and provide the required details. 
 
 1. Its mandatory to give company email address and actual organization name. 
 
-    ![Cloudlabsportal](./images/Ai-in-a-day-Environment5.png "Environment")
+    ![Cloudlabsportal](./images/Ai-in-a-day-Environment6.png "Environment")
         
 1. Once lab instance is assigned, details are also sent to attendee via email from [noreply@cloudlabs.ai 
   ](mailto:noreply@cloudlabs.ai) 
   
 1. Once attendee register using Lab activation details, he will click on Launch Lab to get started with the lab. 
 
-   ![Cloudlabsportal](./images/Ai-in-a-day-Environment6.png "Environment")
+   ![Cloudlabsportal](./images/Ai-in-a-day-Environment7.png "Environment")
     
 1. Once the deployment is succeeded, attendee will get the screen with the lab guide, Environment Details (Azure Credentials), etc. on the Right Side and Virtual Machine on the Left. 
 
@@ -337,5 +311,5 @@ he can wait for 5-10 minutes and refresh the browser the attendee will be able t
 
 - Attendee can find the **Suffix** value by navigating to **Environment Details** page. 
 
-    ![Cloudlabsportal](./images/InfrastrureMigration-suffix.png "Environment")
+        ![Cloudlabsportal](./images/InfrastrureMigration-suffix.png "Environment")
 
