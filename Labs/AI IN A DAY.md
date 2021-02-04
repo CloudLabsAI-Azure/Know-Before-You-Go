@@ -305,7 +305,7 @@ Whenever attendee is asked to provide values for **Resource group**, **Machine l
 
 #### How to find the **SUFFIX** Value:
 
-- Attendee can find the **Suffix** value by navigating to **Environment Details** page. 
+- Attendee can find the **Suffix** value by navigating to **Environment Details** page then selecting **Azure Credentails** tab. 
 
 #### How to find the **SERVICE PRINCIPAL** Details: 
 
