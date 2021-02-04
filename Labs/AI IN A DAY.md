@@ -268,11 +268,9 @@ The approximate Duration for deploying a single environment would be 30 minutes.
 
 ## Known issues and workarounds
 
-### Important!! 
+### Important!!
 
-Whenever attendee is asked to provide value for **SUFFIX**, it should be replaced with value which can be found from the Environment Details page. Not providing the SUFFIX value will lead to **Deployment issues** while deploying new resources. 
-
-Wherever attendee is asked to provide values for **Resource group**, **Machine learning Wrokspace** and **Subscription Id**, make sure you proivde the correct values, you can find the values from the Environment Details page
+Whenever attendee is asked to provide values for **Resource group**, **Machine learning Workspace** and **Subscription Id**, make sure you proivde the correct values, you can find the values from the Environment Details page.  Not providing the correct values will lead to **Deployment issues** while deploying new resources. 
 
 ## FAQ’s 
 
