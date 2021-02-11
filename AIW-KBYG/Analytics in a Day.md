@@ -39,6 +39,12 @@
       
            ![Linked service](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/AIAD-integratedenv.png?raw=true "Linked service")
 
+      
+1. Exercise 2 Task 2 : **Enrich Customer Data** data flow execution failure.
+
+    - If **Enrich Customer Data** data flow execution fails due to vcore quota issue, attendee can rerun the data flow execution as it is a temporary issue.
+    
+    
 1. Exercise 3 Task 2 - Create a Power BI report in Synapse  
 
    If attendee is not able to see a list of data fields under Fields, follow the steps 1-14 given in the lab guide after step 2.
@@ -47,7 +53,7 @@
 
      Sometimes the PowerBI licence does not get assigned automatically and attendee will be unable to find the PowerBI option under Develop hub in Synapse Analytics Workspace.
      
-      ![Linked service](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/AIAD-powerbi-1.png?raw=true "Linked service")
+      ![Linked service](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/AIAD-powerbi-7.png?raw=true "Linked service")
      
      Attendee can follow the below steps to trobuleshoot the issue by create a new Power BI workpace and linked service:
      
@@ -90,3 +96,4 @@
 1. Attendee will not be able to perform **Exercise 5 - Data Science with Azure Synapse Spark** as it is **Read-Only** exercise.
 
       - Even though synapse workspace is generally available now ,the PREDICT function is still in **private preview** and needs explicit whitelisting so the Exercise 5 is **READONLY** and attendee won't be able to  perform this exercise
+
