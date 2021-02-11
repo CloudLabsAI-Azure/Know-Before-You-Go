@@ -42,6 +42,8 @@
       
 1. Exercise 2 Task 2 : **Enrich Customer Data** data flow execution failure.
 
+    ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/AIAD-coreissue.png?raw=true)
+
     - If **Enrich Customer Data** data flow execution fails due to vcore quota issue, attendee can rerun the data flow execution as it is a temporary issue.
     
 1. Exercise 3 Task 2 - Create a Power BI report in Synapse  
