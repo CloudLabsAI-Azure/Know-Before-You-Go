@@ -34,7 +34,7 @@
       1. Attendee needs to reset the zoom level accordingly so that he will be able to see the options and provide values accordingly.
       1. Attendee can click on more button (**...**), then he will be able to see the options and provide values accordingly.
       
-           ![Linked service](./images/AIAD-integratedenv.png "Linked service")
+           ![Linked service](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/AIAD-integratedenv.png?raw=true "Linked service")
 
 1. Exercise 3 Task 2 - Create a Power BI report in Synapse  
 
@@ -47,23 +47,23 @@
      1. Navigate to PowerBI Portal  www.powerbi.com 
      2. Sign in using the Azure Credentials, you can find the Credentials from the **Environment Details** tab.
      
-          ![Linked service](./images/AIAD-powerbi-1.png "Linked service")
+          ![Linked service](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/AIAD-powerbi-1.png?raw=true "Linked service")
               
      3. From the left-hand side menu, select **Workspaces** then click on **Create a workspace**.
      
-         ![Linked service](./images/AIAD-powerbi-2.png "Linked service")
+         ![Linked service](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/AIAD-powerbi-2.png?raw=true "Linked service")
      
      4. Provide worskpace name as **PowerBIWorkspace{Uniqueid}** and click on **Save**. You can find the **Uniqueid** from the **Environment Details** tab.
      
-         ![Linked service](./images/AIAD-powerbi-3.png "Linked service")
+         ![Linked service](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/AIAD-powerbi-3.png?raw=true "Linked service")
          
      5. Launch Synapse studio, select **Manage** from the left-hand side menu and click on **Linked services**.
      
-         ![Linked service](./images/AIAD-powerbi-4.png "Linked service")
+         ![Linked service](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/AIAD-powerbi-4.png?raw=true "Linked service")
               
      6. Click on **+New**, serach for and slect **PowerBI** then click on **Continue**.
      
-         ![Linked service](./images/AIAD-powerbi-5.png "Linked service")
+         ![Linked service](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/AIAD-powerbi-5.png?raw=true "Linked service")
               
      7. On the **New linked service (Power BI)** blade, provide the following values and click on **Create**.
      
@@ -71,7 +71,7 @@
            - Tenant: select the tenant from the dropdown.
            - Worskpace name : select the workspace **PowerBIWorkspace{Uniqueid}** from the dropdown.
 
-         ![Linked service](./images/AIAD-powerbi-6.png "Linked service")
+         ![Linked service](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/AIAD-powerbi-6.png?raw=true "Linked service")
 	 
      8. Once created, click on **PunlishAll** then **publish**.
          
