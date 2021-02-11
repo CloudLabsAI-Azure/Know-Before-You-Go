@@ -42,9 +42,14 @@
 
 1. Exercise 3: Power BI integration 
 
-     Sometimes the PowerBI licence does not get assigned automatically. If the attendee is unable to find the PowerBI workspace, they can follow the below steps to create a new workpace:
+     Sometimes the PowerBI licence does not get assigned automatically and attendee will be unable to find the PowerBI option under Develop hub in Synapse Analytics Workspace.
+     
+      ![Linked service](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/AIAD-powerbi-1.png?raw=true "Linked service")
+     
+     Attendee can follow the below steps to trobuleshoot the issue by create a new Power BI workpace and linked service:
      
      1. Navigate to PowerBI Portal  www.powerbi.com 
+     
      2. Sign in using the Azure Credentials, you can find the Credentials from the **Environment Details** tab.
      
           ![Linked service](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/AIAD-powerbi-1.png?raw=true "Linked service")
@@ -79,6 +84,6 @@
 
     - Power BI desktop is already downloaded and installed in the virtual machine provided with the lab; the attendees do not have to download it again.
 
-1. Attendee will not be able to perform **Exercise 5 - Data Science with Azure Synapse Spark** as it is Read-Only exercise.
+1. Attendee will not be able to perform **Exercise 5 - Data Science with Azure Synapse Spark** as it is **Read-Only** exercise.
 
-      - Even though synapse workspace is generally available now ,the PREDICT function is still in private preview and needs explicit whitelisting so the Exercise 5 is READONLY AND attendee won't be able to  perform this exercise
+      - Even though synapse workspace is generally available now ,the PREDICT function is still in **private preview** and needs explicit whitelisting so the Exercise 5 is **READONLY** and attendee won't be able to  perform this exercise
