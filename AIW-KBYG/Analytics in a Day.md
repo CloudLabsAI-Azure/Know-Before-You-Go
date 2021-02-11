@@ -73,7 +73,7 @@
 
          ![Linked service](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/AIAD-powerbi-6.png?raw=true "Linked service")
 	 
-     8. Once created, click on **PunlishAll** then **publish**.
+     8. Once created, click on **PublishAll** then **publish**.
          
 1. Exercise 3: Power BI integration 
 
