@@ -4,7 +4,12 @@
 
 1. #### IMPORTANT!! 
 
-   - Whenever attendee is asked to provide value for SUFFIX, it should be replaced with value which can be found from the Environment Details page. Not providing the SUFFIX value will lead to **Deployment issues** while deploying new resources, **Connection issues:** while connecting to database using **Microsoft SQL Server Management Studio 17(SSMS)** and** while performing **Database Assessment and Database Migration**. 
+   - Whenever attendee is asked to provide value for SUFFIX, it should be replaced with value which can be found from the Environment Details page.
+   - Not providing the SUFFIX value will lead to 
+   
+        - **Deployment issues** while deploying new resources, 
+           
+        - **Connection issues:** while connecting to database using **Microsoft SQL Server Management Studio 17(SSMS)** and** while performing **Database Assessment and Database Migration**. 
 
 
 
