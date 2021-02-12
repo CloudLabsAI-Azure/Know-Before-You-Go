@@ -18,6 +18,8 @@
 1. #### Exercise 4 Task 5 Step 8: 
 
    - If you get the below web page after publishing Contoso.WebApi project instead of 'Page cannot be found' error message. 
+   
+        ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/appmodissue1.png?raw=true)
      
     Follow the below Stpes to resolve the issue
     
