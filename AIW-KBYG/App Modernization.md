@@ -28,16 +28,21 @@
     3. On the Add Access Policy dialog, enter the following: 
 
         •	Configure from template (optional): Leave blank. 
+        
         •	Key permissions: Leave set to 0 selected. 
+        
         •	Secret permissions: Select this, and then choose Get and List, to give yourself rights to manage secrets. 
+        
         •	Certificate permissions: Leave set to 0 selected. 
-        •	Select principal: From Lab Environment Tab, copy display name of Service Principal and paste in the search box and select it from the suggestions. Then choose Select. 
+        
+        •	Select principal: From the Environment Details Tab,  selecting **ServicePrincipal Details** tab and copy display name of Service Principal then paste in the search box and select it from the suggestions. Then choose Select.
+        
         •	Authorized application: Leave set to None selected. 
  
  
-Click on OK. 
+       Click on **Add**. 
  
-At last, click on Save on the Access policies toolbar. 
+    4. At last, click on Save on the Access policies toolbar. 
  
-Return to VSTS 2019, and publish the app again. 
+    5. Return to VSTS 2019, and publish the app again. 
  
