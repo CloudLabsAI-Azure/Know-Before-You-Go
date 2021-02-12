@@ -43,7 +43,7 @@
         
         •	Certificate permissions: Leave set to 0 selected. 
         
-        •	Select principal: From the Environment Details Tab,  selecting **ServicePrincipal Details** tab and copy display name of Service Principal then paste in the search box and select it from the suggestions. Then choose Select.
+        •	Select principal: From the **Environment Details** Tab,  selecting **ServicePrincipal Details** tab and copy **Display name** of Service Principal then paste in the search box and select it from the suggestions. Then choose **Select**.
         
           ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/appmodissue6.png?raw=true)
                 
