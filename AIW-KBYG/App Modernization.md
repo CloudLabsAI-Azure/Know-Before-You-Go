@@ -18,22 +18,21 @@
 1. #### Exercise 4 Task 5 Step 8: 
 
    - If you get the below web page after publishing Contoso.WebApi project instead of 'Page cannot be found' error message. 
-
-      
+     
     Follow the below Stpes to resolve the issue
     
     1. In the Azure portal, navigate to your Key Vault resource by selecting the hands-on-lab-SUFFIX resource group, and then selecting the contoso-kv-UniqueId Key vault resource from the list of resources.
     
-    1. On the Key Vault blade, select Access policies under Settings in the left-hand menu, and then select + Add Access Policy.
+    2. On the Key Vault blade, select Access policies under Settings in the left-hand menu, and then select + Add Access Policy.
  
-    - In Add Access Policy dialog, enter the following: 
+    3. On the Add Access Policy dialog, enter the following: 
 
-•	Configure from template (optional): Leave blank. 
-•	Key permissions: Leave set to 0 selected. 
-•	Secret permissions: Select this, and then choose Get and List, to give yourself rights to manage secrets. 
-•	Certificate permissions: Leave set to 0 selected. 
-•	Select principal: From Lab Environment Tab, copy display name of Service Principal and paste in the search box and select it from the suggestions. Then choose Select. 
-•	Authorized application: Leave set to None selected. 
+        •	Configure from template (optional): Leave blank. 
+        •	Key permissions: Leave set to 0 selected. 
+        •	Secret permissions: Select this, and then choose Get and List, to give yourself rights to manage secrets. 
+        •	Certificate permissions: Leave set to 0 selected. 
+        •	Select principal: From Lab Environment Tab, copy display name of Service Principal and paste in the search box and select it from the suggestions. Then choose Select. 
+        •	Authorized application: Leave set to None selected. 
  
  
 Click on OK. 
