@@ -51,7 +51,7 @@
 
    - If attendee is facing the issue as mentioned in the below screenshot. Follow any one of the provided solutions to resolve the issue. 
 
-        ![Cloudlabsportal](./images/Cloudnative-issue.png "Environment") 
+        ![Cloudlabsportal](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/Cloudnative-issue.png?raw=true "Environment") 
 
        - Then ask the attendee to click on the "user/profile" icon in the upper-right of the dashboard, select "Sign out", then sign back into the K8s dashboard and it will work again.  
 
@@ -59,9 +59,9 @@
 
 1. Issue in Exercise 2 Task 2 Step 4 
 
-   When adding migration project if attendee gets the error “the connection timed out. Possible reasons for this include 
+   When adding migration project if attendee gets the error the connection timed out. Possible reasons for this include 
 
-     - the address and/or port was not correct, or the server is not running.” its temporary issue wait for 5-10 minutes then retry again 
+     - the address and/or port was not correct, or the server is not running. its temporary issue wait for 5-10 minutes then retry again 
 
 1. Exercise 5 Task3 Step6: 
 
