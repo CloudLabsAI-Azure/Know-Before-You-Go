@@ -25,7 +25,11 @@
     
     1. In the Azure portal, navigate to your Key Vault resource by selecting the hands-on-lab-SUFFIX resource group, and then selecting the contoso-kv-UniqueId Key vault resource from the list of resources.
     
+         ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/appmodissue2.png?raw=true)
+            
     2. On the Key Vault blade, select Access policies under Settings in the left-hand menu, and then select + Add Access Policy.
+    
+        ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/appmodissue3.png?raw=true)
  
     3. On the Add Access Policy dialog, enter the following: 
 
@@ -35,14 +39,23 @@
         
         •	Secret permissions: Select this, and then choose Get and List, to give yourself rights to manage secrets. 
         
+         ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/appmodissue4.png?raw=true)
+        
         •	Certificate permissions: Leave set to 0 selected. 
         
         •	Select principal: From the Environment Details Tab,  selecting **ServicePrincipal Details** tab and copy display name of Service Principal then paste in the search box and select it from the suggestions. Then choose Select.
+        
+          ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/appmodissue6.png?raw=true)
+                
+          ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/appmodissue5.png?raw=true)
+                        
         
         •	Authorized application: Leave set to None selected. 
  
  
        Click on **Add**. 
+       
+         ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/appmodissue7.png?raw=true)
  
     4. At last, click on Save on the Access policies toolbar. 
  
