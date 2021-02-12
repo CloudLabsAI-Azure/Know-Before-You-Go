@@ -57,7 +57,7 @@
        
          ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/appmodissue7.png?raw=true)
  
-    4. At last, click on Save on the Access policies toolbar. 
+    4. At last, click on **Save** on the Access policies toolbar. 
  
     5. Return to VSTS 2019, and publish the app again. 
  
