@@ -98,7 +98,7 @@
 
       - Even though synapse workspace is generally available now ,the PREDICT function is still in **private preview** and needs explicit whitelisting so the Exercise 5 is **READONLY** and attendee won't be able to  perform this exercise.
 
-1. Copy-Paste Issue
+1. **Copy-Paste Issue**
 
     **If Copy paste doesn’t work, please try following:** 
 
@@ -112,7 +112,7 @@
       
       - Check on Network bandwidth in your local System/Laptop. 
 
-    If the above points don’t work, then directly connect to the Lab VM using Remote Desktop Connection using the **Credentials** provided in**Environment Details** page.  
+     If the above points don’t work, then directly connect to the Lab VM using Remote Desktop Connection using the **Credentials** provided in **Environment Details** page.  
 
       - Copy the **LabVM/JumpVM DNS Name, Username** and **Password** from **Environment details** page 
 
