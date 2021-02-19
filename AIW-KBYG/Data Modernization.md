@@ -23,6 +23,12 @@
 
    - Attendees can find the SUFFIX value from the Environment Details page. 
 
+1. #### Exercise2 Task5 Step15:
+
+  If the status of **WwiMigration** activity appears as either **Completed** then attendee can move on to the next task. Continue selecting Refresh every 5-10 seconds until you see the status change to **Completed**.
+  
+ If the status of **WwiMigration** activity appears as **Log shipping in progress** then attendee can select **WideWorldImporters** under database name to verify the status for **WideWorldImporters.bak** and **WideWorldImportersLog.trn** files, if the status is **Restored** for both the files then attendee can move on to the next task.
+
 1. #### Exercise4 Task1 step4:
 
    - Here attendee needs to select available subnet for the app service, if the attendee is not able to select any subnet then attendee needs to follow the next instructions to create the subnet. while creating the subnet users' needs to make sure the subnet address space is not overlapping other subnet's address space 
