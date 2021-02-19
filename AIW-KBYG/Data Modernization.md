@@ -25,9 +25,9 @@
 
 1. #### Exercise2 Task5 Step15:
 
-  If the status of **WwiMigration** activity appears as either **Completed** then attendee can move on to the next task. Continue selecting Refresh every 5-10 seconds until you see the status change to **Completed**.
+   - If the status of **WwiMigration** activity appears as **Completed** then attendee can move on to the next task. Attendee can select **Refresh** every 5-10 seconds until the status is being changed to **Completed**.
   
- If the status of **WwiMigration** activity appears as **Log shipping in progress** then attendee can select **WideWorldImporters** under database name to verify the status for **WideWorldImporters.bak** and **WideWorldImportersLog.trn** files, if the status is **Restored** for both the files then attendee can move on to the next task.
+   -  If the status of **WwiMigration** activity appears as **Log shipping in progress** then attendee can select **WideWorldImporters** under database name to verify the status for **WideWorldImporters.bak** and **WideWorldImportersLog.trn** files, if the status is **Restored** for both the files then attendee can move on to the next task.
 
 1. #### Exercise4 Task1 step4:
 
