@@ -23,6 +23,8 @@
 
    - Attendees can find the SUFFIX value from the Environment Details page. 
 
+    ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/suffix.png?raw=true)
+
 1. #### Exercise2 Task5 Step15:
 
    - If the status of **WwiMigration** activity appears as **Completed** then attendee can move on to the next task. Attendee can select **Refresh** every 5-10 seconds until the status is being changed to **Completed**.
