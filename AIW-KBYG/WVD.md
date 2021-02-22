@@ -55,6 +55,8 @@
 
        - file share: select Create new then provide name as fs{UniqueID} then create storage 
 
+        ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/wvd-issue5.png?raw=true)
+
        - Attendees can find the UniqueID value from the environment details page.  
 
 1. Exercise 5 Task 2 Step 2 
