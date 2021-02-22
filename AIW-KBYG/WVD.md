@@ -45,7 +45,7 @@
 
    - The attendee might get an error while signing into office, as the account cannot be used to activate office in a shared computer scenario. We can ignore this and proceed with the lab.  
 
-1. Exercise 4 Task 2 Step 2 
+1. Exercise 7 Task 2 Step 2 
 
    - While creating the storage account, make sure attendee provide the values as follows: 
 
