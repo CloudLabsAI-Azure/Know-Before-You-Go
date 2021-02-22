@@ -35,11 +35,15 @@
 
 1. Exercise 3 Task 1 Step 6 
 
-   - The user might get an error while signing into office, as the account cannot be used to activate office in a shared computer scenario. We can ignore this and proceed with the lab.  
+   - The attendee might get an error while signing into office, as the account cannot be used to activate office in a shared computer scenario. We can ignore this and proceed with the lab.  
 
-1. Exercise 4 Task 1 Step 13 
+1. Exercise 4 Task 1
+  
+   - Attendee should perform this exercise in their Own **PC/computer/workstation** not in the **JumpVM**. Peforming this exercise in **JumpVM** will cause connection issues when try to access the the published applications using WVD Desktop Client. 
 
-   - The user might get an error while signing into office, as the account cannot be used to activate office in a shared computer scenario. We can ignore this and proceed with the lab.  
+3. Exercise 4 Task 1 Step 13 
+
+   - The attendee might get an error while signing into office, as the account cannot be used to activate office in a shared computer scenario. We can ignore this and proceed with the lab.  
 
 1. Exercise 4 Task 2 Step 2 
 
