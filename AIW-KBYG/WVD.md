@@ -61,11 +61,13 @@
 
 1. Exercise 5 Task 2 Step 2 
 
-   - If attendee is not able to add the role assignment to file share: 
+   - If attendee is not able to add the role assignment to file share then: 
 
-   - Attendee should make sure that step 7 of task 1 of exercise 5 has been performed. 
+     - Attendee should make sure that step 7 of task 1 of exercise 5 has been performed. 
 
-       - “In the storage account, click on Configuration present under Settings blade. Then scroll down and find the option Active Directory Domain Services (Azure AD DS). Select Enabled for it.” 
+        - “In the storage account, click on Configuration present under Settings blade. Then scroll down and find the option Active Directory Domain Services (Azure AD DS). Select Enabled for it.” 
+
+        ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/wvd-issue6.png?raw=true)
 
 1. Exercise 5 Task 2 : Validation Failure 
 
