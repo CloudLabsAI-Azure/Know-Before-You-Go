@@ -37,6 +37,14 @@
 
    - Here attendee needs to select available subnet for the app service, if the attendee is not able to select any subnet then attendee needs to follow the next instructions to create the subnet. while creating the subnet users' needs to make sure the subnet address space is not overlapping other subnet's address space 
 
+1. #### Exercise2 Task5 Step5 :
+
+   Cannot connect to your SQL VM while creating the migration project **OnPremToSqlMi**. Follow below instructions to resolve the issue.
+      
+    1. In Mssqlserver disable the VIA
+    
+    1. Turn off the firewall in the SQL vm, if we don't want to turn off the firewall we can create an inbound rule to allow 1433 port
+
 1. **Copy-Paste Issue**
 
     **If Copy paste doesn’t work, please try following:** 
