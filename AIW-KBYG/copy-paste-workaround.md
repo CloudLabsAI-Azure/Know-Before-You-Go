@@ -14,41 +14,41 @@ If the above points don’t work, then directly connect to the Lab VM using Remo
 
 * Copy the **LabVM/JumpVM DNS Name, Username** and **Password** from **Environment details** page 
 
-![](https://raw.githubusercontent.com/Ritu786/Common-Issues/main/Images/02.png)
+![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-2.png)
 
 * Search for **Remote Desktop Connection** App from Start Menu items of your local Laptop/Desktop and then select the **Remote Desktop Connection** App. 
 
-![](https://raw.githubusercontent.com/Ritu786/Common-Issues/main/Images/03.png)
+![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-3.png)
 
 * Paste the **VM DNS Name** in Computer field and then, click on **Connect**. 
 
-![](https://raw.githubusercontent.com/Ritu786/Common-Issues/main/Images/04.png)
+![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-4.png)
 
 * Click on **More choices**.  
 
-![](https://raw.githubusercontent.com/Ritu786/Common-Issues/main/Images/12.png)
+![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-5.png)
 
 * Now, click on the **Use a different account**.
 
-![](https://raw.githubusercontent.com/Ritu786/Common-Issues/main/Images/06.png)
+![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-6.png)
 
 * Now, enter the **VM Admin username** and **password** which you have copied from Environment details page and click on **Ok** button. Please add dot and back-slash **“.\”** before the Admin username.  
 
-![](https://raw.githubusercontent.com/Ritu786/Common-Issues/main/Images/07.png)
+![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-7.png)
 
 * Next, click on the **Yes** button to accept the certificate and add in trusted certificates.  
 
-![](https://raw.githubusercontent.com/Ritu786/Common-Issues/main/Images/08.png)
+![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-8.png)
 
 * If **LabVM** opens on full screen, then you can **Restore Down** the window.  
 
-![](https://raw.githubusercontent.com/Ritu786/Common-Issues/main/Images/09.png)
+![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-9.png)
 
 * Split the Window from lab environment page to open the Lab guide in Separate Window. 
 
-![](https://raw.githubusercontent.com/Ritu786/Common-Issues/main/Images/10.png)
+![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-10.png)
 
 * Now, copy the lab environment URL from the list and open that inside the VM itself and then use the Vm on full screen. 
 
-![](https://raw.githubusercontent.com/Ritu786/Common-Issues/main/Images/11.png)
+![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-11.png)
 
