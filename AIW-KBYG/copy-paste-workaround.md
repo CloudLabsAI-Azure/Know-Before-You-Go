@@ -2,7 +2,7 @@
 
 * Please check if Clipboard permissions are on **Allow**, if not then change it to **Allow**.
 
-![](https://raw.githubusercontent.com/Ritu786/Common-Issues/main/Images/01.png)
+![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-1.png)
 
 * After allowing the clipboard content if you are not able to Copy the Content from lab Guide into the VM using copy button, then select the content which you want to copy from lab guide then right click > Copy to copy the content and then try to paste at desired location in Lab VM.
 
