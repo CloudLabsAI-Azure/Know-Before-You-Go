@@ -17,4 +17,4 @@
   Note: In Order to **Create New** Storage Account, we have to put unique name.
 	      Example : saDeployment-ID
         
-![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/AzureShell%202.png)
+![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/AzureShell%203.png)
