@@ -2,9 +2,9 @@
 
 * Please check if the cookies are enabled or not in your browser, if not then please **Enable**.
 
-*	Check if your browser is updated to latest version and if you are still facing the issue then please try in the different Browser.
+*	Check if your browser is updated to **latest version** and if you are still facing the issue then please try in the different Browser.
 
-*	Try to open the Lab Environment in Private/Incognito Window.
+*	Try to open the Lab Environment in **Private/Incognito** Window.
 
 *	Try to Restart the VM from the Lab Environment Page.
 
