@@ -16,10 +16,6 @@
 	Solution: Right click on the **ubuntu-k8s vm** from the Hyper-V Manager and then click on Delete Saved State and then start the VM from the Hyper-V Manager
 
 
-1. Attendee will not be able to perform **HOL 3: Exercise 2** as it is **Read-Only** exercise.
-
-      - There is an update going on with this exercise.
-
 1. **Copy-Paste Issue**
 
     **If Copy paste doesn’t work, please try following:** 
