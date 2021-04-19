@@ -22,7 +22,9 @@
 	
 	Solution: **Refresh** the browser tab
 	
-      There might be multiple notebooks open because of which this issue occurs usually ,Refresh will work and also users can cancel any existing spark applications if they are still running under Monitor section
+      - There might be multiple notebooks open because of which this issue occurs usually ,Refresh will work and also users can cancel any existing spark applications if they are still running under Monitor section.
+      
+      - Eventhough notebooks are not open, sometimes attendee might receive this error. Attendee can refresh and try to perform that step again.
       
 1. If **SQL Built in/on demand** is **Unreachable/Offline**, then
 
