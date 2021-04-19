@@ -98,7 +98,7 @@
 
 1. Attendee will not be able to perform **Exercise 5 - Data Science with Azure Synapse Spark** as it is **Read-Only** exercise.
 
-      - Even though synapse workspace is generally available now ,the PREDICT function is still in **private preview** and needs explicit whitelisting so the Exercise 5 is **READONLY** and attendee won't be able to  perform this exercise.
+      - Exercise 5 is currently Read only/Optional. Attendes can just go through it but will not be able to perform the steps as part of the lab.
 
 1. **Copy-Paste Issue**
 
