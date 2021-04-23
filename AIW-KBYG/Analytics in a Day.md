@@ -155,3 +155,9 @@
       - Now, copy the lab environment URL from the list and open that inside the VM itself and then use the Vm on full screen. 
 
           ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-11.png?raw=true) 
+
+1. Exercise 4  Task 1  Step 8 : **For the Legend (series) column, select CustomerKey**
+
+      - Synapse workspace dashboard gets blank, If you get this issue please reach out to [CloudLabs-support](cloudlabs-support@spektrasystems.com)
+
+	![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/AIAD-Environment9.png)
