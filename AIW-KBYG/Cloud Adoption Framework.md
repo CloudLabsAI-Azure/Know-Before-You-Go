@@ -6,7 +6,7 @@
 
   - Sometime Machine will take more than 40 minutes to appear on the screen, you have to wait till the VM appear on the screen.
 
-        ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/CAF%202.png)
+     ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/CAF%202.png)
 
 2. Exercise 4  Task 4 Step 4 : **Logs** in Log Analytics
 
