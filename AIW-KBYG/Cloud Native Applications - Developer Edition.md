@@ -6,6 +6,8 @@
 
 1. Attendees should make sure that they will go through every instruction properly while performing the before hands-on-lab. If at all the lab guide is not followed correctly, attendees will be facing issues in next part of the lab. 
 
+1. The Azure cloud shell can be unresponsive at times, we would suggest you to restart the cloudshell and try again.
+
 1. Yaml files 
 
    While **editing or inserting** the content into the yaml files, attendees should make sure they read the instructions properly and edit the files accordingly. It is better to cross check the files once, after editing and before saving them. 
@@ -41,27 +43,17 @@
      - Go to cloud shell and open content-web.yml by running the command vi content-web.yml.   
      - In the browser open a new tab and navigate to <https://raw.githubusercontent.com/CloudLabs-MCW/MCW-Cloud-native-applications/fix/Hands-on%20lab/content-web.yml>.   
      - Copy the content till the line ${{ env.containerRegistry }}/${{ env.imageRepository }}:latest, switch back to cloud shell and replace the existing content with the copied content. Make sure to replace [SUFFIX] with your DeploymentId.   
-     - Now redo the steps from 10-14. 
-     
-1. Issue while using Kubernetes Dashboard 
-
-   - If attendee lose the connection to Kubernetes dashboard, he should run the command again in Cloud Shell to re-establish the connection.  
-
-   - If the Kubernetes dashboard becomes unresponsive in the browser this is an indication to return cloud shell and check your tunnel or rerun the command. 
-
-   - If attendee is facing the issue as mentioned in the below screenshot. Follow any one of the provided solutions to resolve the issue. 
-
-        ![Cloudlabsportal](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/Cloudnative-issue.png?raw=true "Environment") 
-
-       - Then ask the attendee to click on the "user/profile" icon in the upper-right of the dashboard, select "Sign out", then sign back into the K8s dashboard and it will work again.  
-
-      - Restart the cloud shell and rerun the command to establish the connection then browse to the Kubernetes dashboard. 
-
+     - Now redo the steps from 10-14.      
+    
 1. Issue in Exercise 2 Task 2 Step 4 
 
    When adding migration project if attendee gets the error the connection timed out. Possible reasons for this include 
 
      - the address and/or port was not correct, or the server is not running. its temporary issue wait for 5-10 minutes then retry again 
+     - The mongodb might not be running, run the following command on the build VM to start the DB.
+       
+       ```docker container start mongo``` 
+
 
 1. **Copy-Paste Issue**
 
@@ -118,8 +110,3 @@
       - Now, copy the lab environment URL from the list and open that inside the VM itself and then use the Vm on full screen. 
 
           ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-11.png?raw=true) 
-
-1. Exercise 5 Task3 Step6: 
-
-   - Even after increasing CPU to 125m, if scaling of pods fails with error “invalid syntax and insufficient CPU”. Follow the below steps. 
-
