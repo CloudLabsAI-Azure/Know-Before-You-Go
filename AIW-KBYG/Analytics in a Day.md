@@ -158,6 +158,6 @@
 
 1. Exercise 4  Task 1  Step 8 : **For the Legend (series) column, select CustomerKey**
 
-      - Synapse workspace dashboard gets blank, If you get this issue please reach out to [CloudLabs-support](cloudlabs-support@spektrasystems.com)
+      - Synapse workspace dashboard gets blank, If you get this issue please reach out to us via cloudlabs-support@spektrasystems.com
 
 	![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/AIAD-Environment9.png)
