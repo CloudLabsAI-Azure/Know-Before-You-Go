@@ -1,4 +1,4 @@
-# Cloud Native Applications - Developer Edition
+# Cloud Native Apps : Developer Edition
 
 ### Known Issues and workarounds
 
