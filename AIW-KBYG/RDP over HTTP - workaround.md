@@ -2,7 +2,7 @@
 
  If RDP over HTTP fuctionality doesn’t work while accessing the lab environment, request you to please try following:
 
-* Please check if the cookies are enabled in your browser, if not then please **Enable**.
+* Check if the cookies are enabled in your browser, if not then please **Enable**.
 
 *	Check if your browser is updated to **latest version** and if you are still facing the issue then please try in a different Browser.
 
@@ -18,7 +18,7 @@
 
 ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-2.png)
 
- * Search for **Remote Desktop Connection** Application from Start Menu items of your local Laptop/Desktop and then select the **Remote Desktop Connection** Application (as mentioned in the image below).
+ * Search for **Remote Desktop Connection** Application from Start Menu of your local Laptop/Desktop and then select the **Remote Desktop Connection** Application (as mentioned in the image below).
 
 ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-3.png)
 
