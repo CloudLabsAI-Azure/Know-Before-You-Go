@@ -10,7 +10,7 @@
 
 *	Try to Restart the VM from the Lab Environment Page (as mentioned in the image below).
 
-  ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/RDPoverHTTP%201.png)
+   ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/RDPoverHTTP%201.png)
 
 * If the above actions did not work, you can then directly connect to the Lab VM using Remote Desktop Connection using the **Credentials** provided in **Environment Details** page (as mentioned in the image below).
 
