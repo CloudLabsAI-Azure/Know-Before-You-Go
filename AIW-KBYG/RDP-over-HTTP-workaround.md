@@ -1,17 +1,18 @@
 # Remote Desktop Functionality Known Issues :
 
- If RDP over HTTP fuctionality doesn’t work while accessing the lab environment, request you to please try following:
+If RDP over HTTP functionality does not work while accessing the lab environment, try the following steps:
 
-* Check if the cookies are enabled in your browser, if not then please **Enable**.
 
-*	Check if your browser is updated to **latest version** and if you are still facing the issue then please try in a different Browser.
+* Check if the cookies are enabled in your browser, if not then click on **Enable**.
 
-*	Try to access the Lab Environment in **Private/Incognito** Window. 
+*	Check if your browser is updated to the **latest version** and if you are still facing the issue then try using a different web browser.
+
+*	Try to access the Lab Environment in **Private/Incognito** mode. 
 
 *	Try to Restart the VM from the Lab Environment Page (as mentioned in the image below).
   ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/RDPoverHTTP%201.png)
 
-* If the above actions did not work, you can then directly connect to the Lab VM using Remote Desktop Connection using the **Credentials** provided in **Environment Details** page (as mentioned in the image below).
+*  If the above method did not work for you, directly connect to the Lab VM using Remote Desktop Connection with the **Credentials** provided in **Environment Details** page (as mentioned in the image below).
 
    * Copy the **LabVM/JumpVM DNS Name, Username** and **Password** from **Environment details** page 
 
@@ -33,7 +34,7 @@
 
   ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-6.png)
 
-* Now, enter the **VM Admin username** and **password** which you have copied from Environment details page and click on **Ok** button. Please add dot and back-slash **“.\”** before the Admin username (as mentioned in the image below).
+* Now, enter the **VM Admin username** and **password** which you have copied from Environment details page and click on **Ok** button. Please add a dot followed by a back-slash **“.\”** before the Admin username (as mentioned in the image below).
 
   ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-7.png)
 
