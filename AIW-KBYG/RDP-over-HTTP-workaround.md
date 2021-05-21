@@ -67,3 +67,8 @@
 * Next, click on the **Yes** button to accept the certificate and add in trusted certificates (as mentioned in the image below).
 
   ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-8.png)
+  
+# Contact Support:
+
+In case of any issue, you can reach us on Live Chat support: https://cloudlabs.ai/microsoft-support and also can drop us an email on cloudlabs-support@spektrasystems.com
+
