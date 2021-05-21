@@ -31,12 +31,14 @@
 -> Ensure that the checkboxes for "Accept cookies from sites" and "Accept third-party cookies" are both checked.
 -> Click OK.
 
-*	Check if your browser is updated to **latest version** and if you are still facing the issue then please try in a different Browser.
+#	Check if your browser is updated to **latest version** and if you are still facing the issue then please try in a different Browser.
 
-*	Try to access the Lab Environment in **Private/Incognito** Window. 
+#	Try to access the Lab Environment in **Private/Incognito** Window. 
 
-*	Try to Restart the VM from the Lab Environment Page (as mentioned in the image below).
+#	Try to Restart the VM from the Lab Environment Page (as mentioned in the image below).
   ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/RDPoverHTTP%201.png)
+
+	If you still face issues, you can reach us on Live Chat support: https://cloudlabs.ai/microsoft-support and also can drop us an email on cloudlabs-support@spektrasystems.com
 
 * If the above actions did not work, you can then directly connect to the Lab VM using Remote Desktop Connection using the **Credentials** provided in **Environment Details** page (as mentioned in the image below).
 
@@ -67,6 +69,9 @@
 * Next, click on the **Yes** button to accept the certificate and add in trusted certificates (as mentioned in the image below).
 
   ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-8.png)
+  
+# Steps to Troubleshoot Remote Desktop Isues
+
   
 # Contact Support:
 
