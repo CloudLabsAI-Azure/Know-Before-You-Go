@@ -10,32 +10,34 @@
 
 ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/RDPoverHTTP%201.png)
 
-* If the above points don’t work, then directly connect to the Lab VM using Remote Desktop Connection using the **Credentials** provided in **Environment Details** page.  
+## Remote Desktop Connection
 
-  Copy the **LabVM/JumpVM DNS Name, Username** and **Password** from **Environment details** page 
+* If all the above steps don’t work, then directly connect to the Lab VM using Remote Desktop Connection using the **Credentials** provided in **Lab Environment Details** page.  
 
-![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-2.png)
+*  Copy the **LabVM/JumpVM DNS Name, Username** and **Password** from **Lab Environment details** page 
 
-  Search for **Remote Desktop Connection** App from Start Menu items of your local Laptop/Desktop and then select the **Remote Desktop Connection** App. 
+  ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-2.png)
 
-![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-3.png)
+* Search for **Remote Desktop Connection** App from Start Menu items of your local Laptop/Desktop and then select the **Remote Desktop Connection** App. 
 
-  Paste the **VM DNS Name** in Computer field and then, click on **Connect**. 
+  ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-3.png)
 
-![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-4.png)
+* Paste the **VM DNS Name** in Computer field and then, click on **Connect**. 
 
-  Click on **More choices**.  
+  ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-4.png)
 
-![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-5.png)
+* Click on **More choices**.  
 
-  Now, click on the **Use a different account**.
+  ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-5.png)
 
-![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-6.png)
+* Now, click on the **Use a different account**.
 
-  Now, enter the **VM Admin username** and **password** which you have copied from Environment details page and click on **Ok** button. Please add dot and back-slash **“.\”** before the Admin username.  
+  ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-6.png)
 
-![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-7.png)
+* Now, enter the **VM Admin username** and **password** which you have copied from Environment details page and click on **Ok** button. Please add dot and back-slash **“.\”** before the Admin username.  
 
-  Next, click on the **Yes** button to accept the certificate and add in trusted certificates.  
+  ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-7.png)
 
-![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-8.png)
+* Next, click on the **Yes** button to accept the certificate and add in trusted certificates.  
+
+  ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-8.png)
