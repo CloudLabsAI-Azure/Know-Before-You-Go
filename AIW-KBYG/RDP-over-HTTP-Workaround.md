@@ -7,9 +7,9 @@
   * Low network Bandwidth (Minimum Network bandwidth Recommended: 8 mb/s).
 
 #### This issue can be fixed by trying the following steps:
-  * Try to clear cache from the browser, enable cookies. 
+  * Try to clear cache from the browser, [Enable Cookies](#steps-to-enable-cookies-in-the-browsers). 
   * Try to launch the lab in **Private/Incognito** browsing mode.
-  * If all the above steps won't work, then try to connect VM using [Remote Desktop Connection]((#connect-vm-using-remote-desktop-connection-from-your-system)) in your Computer/Laptop. Jump Box/LabVM **credentials** are provided on lab **Environment Details** page, you can use provided VM DNS Name, VM Username and Password. Steps are documented [here](#connect-vm-using-remote-desktop-connection-from-your-system) to connect to JumpBOX/LabVM using Remote Desktop Connection. 
+  * If all the above steps won't work, then try to connect VM using [Remote Desktop Connection]((#connect-vm-using-remote-desktop-connection-from-your-system) in your Computer/Laptop. Jump Box/LabVM **credentials** are provided on lab **Environment Details** page, you can use provided VM DNS Name, VM Username and Password. Steps are documented [here](#connect-vm-using-remote-desktop-connection-from-your-system) to connect to JumpBOX/LabVM using Remote Desktop Connection. 
   * If the above step also won't work check with Network Administrator of your organization if that specific traffic is getting blocked or have any restrictions.
   * Try to Restart the VM from the Lab Environment Page (as mentioned in the image below).
 
