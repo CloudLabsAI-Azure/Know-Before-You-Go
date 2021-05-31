@@ -65,7 +65,7 @@
 ->Turn on cookies: Next to "Blocked," turn on the switch.
 ->Turn off cookies: Turn off Allow sites to save and read cookie data.
 
-#### If you are using Firefox brwoser, then please follow the below steps: 
+#### If you are using Firefox browser, then please follow the below steps: 
 
 
 In the Menu bar at the top of the screen, click Firefox and select Preferences.
