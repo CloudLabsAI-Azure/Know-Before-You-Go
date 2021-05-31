@@ -1,0 +1,16 @@
+[
+  {
+    "Name": "WVD Immersion Workshop",
+    "Language": "English",
+    "Files": [
+	    {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Know-Before-You-Go/main/VM-RDP-Test/rdp-test-01.md",
+        "Order": 1
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Know-Before-You-Go/main/VM-RDP-Test/rdp-test-02.md",
+        "Order": 2
+      }
+    ]
+  }
+]
