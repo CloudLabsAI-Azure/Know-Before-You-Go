@@ -67,12 +67,12 @@
 
 #### If you are using Firefox broser, then please follow the below steps: 
 
- -> Click the Tools menu from the top toolbar.
- -> Choose Options.
- -> Click the Privacy tab.
- -> Under "History" select "Use custom settings for history" from the drop-down menu beside "Firefox will."
- -> Ensure that the checkboxes for "Accept cookies from sites" and "Accept third-party cookies" are both checked.
- -> Click OK.
+
+In the Menu bar at the top of the screen, click Firefox and select Preferences.
+-> Click the menu button and select Options.
+-> Select the Privacy & Security panel. 
+-> To allow cookies, make sure that the Check-Box for "Cookies" is unchecked.
+-> Close the page. Any changes you've made will automatically be saved.
   
 # Contact Support:
 
