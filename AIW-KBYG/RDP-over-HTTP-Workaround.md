@@ -58,11 +58,12 @@
 #### If you are using Chrome browser, then please follow the below steps : 
 
  -> Click the context menu in the browser toolbar to the right of the address bar.
- -> Choose Settings.
- -> Click "Show Advanced Settings."
- -> Click Content settings in the Privacy section.
- -> Ensure that the bullet for "Allow local data to be set (recommended)" is checked.
- -> Also ensure that "Block third-party cookies and site data" is unchecked.
+ ->At the top right, click More Moreand then Settings.
+->Under "Privacy and security," click Site settings.
+->Click Cookies.
+->From here, you can:
+->Turn on cookies: Next to "Blocked," turn on the switch.
+->Turn off cookies: Turn off Allow sites to save and read cookie data.
 
 #### If you are using Firefox broser, then please follow the below steps: 
 
