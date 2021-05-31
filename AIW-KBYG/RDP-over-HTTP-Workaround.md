@@ -3,8 +3,8 @@
 #### Sometime, JumpBox/LabVM RDP Connection (RDP Gateway connection) doesn't work at customers/attendee's network due to following reasons :
   * Organization firewall/policy blocking the connection.
   * User is connected to any VPN (Virtual Private Network), which may restrict the connection based on network policies.
-  * There may be cookies and cache problem in internet Browsers.
-  * Low network Bandwidth (Minimum Network bandwidth Recommended: 8 Mbps).
+  * There may be cookies and cache problem in internet browser.
+  * Low network bandwidth (Network bandwidth recommended: 8 Mbps).
 
 #### It can be fixed by trying the following steps:
   * Make sure you are connected with good internet connection with minimum network bandwidth 8 Mbps.
@@ -75,5 +75,5 @@
   
 # Contact Support:
 
-In case of any issue, you can reach us on Live Chat support: https://cloudlabs.ai/microsoft-support and also can drop us an email on cloudlabs-support@spektrasystems.com
+In case of any issue, you can reach out to us Live Chat support: https://cloudlabs.ai/microsoft-support and also can drop us an email on cloudlabs-support@spektrasystems.com
 
