@@ -1,7 +1,7 @@
 # Remote Desktop Functionality Known Issues :
 
-#### Sometime, JumpBox/LabVM RDP Connection (RDP Gateway connection) doesn't work at customers/attendee's network due to following reasons :
-  * Organization firewall/policy blocking the connection.
+#### JumpBox/LabVM RDP Connection (RDP Gateway connection) doesn't work at customers/attendee's network due to following reasons :
+  * Organization firewall/policy blocking the connections.
   * User is connected to any VPN (Virtual Private Network), which may restrict the connection based on network policies.
   * There may be cookies and cache problem in internet Browsers.
   * Low network Bandwidth (Minimum Network bandwidth Recommended: 8 Mbps).
