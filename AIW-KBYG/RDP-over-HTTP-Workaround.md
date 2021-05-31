@@ -1,41 +1,81 @@
-# If RDP over HTTP doesn’t work, please try following:
+# Remote Desktop Functionality Known Issues :
 
-* Please check if the cookies are enabled or not in your browser, if not then please **Enable**.
+#### Sometime due to following reasons JumpBox/LabVM RDP Connection (RDP Gateway connection) doesn't work at customers/attendee's network:
+ * Organization firewall/policy blocking the connection.
+ * User is connected to any VPN (Virtual Private Network), which may restrict the connection based on network policies.
+ * There may be cookies and cache problem in internet Browsers.
+ * Low network Bandwidth (Minimum Network bandwidth Recommended: 8 mb/s).
 
-*	Check if your browser is updated to **latest version** and if you are still facing the issue then please try in the different Browser.
+#### This issue can be fixed by trying the following steps:
+ * Try to clear cache from the browser, enable cookies. 
+ * Try to launch the lab in **Private/Incognito** browsing mode.
+ * If all the above steps won't work, then try to connect VM using [Remote Desktop Connection]((#connect-vm-using-remote-desktop-connection-from-your-system)) in your Computer/Laptop. Jump Box/LabVM **credentials** are provided on lab **Environment Details** page, you can use provided VM DNS Name, VM Username and Password. Steps are documented [here](#connect-vm-using-remote-desktop-connection-from-your-system) to connect to JumpBOX/LabVM using Remote Desktop Connection. 
+ * If the above step also won't work check with Network Administrator of your organization if that specific traffic is getting blocked or have any restrictions.
+ * Try to Restart the VM from the Lab Environment Page (as mentioned in the image below).
 
-*	Try to open the Lab Environment in **Private/Incognito** Window.
+   ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/RDPoverHTTP%201.png)
+  
+## Connect VM using Remote Desktop Connection from your System
 
-*	Try to Restart the VM from the Lab Environment Page.
-
-  ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/RDPoverHTTP%201.png)
-
-* If the above points don’t work, then directly connect to the Lab VM using Remote Desktop Connection using the **Credentials** provided in **Environment Details** page.  
-
-  Copy the **LabVM/JumpVM DNS Name, Username** and **Password** from **Environment details** page 
+* Copy the **LabVM/JumpVM DNS Name, Username** and **Password** from **Environment Details** page 
 
   ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-2.png)
 
-* Search for **Remote Desktop Connection** App from Start Menu items of your local Laptop/Desktop and then select the **Remote Desktop Connection** App. 
+* Search for **Remote Desktop Connection** Application from Start Menu of your local Laptop/Desktop and then select the **Remote Desktop Connection** Application (as mentioned in the image below).
 
   ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-3.png)
 
-* Paste the **VM DNS Name** in Computer field and then, click on **Connect**. 
+* Paste the **VM DNS Name** in Computer field and then, click on **Connect** (as mentioned in the image below).
 
   ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-4.png)
 
-* Click on **More choices**.  
+* Click on **More choices** (as mentioned in the image below).
 
   ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-5.png)
 
-* Now, click on the **Use a different account**.
+* Now, click on the **Use a different account** (as mentioned in the image below).
 
   ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-6.png)
 
-* Now, enter the **VM Admin username** and **password** which you have copied from Environment details page and click on **Ok** button. Please add dot and back-slash **“.\”** before the Admin username.  
+* Now, enter the **VM Admin username** and **password** which you have copied from Environment details page and click on **Ok** button. Please add a dot followed by a back-slash **“.\”** before the Admin username (as mentioned in the image below).
 
   ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-7.png)
 
-* Next, click on the **Yes** button to accept the certificate and add in trusted certificates.  
+* Next, click on the **Yes** button to accept the certificate and add in trusted certificates (as mentioned in the image below).
 
   ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-8.png)
+  
+# Steps to Troubleshoot Remote Desktop Isues
+
+## Steps to Enable Cookies in the Browsers
+
+### If you are using Safari browser, then please follow the below steps :
+
+
+->  Click the Safari menu from the top toolbar.
+->  Choose Preferences.
+->  Click the Privacy tab.
+->  Click the Never checkbox for Block Cookies.
+
+### If you are using Chrome browser, then please follow the below steps : 
+
+-> Click the context menu in the browser toolbar to the right of the address bar.
+-> Choose Settings.
+-> Click "Show Advanced Settings."
+-> Click Content settings in the Privacy section.
+-> Ensure that the bullet for "Allow local data to be set (recommended)" is checked.
+-> Also ensure that "Block third-party cookies and site data" is unchecked.
+
+### If you are using Firefox broser, then please follow the below steps: 
+
+-> Click the Tools menu from the top toolbar.
+-> Choose Options.
+-> Click the Privacy tab.
+-> Under "History" select "Use custom settings for history" from the drop-down menu beside "Firefox will."
+-> Ensure that the checkboxes for "Accept cookies from sites" and "Accept third-party cookies" are both checked.
+-> Click OK.
+  
+# Contact Support:
+
+In case of any issue, you can reach us on Live Chat support: https://cloudlabs.ai/microsoft-support and also can drop us an email on cloudlabs-support@spektrasystems.com
+
