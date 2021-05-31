@@ -2,14 +2,45 @@
 
 If RDP over HTTP functionality does not work while accessing the lab environment, try the following steps:
 
-
 * Check if the cookies are enabled in your browser, if not then click on **Enable**.
 
 *	Check if your browser is updated to the **latest version** and if you are still facing the issue then try using a different web browser.
 
 *	Try to access the Lab Environment in **Private/Incognito** mode. 
+=======
+# Steps to Enable Cookies in the Browsers
 
-*	Try to Restart the VM from the Lab Environment Page (as mentioned in the image below).
+* If you are using Safari browser, then please follow the below steps :
+
+
+->  Click the Safari menu from the top toolbar.
+->  Choose Preferences.
+->  Click the Privacy tab.
+->  Click the Never checkbox for Block Cookies.
+
+* If you are using Chrome browser, then please follow the below steps : 
+
+-> Click the context menu in the browser toolbar to the right of the address bar.
+-> Choose Settings.
+-> Click "Show Advanced Settings."
+-> Click Content settings in the Privacy section.
+-> Ensure that the bullet for "Allow local data to be set (recommended)" is checked.
+-> Also ensure that "Block third-party cookies and site data" is unchecked.
+
+* If you are using Firefox broser, then please follow the below steps: 
+
+-> Click the Tools menu from the top toolbar.
+-> Choose Options.
+-> Click the Privacy tab.
+-> Under "History" select "Use custom settings for history" from the drop-down menu beside "Firefox will."
+-> Ensure that the checkboxes for "Accept cookies from sites" and "Accept third-party cookies" are both checked.
+-> Click OK.
+
+#	Check if your browser is updated to **latest version** and if you are still facing the issue then please try in a different Browser.
+
+#	Try to access the Lab Environment in **Private/Incognito** Window. 
+
+#	Try to Restart the VM from the Lab Environment Page (as mentioned in the image below).
   ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/RDPoverHTTP%201.png)
 
 *  If the above method did not work for you, directly connect to the Lab VM using Remote Desktop Connection with the **Credentials** provided in **Environment Details** page (as mentioned in the image below).
@@ -41,3 +72,11 @@ If RDP over HTTP functionality does not work while accessing the lab environment
 * Next, click on the **Yes** button to accept the certificate and add in trusted certificates (as mentioned in the image below).
 
   ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-8.png)
+  
+# Steps to Troubleshoot Remote Desktop Isues
+
+  
+# Contact Support:
+
+In case of any issue, you can reach us on Live Chat support: https://cloudlabs.ai/microsoft-support and also can drop us an email on cloudlabs-support@spektrasystems.com
+
