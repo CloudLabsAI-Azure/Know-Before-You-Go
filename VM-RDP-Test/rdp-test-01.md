@@ -14,7 +14,7 @@
  
 > **Note:** At this time, Lab is setup with minimal configurations to test. Actual lab environment will have preconfigured software’s and higher configurations based on the requirement.
 
-  ![](media/image2.png)
+  ![](media/image01.png)
 
 6. In case if you have issues with the VM, please turn to next page.
 
