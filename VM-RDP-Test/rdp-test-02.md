@@ -6,6 +6,6 @@
 
 2. In case if you face any of these issues, you can troubleshoot it by following the insturctions given there.
 
-    ![](media/image02.png)
+    ![](media/image002.png)
 
 
