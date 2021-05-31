@@ -1,4 +1,4 @@
-# Avw DevOps with GitHub
+# AVW: DevOps with GitHub
 
 ## Known Issues and workarounds 
 
