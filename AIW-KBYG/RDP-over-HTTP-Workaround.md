@@ -12,7 +12,7 @@
   * Try to launch the lab in **Private/Incognito** browsing mode.
   * If all the above steps won't work, then try to connect VM using [Remote Desktop Connection](#connect-vm-using-remote-desktop-connection-from-your-system) in your Computer/Laptop. Jump Box/LabVM **credentials** are provided on lab **Environment Details** page. Steps are documented [here](#connect-vm-using-remote-desktop-connection-from-your-system) to connect to JumpBOX/LabVM using Remote Desktop Connection. 
   * If the above step doesn't work check with Network Administrator of your organization if that specific traffic is getting blocked or have any restrictions.
-  * Try to Restart the VM from the Lab Environment Page (as mentioned in the image below).
+  * Try to Restart the VM from the Lab Environment Page (as shown in the image below).
 
    ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/RDPoverHTTP%201.png)
   
