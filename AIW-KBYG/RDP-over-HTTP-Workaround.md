@@ -1,17 +1,17 @@
 # Remote Desktop Functionality Known Issues :
 
 #### Sometime due to following reasons JumpBox/LabVM RDP Connection (RDP Gateway connection) doesn't work at customers/attendee's network:
- * Organization firewall/policy blocking the connection.
- * User is connected to any VPN (Virtual Private Network), which may restrict the connection based on network policies.
- * There may be cookies and cache problem in internet Browsers.
- * Low network Bandwidth (Minimum Network bandwidth Recommended: 8 mb/s).
+  * Organization firewall/policy blocking the connection.
+  * User is connected to any VPN (Virtual Private Network), which may restrict the connection based on network policies.
+  * There may be cookies and cache problem in internet Browsers.
+  * Low network Bandwidth (Minimum Network bandwidth Recommended: 8 mb/s).
 
 #### This issue can be fixed by trying the following steps:
- * Try to clear cache from the browser, enable cookies. 
- * Try to launch the lab in **Private/Incognito** browsing mode.
- * If all the above steps won't work, then try to connect VM using [Remote Desktop Connection]((#connect-vm-using-remote-desktop-connection-from-your-system)) in your Computer/Laptop. Jump Box/LabVM **credentials** are provided on lab **Environment Details** page, you can use provided VM DNS Name, VM Username and Password. Steps are documented [here](#connect-vm-using-remote-desktop-connection-from-your-system) to connect to JumpBOX/LabVM using Remote Desktop Connection. 
- * If the above step also won't work check with Network Administrator of your organization if that specific traffic is getting blocked or have any restrictions.
- * Try to Restart the VM from the Lab Environment Page (as mentioned in the image below).
+  * Try to clear cache from the browser, enable cookies. 
+  * Try to launch the lab in **Private/Incognito** browsing mode.
+  * If all the above steps won't work, then try to connect VM using [Remote Desktop Connection]((#connect-vm-using-remote-desktop-connection-from-your-system)) in your Computer/Laptop. Jump Box/LabVM **credentials** are provided on lab **Environment Details** page, you can use provided VM DNS Name, VM Username and Password. Steps are documented [here](#connect-vm-using-remote-desktop-connection-from-your-system) to connect to JumpBOX/LabVM using Remote Desktop Connection. 
+  * If the above step also won't work check with Network Administrator of your organization if that specific traffic is getting blocked or have any restrictions.
+  * Try to Restart the VM from the Lab Environment Page (as mentioned in the image below).
 
    ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/RDPoverHTTP%201.png)
   
