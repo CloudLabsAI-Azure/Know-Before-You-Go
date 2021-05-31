@@ -4,7 +4,7 @@
   * Organization firewall/policy blocking the connection.
   * User is connected to any VPN (Virtual Private Network), which may restrict the connection based on network policies.
   * There may be cookies and cache problem in internet Browsers.
-  * Low network Bandwidth (Minimum Network bandwidth Recommended: 8 mb/s).
+  * Low network Bandwidth (Minimum Network bandwidth Recommended: 8 Mbps).
 
 #### It can be fixed by trying the following steps:
   * Make sure you are connected with good internet connection with minimum network bandwidth 8 Mbps.
