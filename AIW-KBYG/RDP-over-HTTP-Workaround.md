@@ -50,20 +50,20 @@
 
 #### If you are using Safari browser, then please follow the below steps:
 
- ->  Click the Safari menu from the top toolbar.
- ->  Choose Preferences.
- ->  Click the Privacy tab.
- ->  Click the Never checkbox for Block Cookies.
+-> Click the Safari menu from the top toolbar.
+-> Choose Preferences.
+-> Click the Privacy tab.
+-> Click the Never checkbox for Block Cookies.
 
 #### If you are using Chrome browser, then please follow the below steps : 
 
- -> Click the context menu in the browser toolbar to the right of the address bar.
- ->At the top right, click More Moreand then Settings.
-->Under "Privacy and security," click Site settings.
-->Click Cookies.
-->From here, you can:
-->Turn on cookies: Next to "Blocked," turn on the switch.
-->Turn off cookies: Turn off Allow sites to save and read cookie data.
+-> Click the context menu in the browser toolbar to the right of the address bar.
+-> At the top right, click More Moreand then Settings.
+-> Under "Privacy and security," click Site settings.
+-> Click Cookies.
+-> From here, you can:
+-> Turn on cookies: Next to "Blocked," turn on the switch.
+-> Turn off cookies: Turn off Allow sites to save and read cookie data.
 
 #### If you are using Firefox browser, then please follow the below steps: 
 
