@@ -1,10 +1,16 @@
 # Remote Desktop Functionality Known Issues :
 
+
+
+
+
 #### Sometime, JumpBox/LabVM RDP Connection (RDP Gateway connection) doesn't work at customers/attendee's network due to following reasons :
   * Organization firewall/policy blocking the connection.
   * User is connected to any VPN (Virtual Private Network), which may restrict the connection based on network policies.
   * There may be cookies and cache problem in internet browser.
   * Low network bandwidth (Network bandwidth recommended: 8 Mbps).
+
+
 
 #### It can be fixed by trying the following steps:
   * Make sure you are connected with good internet connection with minimum network bandwidth 8 Mbps.
@@ -16,6 +22,8 @@
 
    ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/RDPoverHTTP%201.png)
   
+
+
 ### Connect VM using Remote Desktop Connection from your System
 
 * Copy the **LabVM/JumpVM DNS Name, Username** and **Password** from **Environment Details** page 
@@ -46,6 +54,8 @@
 
   ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-8.png)
   
+
+
 ### Steps to Enable Cookies in the Browsers
 
 #### If you are using Safari browser, then please follow the below steps:
