@@ -8,4 +8,4 @@
 
     ![](media/image002.png)
 
-3. Refer to the link [Remote Desktop Functionality Known Issues](./RDP-over-HTTP-Workaround.md)
+3. Refer to more **Known Issues** by moving to next page.
