@@ -10,6 +10,10 @@
       {
         "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Know-Before-You-Go/main/VM-RDP-Test/rdp-test-02.md",
         "Order": 2
+      },
+	{
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Know-Before-You-Go/main/VM-RDP-Test/Remote-Desktop-Functionality-Known-Issues.md",
+        "Order": 3
       }
     ]
   }
