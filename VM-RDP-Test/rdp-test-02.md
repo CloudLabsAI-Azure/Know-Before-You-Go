@@ -1,6 +1,6 @@
 ## RDP over HTTPS - Troubleshooting Known Issues
 
-:star: **Good to know:** You will have access to the **Help** section as shown in the image below:
+**Good to know:** You will have access to the **Help** section as shown in the image below:
 
 1. In the **Help** section, we have listed known issues such as Unable to copy paste, Need credentials and much more.
 
