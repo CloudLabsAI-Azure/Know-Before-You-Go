@@ -24,15 +24,15 @@
 
     - When the attendee faces an issue while pushing the changes to the master branch, make sure the GitHub repo URL and the provided credentials are correct. Then ask the attendee to rerun the command **git push -u origin master** to push the changes. 
 
-1. Issues in Exercise 1 due to unsuccessful cloning of **Fabmedical** repo. 
+1. Issues in before hands-on-lab task 5 due to unsuccessful cloning of **Fabmedical** repo. 
 
     - Ask attendee to verify that whether he had cloned the **Fabmedical** repository properly. If   not, ask the attendee to run the command,  **git clone <GITHUB\_REPOSITORY\_URL>** to clone the **Fabmedical** repo and perform the step again. 
 
-1. Exercise1 Task1 Step17: 
+1. Before hands-on-lab task 6 step 17: 
 
    - If attendee get **no such file or directory** error, run the command  **ng build** , and retry step 17 
    
-1. Exercise1 task9:  
+1. Before hands-on-lab task 11 step 15:  
 
    - If the Workflow execution fails follow the below instruction to resolve the issue. 
    
@@ -45,7 +45,7 @@
      - Copy the content till the line ${{ env.containerRegistry }}/${{ env.imageRepository }}:latest, switch back to cloud shell and replace the existing content with the copied content. Make sure to replace [SUFFIX] with your DeploymentId.   
      - Now redo the steps from 10-14.      
     
-1. Issue in Exercise 2 Task 2 Step 4 
+1. Issue in Exercise 1 Task 2 Step 4 
 
    When adding migration project if attendee gets the error the connection timed out. Possible reasons for this include 
 
