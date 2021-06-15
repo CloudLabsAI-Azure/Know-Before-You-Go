@@ -30,7 +30,7 @@ Navigate to user's tab from actions. Check Deployment ID (DID) for each User (Em
   ![](.././media/cs-003.png)
 
 #### Shadow Attendee's Virtual Machine
-1. From **Users** tab click on **BINOCULAR** icon to shadow the attendee's VM and let us call this Instructor login. A virtual machine session will open in new tab of web browser.
+1. From **Users** tab click on Launch VM Shadow a **BINOCULAR** icon to shadow the attendee's VM and let us call this Instructor login. A virtual machine session will open in new tab of web browser.
    ![](.././media/cs-004.png)
 1. You will see a Remote Desktop Connection automatically opens (1), that is attendees session shadow. You can Maximize the Sahdow session by clicking on maximize icon (2).
    ![](.././media/cs-005.png)
