@@ -13,9 +13,21 @@ Now, shadowing the attendees VM is single button ahead. Here are the steps for s
 1. Upon login, on demand lab will be available for management.
    - Ensure to select the right CloudLabs tenant **Microsoft – Azure Immersion Workshop(AIW)** (1)
    - Navigate to **On Demand Labs** (2)
-   - On **Instructor Cloud Details** (3) Azure Credentail can be found. With these credentials instructors can access all the attendee’s Azure environment. (3)
-   - on **Users** (4), on this tab registered users are available and Instructors can manage teh users. 
+   - On **[Instructor Cloud Details]()** (3) Azure Credentail can be found. With these credentials instructors can access all the attendee’s Azure environment. (3)
+   - On **Users** (4) tab already resgitered users can be found and new regitrations can be added in bulk. Also, lab environment and shadowing can be launched from here.
    ![](.././media/cs-001.png)
    
-1.  
+#### Instructor Cloud Details: 
+Azure Credentials are avaiable at instructor cloud details or i button. These Azure credentials will have access to all attendees Azure environment and Instructor can manage the Azure resources of attendees from a single Azure Account.
+  ![](.././media/cs-002.png)
+  
+#### Users
+Navigate to user's tab from actions. Check Deployment ID (DID) for each User (Email).
+  - Deployment details for user (you can use azure credentials from this page to access attendee cloud environment)
+  - Back to the Labs list page
+  - You can manage attendees from this page
+  - Add / Remove attendees
+  - Each attendee is assigned a six-digit unique id to identify lab resource groups and jump VMs.
+ 
+
 
