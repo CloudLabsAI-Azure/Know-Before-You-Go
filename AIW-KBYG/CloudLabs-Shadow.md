@@ -23,11 +23,22 @@ Azure Credentials are avaiable at instructor cloud details or i button. These Az
   
 #### Users
 Navigate to user's tab from actions. Check Deployment ID (DID) for each User (Email).
-  - Deployment details for user (you can use azure credentials from this page to access attendee cloud environment)
-  - Back to the Labs list page
-  - You can manage attendees from this page
-  - Add / Remove attendees
+  - Deployment details for user (you can use azure credentials from this page to access attendee cloud environment).
+  - You can manage attendees from this page.
+  - Add / Remove attendees.
   - Each attendee is assigned a six-digit unique id to identify lab resource groups and jump VMs.
+  ![](.././media/cs-003.png)
+
+#### Shadow Attendee's Virtual Machine
+1. From **Users** tab click on **BINOCULAR** icon to shadow the attendee's VM. A virtual machine session will open in new tab of web browser.
+   ![](.././media/cs-004.png)
+1. You will see a Remote Desktop Connection automatically opens (1), that is attendees session shadow. You can Maximize the Sahdow session by clicking on maximize icon (2).
+   ![](.././media/cs-005.png)
+  
+
+  
+  
+
  
 
 
