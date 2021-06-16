@@ -1,7 +1,7 @@
 # CloudLabs Shadow
 
 **CloudLabs Shadow** is CloudLabs embedded shadow feature, which normlly shadow the pre-deployed attendees Virtual Machine.
-  - Most of the labs hasted on CloudLabs had LabVM/JumpBox, where attedees performs the complete lab.
+  - Most of the labs hosted on CloudLabs has LabVM/JumpBox with pre-configured tools required for the lab, where attedees performs the complete lab.
   - Attendees virtual machine (LabVM/JumBox) can be shadowed and monitored by Instructors in real time.
     * By shadowing the attendees virtual machines (VMs) instructors can help attendees to look and help in troubleshooting the issues. 
     * CloudLabs Support team can assist attedees and instructors during dryrun and actual workshop.
