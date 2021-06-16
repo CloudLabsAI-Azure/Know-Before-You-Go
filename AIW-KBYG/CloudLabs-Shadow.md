@@ -11,10 +11,10 @@
 Now, shadowing the attendees' VM is single button ahead. Here are the steps for shadowing the attendees VM using CloudLabs Shadow.
 1. Login to https://admin.cloudlabs.ai with your work account (alias@microsoft.com or alias@partner.com).
 1. Upon login, on demand lab will be available for management.
-   - Ensure to select the right CloudLabs tenant **Microsoft – Azure Immersion Workshop(AIW)** (1)
-   - Navigate to **On Demand Labs** (2)
-   - On **[Instructor Cloud Details]()** (3) Azure Credentials can be found. With these credentials instructors can access all the attendee’s Azure environment. (3)
-   - On **Users** (4) tab already registered users can be found, and new registrations can be added in bulk. Also, lab environment and shadowing can be launched from here.
+    - Ensure to select the right CloudLabs tenant **Microsoft – Azure Immersion Workshop(AIW)** (1)
+    - Navigate to **On Demand Labs** (2)
+    - On **[Instructor Cloud Details]()** (3) Azure Credentials can be found. With these credentials instructors can access all the attendee’s Azure environment. (3)
+    - On **Users** (4) tab already registered users can be found, and new registrations can be added in bulk. Also, lab environment and shadowing can be launched from here.
    ![](.././media/cs-001.png)
    
 #### Instructor Cloud Details: 
@@ -27,7 +27,7 @@ Navigate to user's tab from actions. Check Deployment ID (DID) for each User (Em
   - You can manage attendees from this page.
   - Add / Remove attendees.
   - Each attendee is assigned a six-digit unique id to identify lab resource groups and jump VMs.
- ![](.././media/cs-003.png)
+![](.././media/cs-003.png)
 
 #### Shadow Attendee's Virtual Machine
 1. From **Users** tab click on Launch VM Shadow a **BINOCULAR** icon to shadow the attendee's VM and let us call this Instructor login. A virtual machine session will open in new tab of web browser.
