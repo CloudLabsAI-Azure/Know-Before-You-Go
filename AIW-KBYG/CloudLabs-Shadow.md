@@ -42,7 +42,7 @@ Navigate to user's tab from actions. Check Deployment ID (DID) for each User (Em
   
      ![](.././media/cs-007.png)     
    - If attendee connects back to the VM, shadow session will open automatically in Instructor login.  
-1. If you close the attendees shadow session accidentally, re-launch it from **Shadow Lab User VM** shortcut created on desktop 🖥.
+1. If you closed attendees shadow session accidentally, re-launch it from **Shadow Lab User VM** shortcut created on desktop 🖥.
    ![](.././media/cs-008.png)
   
   
