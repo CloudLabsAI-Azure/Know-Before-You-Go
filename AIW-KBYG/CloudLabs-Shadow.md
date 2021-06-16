@@ -37,9 +37,12 @@ Navigate to user's tab from actions. Check Deployment ID (DID) for each User (Em
 1. This is possible that you may not find attendees shadow session open in the instructor login due to following reasons.
    - Attendees is not connected to the VM yet. If attendee did not access lab environment yet that mean attendee need to connect VM then only it will be visible in Instructor login.
      ![](.././media/cs-006.png)
+     
    - Attendee disconnected the virtual machine (VM). In this case inform attendee to connect to the VM if needed.
      ![](.././media/cs-007.png)
+     
    - If attendee connects back to the VM, shadow session will open automatically in Instructor login.
+  
 1. If you close the attendees shadow session accidentally, re-launch it from **Shadow Lab User VM** shortcut created on desktop 🖥.
    ![](.././media/cs-008.png)
   
