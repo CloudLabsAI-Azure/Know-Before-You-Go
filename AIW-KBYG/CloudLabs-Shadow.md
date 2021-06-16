@@ -27,7 +27,7 @@ Navigate to user's tab from actions. Check Deployment ID (DID) for each User (Em
   - You can manage attendees from this page.
   - Add / Remove attendees.
   - Each attendee is assigned a six-digit unique id to identify lab resource groups and jump VMs.
-  ![](.././media/cs-003.png)
+ ![](.././media/cs-003.png)
 
 #### Shadow Attendee's Virtual Machine
 1. From **Users** tab click on Launch VM Shadow a **BINOCULAR** icon to shadow the attendee's VM and let us call this Instructor login. A virtual machine session will open in new tab of web browser.
