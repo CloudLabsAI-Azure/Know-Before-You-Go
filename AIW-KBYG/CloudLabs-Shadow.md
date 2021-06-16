@@ -32,9 +32,9 @@ Navigate to user's tab from actions. Check Deployment ID (DID) for each User (Em
 #### Shadow Attendee's Virtual Machine
 1. From **Users** tab click on Launch VM Shadow a **BINOCULAR** icon to shadow the attendee's VM and let us call this Instructor login. A virtual machine session will open in new tab of web browser.
    ![](.././media/cs-004.png)
-1. You will see a Remote Desktop Connection automatically opens (1), that is attendees session shadow. You can Maximize the Sahdow session by clicking on maximize icon (2).
+1. You will see a Remote Desktop Connection automatically opens (1), that is attendees session shadow. You can Maximize the Shadow session by clicking on maximize icon (2).
    ![](.././media/cs-005.png)
-1. This is possible that you may not find attendess shadow session open in the instructor login due to following reasons.
+1. This is possible that you may not find attendees shadow session open in the instructor login due to following reasons.
    - Attedees is not connected to the VM yet, if attendees did not access hios lab environment yet that mean attendee need to connect VM then only it will be visible in Instructor login.
    - Attendee disconnected the virtual machine (VM). In this case inform attendee to connect to the VM if needed.
    - If attendee connects back to the VM, shadow session will open automatically in Instructor login.
