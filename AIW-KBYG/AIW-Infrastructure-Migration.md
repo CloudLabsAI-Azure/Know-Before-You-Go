@@ -8,13 +8,12 @@
 
    - Wherever attendee is asked to provide value for **Location** same as your Azure SQL Database or same as your resource group, make sure to select the same region because selecting the different region will not allow the replication and migration of resources. 
 
-1. Exercise1 Task2 Step2: 
+1. Exercise1 Task2 Step3: 
 
-   If an attendee is not able to see the virtual machines in the Hyper-V manager  
-
-    ![Cloudlabsportal](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/InfrastrureMigration-issue.png?raw=true "Environment")
-
-   he can wait for 5-10 minutes and refresh the browser the attendee will be able to see the 4 virtual machines in the Hyper-V manager. 
+   If attendee receives below error while generating the **Azure Migrate project key** in Azure Migrate. In this case go to the Azure Migrate main page and create a new project with different name, select that newly created project and perform the **Step 3 of Task2** again to generate the key.
+   
+   
+   **Note**: In this case, validations will fail, as the validation is configured to check the discovered servers, Assessments and AssessmentGroup under migrate project **SmartHotelMigrationDID** but attendee will be using different Migrate project in this case.
    
 1. Issue while connecting to internet in **Azure Migrate Appliance vm**:
 
