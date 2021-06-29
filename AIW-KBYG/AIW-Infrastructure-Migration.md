@@ -16,6 +16,13 @@
    
    **Note**: In this case, validations will fail, as the validation is configured to check the discovered servers, Assessments and AssessmentGroup under migrate project **SmartHotelMigrationDID** but attendee will be using different Migrate project in this case.
    
+1. **Exercise2 Task4 Step16**:    
+
+    If attendee gets below error while connecting to the target SQL database in the process of migrate project creation, you can delete the existing **SmartHotel-DB-for-DMS** endpoint, recreate it and then perform Task4 again.
+    
+    
+    
+   
 1. Issue while connecting to internet in **Azure Migrate Appliance vm**:
 
       1. Delete any extra switch if available.
