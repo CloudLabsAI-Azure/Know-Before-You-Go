@@ -1,4 +1,4 @@
-# AVW: DevOps with GitHub
+# Azure Immersion Workshop: DevOps with GitHub
 
 ## Known Issues and workarounds 
 
