@@ -1,6 +1,5 @@
 # Known Issues and workarounds 
 
-1. **Windows Virtual Desktop (WVD)** branding name got changed to **Azure Virtual Desktop (AVD)**, we are working on updating the content accordingly, thanks for your patience.
 1. The attendees may face issues while trying to access the environment, 
     - they can check to see if the VM is in the running state, if not they can start it from the Virtual machine tab. 
     - It could also be due to a duplicate window open in another browser, we suggest closing all windows and trying again. Or using a private window and clearing the cookies.  
