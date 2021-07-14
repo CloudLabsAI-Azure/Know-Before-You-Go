@@ -13,8 +13,7 @@ Instructor should make sure that the attendees follow the **lab guide** provide
 
 1. The Azure cloud shell can be unresponsive at times, we would suggest you to restart the cloudshell and try again.
 
-1. Yaml files 
-
+1. **Yaml files**:
    While **editing or inserting** the content into the yaml files, attendees should make sure they read the instructions properly and edit the files accordingly. It is better to cross check the files once, after editing and before saving them. 
 
 1. If attendee’s session to build agent vm gets disconnected,  
