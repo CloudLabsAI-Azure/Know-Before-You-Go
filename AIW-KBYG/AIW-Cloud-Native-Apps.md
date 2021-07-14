@@ -1,8 +1,13 @@
 # Azure Immersion Workshop: Cloud Native Apps
 
-### Known Issues and workarounds
-
 1. Instructor should make sure that the attendees follow the **lab guide** provided in the environment to perform the lab instead of lab guide from MCW repo. Because few instructions may differ from the provided lab guide and MCW repo lab guide. 
+
+### Known Issues and workarounds
+- [Know issues in Lab Steps](#know-issues-create-in-lab-steps)
+- [Copy paste issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/CopyPaste)
+- [Lab VM connectivity issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/RDP)
+
+#### Know issues in Lab Steps
 
 1. Attendees should make sure that they will go through every instruction properly while performing the before hands-on-lab. If at all the lab guide is not followed correctly, attendees will be facing issues in next part of the lab. 
 
