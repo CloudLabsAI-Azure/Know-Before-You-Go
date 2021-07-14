@@ -1,4 +1,4 @@
-# Cloud Adoption Framework
+# Azure Virtual Workshop: Cloud Adoption Framework
 
 In this lab all the exercises are independent to each other.
 
