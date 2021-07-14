@@ -1,7 +1,6 @@
-# AVW: Hybrid Cloud Solutions
+# Azure Immersion Workshop: Hybrid Cloud Solutions
 
 ## Known Issues and workarounds 
-
 
 1. If attendee face issues while trying to access the environment, follow the below steps:
 
@@ -14,7 +13,6 @@
 	**ubuntu-k8s failed to restore**
 	
 	Solution: Right click on the **ubuntu-k8s vm** from the Hyper-V Manager and then click on Delete Saved State and then start the VM from the Hyper-V Manager
-
 
 1. **Copy-Paste Issue**
 
