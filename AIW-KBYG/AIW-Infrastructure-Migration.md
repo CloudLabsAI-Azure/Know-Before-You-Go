@@ -1,4 +1,4 @@
-# Infrastructure Migration
+# Azure Immersion Workshop: Infrastructure Migration
 
 ## Known issues and workarounds
 
