@@ -1,4 +1,4 @@
-# Internet of Things
+# Azure Virtual Workshop: Internet of Things
 
 ## Known Issues and workarounds 
 
