@@ -1,4 +1,4 @@
-# Cloud Native Apps : Developer Edition
+# Azure Immersion Workshop: Cloud Native Apps
 
 ### Known Issues and workarounds
 
