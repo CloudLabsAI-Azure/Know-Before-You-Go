@@ -1,4 +1,4 @@
-# MIGRATING SQL DATABASE TO AZURE
+# Azure Immersion Workshop: Data Modernization
 
 ## Known Issues and workarounds
 
