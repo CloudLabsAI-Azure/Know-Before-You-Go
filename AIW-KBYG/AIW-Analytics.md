@@ -1,6 +1,11 @@
 # Analytics in a Day
 
-## Known Issues and workarounds 
+### Known Issues and workarounds
+- [Know issues in Lab Steps](#know-issues-in-lab-steps)
+- [Copy paste issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/CopyPaste)
+- [Lab VM connectivity issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/RDP)
+
+#### Know issues in Lab Steps 
 
 1. The dedicated SQL pool is paused by default, the attendee must resume the pool before performing the lab by following the below steps.
 
