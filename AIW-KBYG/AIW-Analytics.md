@@ -1,4 +1,4 @@
-# Analytics in a Day
+# Azure Immerssion Workshop: Analytics
 
 ### Known Issues and workarounds
 - [Know issues in Lab Steps](#know-issues-in-lab-steps)
