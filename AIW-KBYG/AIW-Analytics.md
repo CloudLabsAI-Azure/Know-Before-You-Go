@@ -1,4 +1,4 @@
-# Azure Immerssion Workshop: Analytics
+# Azure Immersion Workshop: Analytics
 
 ### Known Issues and workarounds
 - [Know issues in Lab Steps](#know-issues-in-lab-steps)
