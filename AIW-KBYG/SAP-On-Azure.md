@@ -9,5 +9,4 @@
 
 #### Module 3: Cloud Operations, Governance, Security
 
-- Module 3 has predeployed and configured resources, attendes will be reviewing the already configured resources and some of the steps are designed as **read only** and not to the performed
-as a part of this module.
+- Module 3 has predeployed and preconfigured SAP HANA resources, attendes will be reviewing the pre-configured resources, perform few steps and some of the steps are designed as **read-only** and not to be performed as a part of this module.
