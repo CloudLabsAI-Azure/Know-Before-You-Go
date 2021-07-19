@@ -16,14 +16,14 @@
 	Solution: Right click on the **ubuntu-k8s vm** from the Hyper-V Manager and then click on Delete Saved State and then start the VM from the Hyper-V Manager
 
 
-      - If **LabVM** opens on full screen, then you can **Restore Down** the window. 
+1. If **LabVM** opens on full screen, then you can **Restore Down** the window. 
 
-        ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-9.png?raw=true) 
+    ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-9.png?raw=true) 
 
-      - Split the Window from lab environment page to open the Lab guide in Separate Window. 
+1.  Split the Window from lab environment page to open the Lab guide in Separate Window. 
 
-          ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-10.png?raw=true) 
+    ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-10.png?raw=true) 
 
-      - Now, copy the lab environment URL from the list and open that inside the VM itself and then use the Vm on full screen. 
+1.  Now, copy the lab environment URL from the list and open that inside the VM itself and then use the Vm on full screen. 
 
-          ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-11.png?raw=true) 
+    ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/copypasteissue-11.png?raw=true) 
