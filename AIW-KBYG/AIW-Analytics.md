@@ -83,7 +83,7 @@
      
          ![Linked service](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/AIAD-powerbi-4.png?raw=true "Linked service")
               
-     6. Click on **+New**, serach for and slect **PowerBI** then click on **Continue**.
+     6. Click on **+New**, search for and slect **PowerBI** then click on **Continue**.
      
          ![Linked service](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/AIAD-powerbi-5.png?raw=true "Linked service")
               
