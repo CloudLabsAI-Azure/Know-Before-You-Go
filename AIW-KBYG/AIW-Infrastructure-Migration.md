@@ -10,7 +10,6 @@
 
 1. ### Important!! 
 
-   - Whenever attendee is asked to provide value for **SUFFIX**, it should be replaced with value which can be found from the Environment Details page. Not providing the SUFFIX value will lead to **Deployment issues** while deploying new resources. 
 
    - Wherever attendee is asked to provide value for **Location** same as your Azure SQL Database or same as your resource group, make sure to select the same region because selecting the different region will not allow the replication and migration of resources. 
 
