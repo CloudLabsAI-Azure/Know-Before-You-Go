@@ -24,9 +24,11 @@
 
 1. **Exercise1 Task3 Step17**: 
     
-    If attendee see that the discovery process is stuck at **Discoery is in progress** state for more then 5 mintues, then please follow the below steps for workarround.
+    If attendee see that the discovery process is stuck at **Discoery is in progress** state for more then 5 mintues, then please follow the below steps for workaround.
     
       ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/media/progress.png?raw=true)
+   
+   ##Workaround 1:
    
     1. Open HyperV Manger and do right click on the **AzureMigrateAppliance** server and select **Turn off** button. 
 
@@ -44,6 +46,18 @@
 
         ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/media/done.png?raw=true)
 
+   ##Workaround 2: If you still see that the discover items is not visible then you can follow the below steps. However servers are discovered already but due to a Azure GUI issue its not visible on this page.
+
+    1. Go to the **Azure Migrate** blade in the Azure portal.  Select **Windows, Linux and SQL Server**, and then click on **Appliance** button.
+      ![Screenshot of the Azure Migrate appliance configuration wizard, showing the 'Appliances' button.](https://raw.githubusercontent.com/CloudLabs-MCW/MCW-Line-of-business-application-migration/snapshot/Hands-on%20lab/images/Exercise1/Discovered_Servers_Count.png "Appliances")
+      
+    2. On the **Appliance page**, Go to the Overview, you should see a count of the number of servers discovered so far.
+      
+    ![Screenshot of the Azure Migrate portal blade. Under 'Azure Migrate: Server Assessment' the value for 'Machines' is '5'.](https://raw.githubusercontent.com/CloudLabs-MCW/MCW-Line-of-business-application-migration/snapshot/Hands-on%20lab/images/Exercise1/Machines.png "Machines")
+    
+    3. If you are able to see the number of server then you can continue the lab from the next steps. 
+  
+   
    
 1. **Exercise2 Task4 Step16**:    
 
