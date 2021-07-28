@@ -8,5 +8,18 @@
 
 ### Issue related to Azure Migrate GUI in Exercise 2 and Exercise 3: 
 
-In Exercise 2: Task 2 and Exercise 3 after completing the migration of the app service, we are unable to view the discovered web servers, assessment websites and migrated website in Azure Migrate overview page. It is an issue with Azure Migrate product GUI, we have engaged MS support team for the issue they are looking into it and we don't have ETA on this from MS team yet.
-However servers are discovered and website also assessed in actual and you can proceed with the next steps, you will be getting all required things in next steps without any issue. This is the GUI issue and won't affect any lab functionality.
+1. **In Exercise 2: Task 2: Migrate the web application to Azure App Service : Step 7**
+
+  - After completing the migration of the app service, The discovered web servers, assessed websites and migrated websites are **not visible** from the Portal on **Azure migrate.**
+
+  - The **web servers** are **discovered** and website is **assessed** in actual and you can **proceed** with the next steps. This is a **GUI issue** and **won't affect any functionality.**
+
+  ![](https://raw.githubusercontent.com/junnhssn/Know-Before-You-Go/main/media/app-mod-azure-migrate-1.png)
+
+2. **In Exercise 3 : Task 1: Perform assessment for migration to Azure SQL Database : Step 14**
+
+  - After uploading the **PartsUnlimited** database assessment to Azure. The changes are **not visible** from the Portal on **Azure Migrate.**
+  
+  - This is also a **GUI issue** and **won't affect any functionality** and you can proceed with the next steps.
+
+  ![](https://raw.githubusercontent.com/junnhssn/Know-Before-You-Go/main/media/app-mod-azure-migrate-2.png)
