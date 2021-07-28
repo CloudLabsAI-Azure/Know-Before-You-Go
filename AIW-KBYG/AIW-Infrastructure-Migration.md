@@ -56,7 +56,7 @@
       
     ![Screenshot of the Azure Migrate portal blade. Under 'Azure Migrate: Server Assessment' the value for 'Machines' is '5'.](https://raw.githubusercontent.com/CloudLabs-MCW/MCW-Line-of-business-application-migration/snapshot/Hands-on%20lab/images/Exercise1/Machines.png "Machines")
     
-    3. If you are able to see the number of server then you can continue the lab from the next steps. 
+    3. If you are able to see the number of server then you can continue the lab from Exercise 1 Task4. 
   
    
    
