@@ -4,7 +4,7 @@
 
 - [Copy paste issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/CopyPaste)
 - [Lab VM connectivity issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/RDP)
-- [Lab Known Issues]
+- [Lab Known Issues](#issue-related-to-azure-migrate-gui-in-exercise-2-and-exercise-3)
 
 ### Issue related to Azure Migrate GUI in Exercise 2 and Exercise 3: 
 
