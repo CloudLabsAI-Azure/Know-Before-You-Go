@@ -24,9 +24,9 @@
 
 1. **Exercise1 Task3 Step17**: 
     
-    If attendee see that the discovery pprocess is stuck at **Discoery is in progress** for more then 5 mintues, then please follow the below steps for workarround.
-       ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/media/progress.png?raw=true)
-   ## Workarround 1:
+    If attendee see that the discovery process is stuck at **Discoery is in progress** state for more then 5 mintues, then please follow the below steps for workarround.
+    
+     ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/media/progress.png?raw=true)
    
     1. Open HyperV Manger and do right click on the **AzureMigrateAppliance** server and select **Turn off** button. 
 
