@@ -21,6 +21,30 @@
    
    **Note**: In this case, validations will fail, as the validation is configured to check the discovered servers, Assessments and AssessmentGroup under migrate project **SmartHotelMigrationDID** but attendee will be using different Migrate project in this case.
    
+
+1. **Exercise1 Task3 Step17**: 
+    
+    If attendee see that the discovery process is stuck at **Discoery is in progress** state for more then 5 mintues, then please follow the below steps for workarround.
+    
+     ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/media/progress.png?raw=true)
+   
+    1. Open HyperV Manger and do right click on the **AzureMigrateAppliance** server and select **Turn off** button. 
+
+       ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/media/hypervshut.png?raw=true)
+      
+    1. After a few seconds double click on the **AzureMigrateAppliance** Server and a popup will show then click on **Start** button to start the HyperV server. Enter **demo!pass123** Password on login screen.
+    
+      ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/media/start.png?raw=true)
+     
+    3. Once the HyperVM is up please switch back to azure portal in the labvm and click on refresh button to get the latest information. 
+
+      ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/media/refresh.png?raw=true)
+     
+    4. Now you should be able to see that is discovery progress is completed. as shown in the below screenshot.
+
+       ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/media/done.png?raw=true)
+
+   
 1. **Exercise2 Task4 Step16**:    
 
     If attendee gets below error while connecting to the target SQL database in the process of migrate project creation, you can delete the existing **SmartHotel-DB-for-DMS** endpoint, recreate it and then perform Task4 again.
