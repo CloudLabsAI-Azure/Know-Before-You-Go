@@ -2,22 +2,38 @@
 
 ## Known Issues and workarounds 
 
+- [Known issues](#known-issues)
 - [Copy paste issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/CopyPaste)
 - [Lab VM connectivity issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/RDP)
-- Known issues
 
-**Exercise 4 -> Task 3 -> Step No 3**
+## Known issues
+
+1. **Exercise 3 -> Task 1 -> Step No 5**
+
+    If attendee face below issue when connecting to SQL sever from Data Migration Assistant, it is because of incorrect password.
+    
+    ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/media/appmodissue-4.png?raw=true)  
+    
+    To fix this issue, enter the correct password **Password.1!!** and try connecting to the server again.
+
+2. **Exercise 4 -> Task 3 -> Step No 3**
 
   There is an Inconsistent UI for Azure Web App Deployment Center.  Each Attendee might see a different UI when they access the deployment center within Azure Web App Slot due to which some of the attendees won't be getting a drop down to select the desired .Net Version. Atedee can follow the below instructions to select the desired verison of .Net Core.
      
    1. Select **Configuration** from the left-hand side menu then **General Settings**.
 
+      ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/media/appmodissue-1.png?raw=true)
+
    2. On the **General settings** blade, provide the below information under **Stack settings** sections
 
-        - Stack: Select **.Net** from the dropdown**.
-        - .NET version: Select **.NET Core(3.1,2.1)** from the dropdown**.
+        - Stack: Select **.Net** from the dropdown.
+        - .NET version: Select **.NET Core(3.1,2.1)** from the dropdown.
+
+       ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/media/appmodissue-2.png?raw=true)
 
    3. Click on **Save** then **Continue** to save the changes.
+
+       ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/media/appmodissue-3.png?raw=true)
 
    4. Switch to the **Deployment Center** tab, select **GitHub** as the source.
 
