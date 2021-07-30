@@ -35,5 +35,5 @@
 
        ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/media/appmodissue-3.png?raw=true)
 
-   4. Switch to the **Deployment Center** tab, select **GitHub** as the source.
+   4. Switch to the **Deployment Center** tab, select **GitHub** as the source and select **Authorize** to create the connection between the App Service deployment slot and the GitHub repository.
 
