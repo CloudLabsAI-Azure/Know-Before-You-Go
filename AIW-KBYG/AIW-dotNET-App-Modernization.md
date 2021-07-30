@@ -18,7 +18,7 @@
 
 2. **Exercise 4 -> Task 3 -> Step No 3**
 
-  There is an Inconsistent UI for Azure Web App Deployment Center.  Each Attendee might see a different UI when they access the deployment center within Azure Web App Slot due to which some of the attendees won't be getting a drop down to select the desired .Net Version. Atedee can follow the below instructions to select the desired verison of .Net Core.
+  There is an Inconsistent UI for Azure Web App Deployment Center.  Each Attendee might see a different UI when they access the deployment center within Azure Web App Slot due to which some of the attendees won't be getting a drop down to select the desired .Net Version. Attendee can follow the below instructions to select the desired verison of .Net Core.
      
    1. Select **Configuration** from the left-hand side menu then **General Settings**.
 
