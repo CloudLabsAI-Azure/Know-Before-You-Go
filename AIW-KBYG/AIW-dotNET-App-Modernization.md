@@ -10,11 +10,11 @@
 
 1. **Exercise 3 -> Task 1 -> Step No 5**
 
-    If attendee face below issue when connecting to SQL sever from Data Migration Assistant, it is because of incorrect password.
+    If attendee encounters below issue when connecting to SQL sever from Data Migration Assistant, it is because of incorrect password.
     
     ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/media/appmodissue-4.png?raw=true)  
     
-    To fix this issue, enter the correct password **Password.1!!** and try connecting to the server again.
+    To fix this issue, enter the correct password **Password.1!!** and try connecting to the server again, make sure no extra spaces are copied when you paste the passowrd value.
 
 2. **Exercise 4 -> Task 3 -> Step No 3**
 
