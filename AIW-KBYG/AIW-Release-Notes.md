@@ -1,4 +1,4 @@
-# Azure Immersion Workshops Release Notes
+# Azure Immersion Workshops: Release Notes
 
 This document is degined to make partners aware on recent updates, fixes and future release for Azure Immersion workshops. 
 
