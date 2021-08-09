@@ -52,3 +52,13 @@ Instructor should make sure that the attendees follow the **lab guide** provided
     
     1. Turn off the firewall in the SQL vm, if we don't want to turn off the firewall we can create an inbound rule to allow 1433 port
 
+
+1. #### Exercise1 Task1 Step3: Not able to see the Add Vnet buttom from VM.
+
+   We are having a temporary issues related with Azure UI, This may be removed in furture once the issue is fixed. 
+   
+   1. On Exercise1 Task1 Step3 if you cant able to see the Vnet button then please login to Azure Portal from your local Machine and follow the Vnet integration task, Once the task is done you can switch back to the VM. 
+
+      ![image](https://user-images.githubusercontent.com/45102602/128701347-8f786a12-0944-4e1e-9d09-b3fe5c1117e0.png)
+
+
