@@ -57,16 +57,7 @@
     ![Screenshot of the Azure Migrate portal blade. Under 'Azure Migrate: Server Assessment' the value for 'Machines' is '5'.](https://raw.githubusercontent.com/CloudLabs-MCW/MCW-Line-of-business-application-migration/snapshot/Hands-on%20lab/images/Exercise1/Machines.png "Machines")
     
     3. If you are able to see the number of server then you can continue the lab from Exercise 1 Task4. 
-  
-
-1. **Exercise1 Task6 Step1**:
-
-     If you see that the Dependencies status as **Requires agent installation** instead of **Installed** in **Azure Migrate** even after installing the agents in the Virtual Machine, attendee can follow the instructions that are added to view service map from Log Analytics workspace in Exercise 1 Task 6 and they will be able to see the map. 
      
-     ![lob2](https://user-images.githubusercontent.com/52440474/132685576-06b7e6a1-32be-472f-a0e6-f5fd64e9f57a.png)
-
-     This is because there is an issue going on with Azure right now so that its not reflecting the latest status in dependencies blade. Attendee can review the service map from Log Analytics workspace and perform the next task as it will not affect the functionality of the lab.
-         
 1. **Exercise2 Task4 Step16**:    
 
     If attendee gets below error while connecting to the target SQL database in the process of migrate project creation, you can delete the existing **SmartHotel-DB-for-DMS** endpoint, recreate it and then perform Task4 again.
