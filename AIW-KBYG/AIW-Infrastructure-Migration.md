@@ -38,7 +38,7 @@
 
       ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/media/lob-issue-05.png?raw=true)
    
-   1. Close the **Azure Migrate appliance configuration wizard** and re-launch it using the dessktop shortcut.
+   1. Close the **Azure Migrate appliance configuration wizard** and re-launch it using the desktop shortcut.
 
 1. **Exercise1 Task3 Step17**: 
     
