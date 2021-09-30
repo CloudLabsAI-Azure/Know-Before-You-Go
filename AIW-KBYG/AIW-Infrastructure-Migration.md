@@ -22,6 +22,24 @@
    **Note**: In this case, validations will fail, as the validation is configured to check the discovered servers, Assessments and AssessmentGroup under migrate project **SmartHotelMigrationDID** but attendee will be using different Migrate project in this case.
    
 
+1. **Exercise1 Task3 Step3**: 
+
+   If attendee receive a prompt asking for credentials after launching the **Azure Migrate appliance configuration wizard** using the shortcut available on the desktop, follow the below instructions:
+   
+   1. From the Azure Migrate Appliance VM, open IIS manager and select the **Conections** that starts with **WIN**.
+
+      ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/media/lob-issue-03.png?raw=true)
+      
+   1. Now, select **Authentication** under IIS from the home page.
+
+      ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/media/lob-issue-04.png?raw=true)
+      
+   1. Select **Windows Authentication** and click on **Enable** to enable it.
+
+      ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/media/lob-issue-05.png?raw=true)
+   
+   1. Close the **Azure Migrate appliance configuration wizard** and re-launch it using the dessktop shortcut.
+
 1. **Exercise1 Task3 Step17**: 
     
     If attendee see that the discovery process is stuck at **Discoery is in progress** state for more then 5 mintues, then please follow the below steps for workaround.
@@ -83,3 +101,17 @@
 	 3. Ensure no VLAN ID ise selected in VM properties.
 
 	 4. Disable network adaptor inside the appliance vm and enable it again.
+
+
+1. **Exercise3 Task9 Step6**: 
+
+ If you receive any error while accessing the apllication using UbuntuWAF VM IP address, then follow the below instructions to access the smarthotel application:
+   
+   1. Navigate to the **SmartHotelDBRG** resource group, and then to the **SmartHoteldb<inject key="DeploymentID" enableCopy="false" />** database server to update the Firewall settings.
+   1. Under Security, select Firewalls and virtual networks. Set 'Deny public network access' to **No**, then Save your changes.
+
+      ![](https://github.com/CloudLabs-MCW/MCW-Line-of-business-application-migration/blob/snapshot/Hands-on%20lab/images/Exercise3/lob-issue-01.png?raw=true)
+     
+   1. Open a new browser tab and paste the IP address into the address bar. Verify that the SmartHotel360 application is now available in Azure.
+   
+      ![](https://github.com/CloudLabs-MCW/MCW-Line-of-business-application-migration/blob/snapshot/Hands-on%20lab/images/Exercise3/lob-issue-02.png?raw=true)
