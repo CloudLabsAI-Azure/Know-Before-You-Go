@@ -76,6 +76,9 @@
 
    - If the validation fails attendee should make sure that all the configurations provided in the lab guide are followed while adding the **ApplicationGroupMonitoring** Diagnostic setting. 
 
+1. Exercise 8 Task 3 : Microsoft Teams and Microsoft Edge Chromium not installing
+    
+    - In Step 11, Microsoft Teams and Microsoft Edge Chromium won't be installed as there are changes in the application. If you don't see the application installed, Please skip the step and continue with the lab.
 1. **Copy-Paste Issue**
 
     **If Copy paste doesn’t work, please try following:** 
