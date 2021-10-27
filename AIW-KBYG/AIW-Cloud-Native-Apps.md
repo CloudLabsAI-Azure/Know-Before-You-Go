@@ -24,7 +24,7 @@ Instructor should make sure that the attendees follow the **lab guide** provide
     2. In the cloud shell output, paste the ssh key that you copied earlier enter **yes** when prompted. 
     3. Enter the Buid Agent VM password provided in environment details, you will be connected to Build Agent VM. 
 
-1. If attendees are having trouble exiting the `Vim` session with esc, try using `ctrl+[` to exit the sessiion.
+1. If attendees are having trouble exiting the `Vim` session with esc, try using `ctrl+[` to exit the session.
 
 1. Issue in before hands-on-lab task 3 step13 
 
