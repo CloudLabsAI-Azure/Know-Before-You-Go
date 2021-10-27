@@ -24,6 +24,8 @@ Instructor should make sure that the attendees follow the **lab guide** provide
     2. In the cloud shell output, paste the ssh key that you copied earlier enter **yes** when prompted. 
     3. Enter the Buid Agent VM password provided in environment details, you will be connected to Build Agent VM. 
 
+1. If attendees are having trouble exiting the `Vim` session with esc, try using `ctrl+[` to exit the sessiion.
+
 1. Issue in before hands-on-lab task 3 step13 
 
     - When the attendee faces an issue while pushing the changes to the master branch, make sure the GitHub repo URL and the provided credentials are correct. Then ask the attendee to rerun the command **git push -u origin master** to push the changes. 
