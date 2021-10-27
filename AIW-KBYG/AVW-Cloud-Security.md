@@ -1,4 +1,5 @@
-# Azure Immersion Workshop: Cloud Security
+# Security Immersion Workshop: Secure Hybrid Cloud
+
 
 Instructor should make sure that the attendees follow the **lab guide** provided in the environment to perform the lab instead of lab guides given in GitHUb repos. 
 
