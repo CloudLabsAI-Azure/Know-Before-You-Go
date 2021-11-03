@@ -22,3 +22,7 @@ In this lab all the exercises are independent to each other.
    - To apprearing the Result, sometime it take more than 1 hour or it will show **No Result Found** than you have to check the **Change Tracking and Inventory checks** and if everything is correct, and if log still not appear than you dont need to wait you can proceed with the lab, there might be delay from the azure end.
 
      ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/CAF%201.png)
+     
+1. Azure API issue: 
+
+   - Due to recent changes in Azure api's, azure API's are taking some additional time to fetch the details of the resources . The validation steps might fail initially for the lab, if you re-run the steps again after 30-45 minutes later then it will succeed if there will be no configuration related issue with lab steps you performed.
