@@ -115,3 +115,8 @@
    1. Open a new browser tab and paste the IP address into the address bar. Verify that the SmartHotel360 application is now available in Azure.
    
       ![](https://github.com/CloudLabs-MCW/MCW-Line-of-business-application-migration/blob/snapshot/Hands-on%20lab/images/Exercise3/lob-issue-02.png?raw=true)
+      
+
+1. **Azure API issue**: 
+
+   - Due to recent changes in Azure api's, azure API's are taking some additional time to fetch the details of the resources . The validation steps might fail initially for the lab, if you re-run the steps again after 30-45 minutes later then it will succeed if there will be no configuration related issue with lab steps you performed.
