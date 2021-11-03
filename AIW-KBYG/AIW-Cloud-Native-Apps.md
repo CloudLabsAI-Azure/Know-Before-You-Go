@@ -59,3 +59,8 @@ Instructor should make sure that the attendees follow the **lab guide** provide
      - The mongodb might not be running, run the following command on the build VM to start the DB.
        
        ```docker container start mongo``` 
+       
+1. **Issue in Exercise - 4 Task 3 step 4
+
+- You might face Insufficient storage space error while running the `npm install applicationinsights --save` command.
+- Kindly run the `content-web` workflow manually by following the instructions mentioned in the lab guide.
