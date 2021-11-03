@@ -9,3 +9,7 @@
   ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/IOT1.png)
   
 The iot devices are visible when accessed through edge browser,  there was some temporary issues with internet explorer. Informed user please take back access to lab environment continue doing lab using edge browser. 
+
+4. Azure API issue: 
+
+   - Due to recent changes in Azure api's, azure API's are taking some additional time to fetch the details of the resources . The validation steps might fail initially for the lab, if you re-run the steps again after 30-45 minutes later then it will succeed if there will be no configuration related issue with lab steps you performed.
