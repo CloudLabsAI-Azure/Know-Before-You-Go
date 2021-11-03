@@ -61,4 +61,6 @@ Instructor should make sure that the attendees follow the **lab guide** provided
 
       ![image](https://user-images.githubusercontent.com/45102602/128701347-8f786a12-0944-4e1e-9d09-b3fe5c1117e0.png)
 
+1. #### Azure API issue: 
 
+   - Due to recent changes in Azure api's, azure API's are taking some additional time to fetch the details of the resources . The validation steps might fail initially for the lab, if you re-run the steps again after 30-45 minutes later then it will succeed if there will be no configuration related issue with lab steps you performed.
