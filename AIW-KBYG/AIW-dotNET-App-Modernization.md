@@ -18,7 +18,7 @@
 
 2. **Exercise 4 -> Task 3 -> Step No 3**
 
-  There is an Inconsistent UI for Azure Web App Deployment Center.  Each Attendee might see a different UI when they access the deployment center within Azure Web App Slot due to which some of the attendees won't be getting a drop down to select the desired .Net Version. Attendee can follow the below instructions to select the desired verison of .Net Core.
+     There is an Inconsistent UI for Azure Web App Deployment Center.  Each Attendee might see a different UI when they access the deployment center within Azure Web App Slot due to which some of the attendees won't be getting a drop down to select the desired .Net Version. Attendee can follow the below instructions to select the desired verison of .Net Core.
      
    1. Select **Configuration** from the left-hand side menu then **General Settings**.
 
@@ -41,3 +41,7 @@
 
    5. Switch to the **Deployment Center** tab, select **GitHub** as the source and select **Authorize** to create the connection between the App Service deployment slot and the GitHub repository.
 
+
+3. **Azure API issue**: 
+
+   - Due to recent changes in Azure api's, azure API's are taking some additional time to fetch the details of the resources . The validation steps might fail initially for the lab, if you re-run the steps again after 30-45 minutes later then it will succeed if there will be no configuration related issue with lab steps you performed.
