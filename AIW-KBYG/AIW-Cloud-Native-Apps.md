@@ -57,7 +57,7 @@
 1. **Issue in Exercise - 4 Task 3 step 4
 
    - You might face Insufficient storage space error while running the `npm install applicationinsights --save` command.
-
+   - Kindly run the `content-web` workflow manually by following the instructions mentioned in the lab guide.
 
 1. **Copy-Paste Issue**
 
