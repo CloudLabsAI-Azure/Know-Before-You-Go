@@ -53,6 +53,10 @@
      - The mongodb might not be running, run the following command on the build VM to start the DB.
        
        ```docker container start mongo``` 
+       
+1. **Issue in Exercise - 4 Task 3 step 4
+
+   - You might face Insufficient storage space error while running the `npm install applicationinsights --save` command.
 
 
 1. **Copy-Paste Issue**
