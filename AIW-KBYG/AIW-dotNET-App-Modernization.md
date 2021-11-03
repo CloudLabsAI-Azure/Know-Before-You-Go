@@ -41,3 +41,6 @@
 
    5. Switch to the **Deployment Center** tab, select **GitHub** as the source and select **Authorize** to create the connection between the App Service deployment slot and the GitHub repository.
 
+3. **Azure API issue**: 
+
+   - Due to recent changes in Azure api's, azure API's are taking some additional time to fetch the details of the resources . The validation steps might fail initially for the lab, if you re-run the steps again after 30-45 minutes later then it will succeed if there will be no configuration related issue with lab steps you performed.
