@@ -105,7 +105,7 @@
 
 1. **Exercise3 Task9 Step6**: 
 
-   If you receive any error while accessing the apllication using UbuntuWAF VM IP address, then follow the below instructions to access the smarthotel application:
+   If you receive any error while accessing the application using UbuntuWAF VM IP address, then follow the below instructions to access the smarthotel application:
    
    1. Navigate to the **SmartHotelDBRG** resource group, and then to the **SmartHoteldb<inject key="DeploymentID" enableCopy="false" />** database server to update the    Firewall settings.
    1. Under Security, select Firewalls and virtual networks. Set 'Deny public network access' to **No**, then Save your changes.
