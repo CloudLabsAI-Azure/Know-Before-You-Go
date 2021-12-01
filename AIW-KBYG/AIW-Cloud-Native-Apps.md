@@ -63,3 +63,7 @@ Instructor should make sure that the attendees follow the **lab guide** provide
 1. Azure API issue: 
 
      - Due to recent changes in Azure api's, azure API's are taking some additional time to fetch the details of the resources . The validation steps might fail initially for the lab, if you re-run the steps again after 30-45 minutes later then it will succeed if there will be no configuration related issue with lab steps you performed.
+
+1. **Issue in Exercise - 4 Task 3 step 4**
+   - You might face Insufficient storage space error while running the `npm install applicationinsights --save` command.
+   - Kindly run the `content-web` workflow manually by following the instructions mentioned in the lab guide.
