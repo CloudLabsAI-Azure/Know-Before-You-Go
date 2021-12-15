@@ -1,11 +1,14 @@
 # Azure Virtual Workshop: Cloud Adoption Framework
 
-In this lab all the exercises are independent to each other.
+### Known Issues and workarounds
+- [Know issues in Lab Steps](#know-issues-in-lab-steps)
+- [Copy paste issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/CopyPaste)
+- [Lab VM connectivity issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/RDP)
 
-## Known Issues and workarounds 
+#### Know issues in Lab Steps 
 1. [Jumpbox/LabVM connectivity/RDP over HTTP issue](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/AIW-KBYG/RDP-over-HTTP-Workaround.md#remote-desktop-functionality-known-issues-)
 
-2. **Increased time with ARM template deployment:** As compared to the older version of the lab – The ARM template deployment time has been increased and it is mentioned in the lab guide instructions that the deployment of ARM template can take up to 90 minutes as it consists of resources which take time to deploy hence it is expected. 
+2. **Increased time with ARM template deployment:** As compared to the older version of the lab – The ARM template deployment time has been increased and it is mentioned in the lab guide instructions that the deployment of ARM template can take up to 90 minutes as it consists of resources which take time to deploy hence it is expected. You can however proceed to the next Exercise i.e. Exercise 2 on the next page of lab guide and you can come back and check if deployment is succeeded, if it is succeeded then you can resume back to the remaining steps in Exercise 1 and then Exercise 3.
 
 3. In Exercise 1 Task 1 and step 16, ARM template deployments fails sometime. Deployment fails with policy assignments, sometime private DNS endpoint deployment fails. This is a known issue you potentially can run into as described here: https://github.com/Azure/Enterprise-Scale/blob/main/docs/EnterpriseScale-Known-Issues.md#deploying-the-reference-implementation-fails-due-to-policy--cannot-be-found-404
 
