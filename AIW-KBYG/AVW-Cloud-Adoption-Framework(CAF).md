@@ -5,24 +5,12 @@ In this lab all the exercises are independent to each other.
 ## Known Issues and workarounds 
 1. [Jumpbox/LabVM connectivity/RDP over HTTP issue](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/AIW-KBYG/RDP-over-HTTP-Workaround.md#remote-desktop-functionality-known-issues-)
 
-1. In Exercise 3, template deployments fails sometime. We have seen deleting the all **aks** policie assignments from **Landing Zone** Management group and redeploying the template after deleting all **aks** policy assignments fix the issue most of the time. We have raised issue in Original Git repository [here](https://github.com/Azure/Enterprise-Scale/issues/597) and also working on template update to fix this.
+1. **Increased time with ARM template deployment:** As compared to the older version of the lab – The ARM template deployment time has been increased and it is mentioned in the lab guide instructions that the deployment of ARM template can take up to 90 minutes as it consists of resources which take time to deploy hence it is expected. 
 
-1. Exercise 4 Task 3 Step 3 : **Machines to update** 
+1. In Exercise 1 Task 1 and step 16, ARM template deployments fails sometime. Deployment fails with policy assignments, sometime private DNS endpoint deployment fails. This is a known issue you potentially can run into as described here: https://github.com/Azure/Enterprise-Scale/blob/main/docs/EnterpriseScale-Known-Issues.md#deploying-the-reference-implementation-fails-due-to-policy--cannot-be-found-404
+   **Fix deployment**: 
+   * Redeploy the template by following the Exercise 1 Task 1
+   * If redeploying the template fails again, then cleanup the management groups, policy assignments and resource groups which got deployed as part of ARM tremplate deployment in exercise 1 and task 1. Now, deploy the template again.
 
-   - Sometime Machine will take more than 40 minutes to appear on the screen, you have to wait till the VM appear on the screen.
-
-     ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/CAF%202.png)
-     
-1. Exercise 4 Task 4 Step 3: 
-
-   - We have noted that Log Query window is not being loaded for hours many times.
-
-1. Exercise 4  Task 4 Step 4 : **Logs** in Log Analytics
-
-   - To apprearing the Result, sometime it take more than 1 hour or it will show **No Result Found** than you have to check the **Change Tracking and Inventory checks** and if everything is correct, and if log still not appear than you dont need to wait you can proceed with the lab, there might be delay from the azure end.
-
-     ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/CAF%201.png)
-     
-1. Azure API issue: 
-
-   - Due to recent changes in Azure api's, azure API's are taking some additional time to fetch the details of the resources . The validation steps might fail initially for the lab, if you re-run the steps again after 30-45 minutes later then it will succeed if there will be no configuration related issue with lab steps you performed.
+1. **Usage of personal GitHub accounts:**
+     The attendees will need to have their own GitHub accounts /will have to create one during the ongoing lab ( if not available already). Since provisioning of GitHub accounts for n number of users is not possible, the attendees are required to use their personal GitHub account. For ensuring account securities, we are using the “GitHub personal access token” so as the users don’t have to use their passwords while performing lab. The attendees can also delete the “GitHub personal access token” once they have performed the lab.
