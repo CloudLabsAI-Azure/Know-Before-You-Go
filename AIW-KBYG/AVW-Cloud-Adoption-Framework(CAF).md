@@ -40,7 +40,7 @@
       * Check Root Management group role assignments, if there is any role assignment for **Identity not found**, remove that using powershell because it can not be removed from portal. Use below commnad to get the Role assignments and then use teh object ids of role assignment where name is blank. If name is blank for any role assignments that mean that role is for Identity not found. Let us remove that using seond command.
            ```
              Get-AzRoleAssignment | where { $_.Scope -eq "/"}
-             Remove-AzRoleAssignment -ObjectId <object id of identity not found here> -RoleDefinitionName "Owner" -Scope "/"
+             Remove-AzRoleAssignment -ObjectId <object id of identity not found here> -RoleDefinitionName "which role is assigned(Owner/User Managment Access" -Scope "/"
            ```
       * Now, redeploy the template by following the Exercise 1 Task 1.
     
