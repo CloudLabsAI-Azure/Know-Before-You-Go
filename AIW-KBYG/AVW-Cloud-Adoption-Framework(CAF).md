@@ -31,7 +31,7 @@
        
     **Fix deployment**: 
 
-      * Navigate to all the **connected subscriptions** under **eslz** management group then **remove** all the role assignments with name **Identity Not Found** by selecting **IAM** from the navigation menu. 
+      * Navigate to the **connectivity subscription** with name **L1 - Connectivity Sub - XXXX** under **eslz** management group then **remove** the **Network Contributor** role assignments with name **Identity Not Found** by selecting **IAM** from the navigation menu. 
       * Now, redeploy the template by following the Exercise 1 Task 1.
     
 3. **Usage of personal GitHub accounts:**
