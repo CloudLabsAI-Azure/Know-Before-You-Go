@@ -30,8 +30,16 @@
        ```
        
     **Fix deployment**: 
+    
+      * Navigate to eslz-connectivity management group then Access control (IAM)> **remove** the **Network Contributor** role assignments for all the users and service principal by selecting **IAM** from the navigation menu. Also, remove if there is any role assigned for **Identity not found** type user/SP.
+          ![image](https://user-images.githubusercontent.com/27498287/149206065-f0e630ac-727f-47da-994b-ceb91825c860.png)
 
-      * Navigate to the **connectivity subscription** with name **L1 - Connectivity Sub - XXXX** under **eslz** management group then **remove** the **Network Contributor** role assignments with name **Identity Not Found** by selecting **IAM** from the navigation menu. 
+      * Navigate to the **connectivity subscription** with name **L1 - Connectivity Sub - XXXX** under **eslz** management group then **remove** the **Network Contributor** role assignments for all the users and service principal by selecting **IAM** from the navigation menu. Also, remove if there is any role assigned for **Identity not found** type user/SP.
+      * Check Root Management group role assignments, if there is any role assignment for **Identity not found**, remove that using powershell because it can not be removed from portal. Use below commnad to get the Role assignments and then use teh object ids of role assignment where name is blank. If name is blank for any role assignments that mean that role is for Identity not found. Let us remove that using seond command.
+           ```
+             Get-AzRoleAssignment | where { $_.Scope -eq "/"}
+             Remove-AzRoleAssignment -ObjectId <object id of identity not found here> -RoleDefinitionName "Owner" -Scope "/"
+           ```
       * Now, redeploy the template by following the Exercise 1 Task 1.
     
 3. **Usage of personal GitHub accounts:**
