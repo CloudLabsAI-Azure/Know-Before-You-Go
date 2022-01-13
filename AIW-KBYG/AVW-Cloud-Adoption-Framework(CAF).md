@@ -39,7 +39,7 @@
       * Navigate to the **connectivity subscription** with name **L1 - Connectivity Sub - XXXX** under **eslz** management group then **remove** the **Network Contributor** role assignments for all the users and service principal by selecting **IAM** from the navigation menu. Also, remove if there is any role assigned for **Identity not found** type user/SP.
       * Check Root Management group role assignments, if there is any role assignment for **Identity not found**, remove that using below powershell script
            ```
-            $roleAssignments = Get-AzRoleAssignment | where { $_.Scope -eq "/" -and $_.RoleDefinitionName -eq "User Access Administrator" -or "Owner" -and $_.DisplayName -eq                  ""}
+            $roleAssignments = Get-AzRoleAssignment | where { $_.Scope -eq "/" -and $_.RoleDefinitionName -eq "User Access Administrator" -or "Owner" -and $_.DisplayName -eq ""}
             foreach($roleAssignment in $roleAssignments)
             {
             $objectid = $roleAssignment.ObjectId
