@@ -9,28 +9,6 @@
    A. Project Details     
 
    **Location** – make sure this is the same as the region of the resource group to avoid any errors. 
-   
-1. Exercise 1 Task 2  Step 4 
-   
-   - In case Host Pool deployment fails, follow the below steps. 
-
-     1. Go to the WVD-RG resource group and click on Overview.
-
-        ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/wvd-issue1.png?raw=true)
-
-     1. Select the resources highlighted in the image below, then click on ellipsis in the top-right corner and click on delete. Make sure you DO NOT delete any other resources other than the ones shown in screenshot below.
-     
-        ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/wvd-issue2.png?raw=true)
-
-     1. Now under Confirm delete type yes in the bar and click on Delete.
-
-        ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/wvd-issue3.png?raw=true)
-
-     1. Once the resources get deleted, then perform Task 1 from Step 1 to Step 11 to create the Host Pool again.
-
-     1. Now wait for the deployment to succeed. When it gets succeeded, open the notifications and click on Go to Resource.
-
-        ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/wvd-issue4.png?raw=true)
 
 1. Exercise 3 Task 1 Step 6 
 
