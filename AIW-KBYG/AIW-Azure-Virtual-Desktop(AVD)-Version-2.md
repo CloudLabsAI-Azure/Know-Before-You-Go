@@ -14,10 +14,6 @@
 
    - After completing Lab 2(A), The data in Azure Insights won't be loaded immeditately. It might take some time to load the data. Please perform the Lab 2(B) at the last and check the data.
 
-1. Lab 3 Exercise 1 Step 6 
-
-   - The attendee might get an error while signing into office, as the account cannot be used to activate office in a shared computer scenario. We can ignore this and proceed with the lab.  
-
 1. Lab 3 Exercise 1
   
    - Attendee should perform this exercise in their Own **PC/computer/workstation** not in the **JumpVM**. Peforming this exercise in **JumpVM** will cause connection issues when try to access the the published applications using WVD Desktop Client. 
