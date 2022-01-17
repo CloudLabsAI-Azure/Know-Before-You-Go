@@ -4,39 +4,29 @@
     - they can check to see if the VM is in the running state, if not they can start it from the Virtual machine tab. 
     - It could also be due to a duplicate window open in another browser, we suggest closing all windows and trying again. Or using a private window and clearing the cookies.  
 
-1. Exercise 1 Task 2  Step 4 
+1. Lab 1 Exercise 1 Step 3 
 
    A. Project Details     
 
    **Location** – make sure this is the same as the region of the resource group to avoid any errors. 
+   
+1. Lab 2(A)
 
-1. Exercise 3 Task 1 Step 6 
+   - After completing Lab 2(A), The data in Azure Insights won't be loaded immeditately. It might take some time to load the data. Please perform the Lab 2(B) at the last and check the data.
+
+1. Lab 3 Exercise 1 Step 6 
 
    - The attendee might get an error while signing into office, as the account cannot be used to activate office in a shared computer scenario. We can ignore this and proceed with the lab.  
 
-1. Exercise 4 Task 1
+1. Lab 3 Exercise 1
   
    - Attendee should perform this exercise in their Own **PC/computer/workstation** not in the **JumpVM**. Peforming this exercise in **JumpVM** will cause connection issues when try to access the the published applications using WVD Desktop Client. 
 
-3. Exercise 4 Task 1 Step 13 
+3. Lab 3 Exercise 1 Step 13 
 
    - The attendee might get an error while signing into office, as the account cannot be used to activate office in a shared computer scenario. We can ignore this and proceed with the lab.  
 
-1. Exercise 7 Task 2 Step 2 
-
-   - While creating the storage account, make sure attendee provide the values as follows: 
-
-       - Resource group: select existing then provide name WVD-RG 
-
-       - Storage account: select Create new then provide name as sa{UniqueID} 
-
-       - file share: select Create new then provide name as fs{UniqueID} then create storage 
-
-        ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/wvd-issue5.png?raw=true)
-
-       - Attendees can find the UniqueID value from the environment details page.  
-
-1. Exercise 5 Task 2 Step 2 
+1. Lab 6 Exercise 2 Step 9 
 
    - If attendee is not able to add the role assignment to file share then: 
 
@@ -46,17 +36,10 @@
 
         ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/wvd-issue6.png?raw=true)
 
-1. Exercise 5 Task 2 : Validation Failure 
+1. Lab 6 Exercise 2 : Validation Failure 
 
    - If the validation fails, attendees should make sure that Storage File Data SMB Share Contributor role is assigned to the file share userprofile which is created as a part of the lab. 
 
-1. Exercise 6 Task 3 : Validation Failure 
-
-   - If the validation fails attendee should make sure that all the configurations provided in the lab guide are followed while adding the **ApplicationGroupMonitoring** Diagnostic setting. 
-
-1. Exercise 8 Task 3 : Microsoft Teams and Microsoft Edge Chromium not installing
-    
-    - In Step 11, Microsoft Teams and Microsoft Edge Chromium won't be installed as there are changes in the application. If you don't see the application installed, Please skip the step and continue with the lab.
 1. **Copy-Paste Issue**
 
     **If Copy paste doesn’t work, please try following:** 
