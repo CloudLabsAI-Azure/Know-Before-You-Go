@@ -20,9 +20,9 @@ Instructor should make sure that the attendees follow the **lab guide** provide
 
    To reconnect to the vm, follow the instruction provided in the before hands-on-lab. 
 
-    - From Environment details page go to **Command to Connect to Build Agent VM** copy the ssh key and paste in cloud shell. 
-    - In the cloud shell output, paste the ssh key that you copied earlier enter **yes** when prompted. 
-    - Enter the Buid Agent VM password provided in environment details, you will be connected to Build Agent VM. 
+   - From Environment details page go to **Command to Connect to Build Agent VM** copy the ssh key and paste in cloud shell. 
+   - In the cloud shell output, paste the ssh key that you copied earlier enter **yes** when prompted. 
+   - Enter the Buid Agent VM password provided in environment details, you will be connected to Build Agent VM. 
 
 1. If attendees are having trouble exiting the `Vim` session with esc, try using `ctrl+[` to exit the session. 
 
