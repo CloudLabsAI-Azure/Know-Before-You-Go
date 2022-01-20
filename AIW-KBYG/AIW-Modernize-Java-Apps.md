@@ -1,8 +1,14 @@
 # Azure Virtual Workshop: Modernize Java Apps
 
-## Known Issues:
+### Common Issues and workarounds
+- [Know issues in Lab Steps](#know-issues-in-lab-steps)
+- [Copy paste issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/CopyPaste)
+- [Lab VM connectivity issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/RDP)
+
+## Known Issues in the lab steps:
     * Exercise 2 Task 5 Step 5
     * Exercise 5 Task 6
+    * Exercise 12 Task 5
 
 ### 1. Exercise 2, Task 5 Step 5
 
