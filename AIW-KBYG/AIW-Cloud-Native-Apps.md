@@ -55,14 +55,14 @@ Instructor should make sure that the attendees follow the **lab guide** provide
 
    When adding migration project if attendee gets the error the connection timed out. Possible reasons for this include 
 
-     - the address and/or port was not correct, or the server is not running. its temporary issue wait for 5-10 minutes then retry again 
+     - The address and/or port is not correct, or the server is not running, it's a temporary issue and wait for 5-10 minutes and retry again.
      - The mongodb might not be running, run the following command on the build VM to start the DB.
        
        ```docker container start mongo``` 
 
 1. Azure API issue: 
 
-     - Due to recent changes in Azure api's, azure API's are taking some additional time to fetch the details of the resources . The validation steps might fail initially for the lab, if you re-run the steps again after 30-45 minutes later then it will succeed if there will be no configuration related issue with lab steps you performed.
+     - Due to recent changes in Azure api's, azure API's are taking some additional time to fetch the details of the resources. The validation steps might fail initially for the lab, if you re-run the steps again after 30-45 minutes later then it will succeed if there will be no configuration related issue with lab steps you performed.
 
 1. **Issue in Exercise - 4 Task 3 step 4**
    - You might face Insufficient storage space error while running the `npm install applicationinsights --save` command.
