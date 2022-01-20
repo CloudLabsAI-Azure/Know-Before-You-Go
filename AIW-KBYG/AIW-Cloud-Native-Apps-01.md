@@ -9,14 +9,14 @@ Instructor should make sure that the attendees follow the **lab guide** provide
 
 #### Know issues in Lab Steps
 
-1. Attendees should make sure that they will go through every instruction properly while performing the before hands-on-lab. If at all the lab guide is not followed correctly, attendees will be facing issues in next part of the lab. 
+1. Attendees should make sure that they will go through every instruction properly while performing the before hands-on-lab. If at all the lab guide is not followed correctly, attendees will be facing issues in next part of the lab due to the dependency.
 
-1. The Azure cloud shell can be unresponsive at times, we would suggest you to restart the cloudshell and try again.
+1. The Azure cloud shell can be unresponsive at times; we would suggest you to restart the cloudshell and try again.
 
 1. **Yaml files**:
    While **editing or inserting** the content into the yaml files, attendees should make sure they read the instructions properly and edit the files accordingly. It is better to cross check the files once, after editing and before saving them. 
 
-1. If attendee’s session to build agent vm gets disconnected,  
+1. If attendee’s session to build-agent vm gets disconnected,  
 
    To reconnect to the vm, follow the instruction provided in the before hands-on-lab. 
 
@@ -24,7 +24,7 @@ Instructor should make sure that the attendees follow the **lab guide** provide
    - In the cloud shell output, paste the ssh key that you copied earlier enter **yes** when prompted. 
    - Enter the Buid Agent VM password provided in environment details, you will be connected to Build Agent VM. 
 
-1. If attendees are having trouble exiting the `Vim` session with esc, try using `ctrl+[` to exit the session. 
+1. If attendees are having trouble exiting the `Vim` session with esc, try using `ctrl+ [`  to exit the session. 
 
 1. Issues in before hands-on-lab task 6 due to unsuccessful cloning of **Fabmedical** repo. 
 
@@ -34,11 +34,11 @@ Instructor should make sure that the attendees follow the **lab guide** provide
 
    When adding migration project if attendee gets the error the connection timed out. Possible reasons for this include 
 
-     - the address and/or port was not correct, or the server is not running. its temporary issue wait for 5-10 minutes then retry again 
+     - The address and/or port was not correct, or the server is not running, it's a temporary issue and wait for 5-10 minutes then retry again.
      - The mongodb might not be running, run the following command on the build VM to start the DB.
        
        ```docker container start mongo``` 
 
 1. Azure API issue: 
 
-     - Due to recent changes in Azure api's, azure API's are taking some additional time to fetch the details of the resources . The validation steps might fail initially for the lab, if you re-run the steps again after 30-45 minutes later then it will succeed if there will be no configuration related issue with lab steps you performed.
+     - Due to recent changes in Azure APIs , They are taking additional time to fetch the details of the resources. The validation steps might fail initially for the lab, if you re-run the steps again after 30-45 minutes later then it will succeed if there will be no configuration related issue with lab steps you performed.
