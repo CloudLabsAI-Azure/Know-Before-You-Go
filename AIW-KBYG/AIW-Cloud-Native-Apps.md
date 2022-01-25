@@ -9,7 +9,7 @@ Instructor should make sure that the attendees follow the **lab guide** provide
 
 #### Know issues in Lab Steps
 
-1. Attendees should make sure that they will go through every instruction properly while performing the before hands-on-lab. If at all the lab guide is not followed correctly, attendees will be facing issues in next part of the lab. 
+1. Attendees should make sure that they will go through every instruction properly while performing the before hands-on-lab. If all the lab guide is not followed correctly, attendees will be facing issues in next part of the lab. 
 
 1. The Azure cloud shell can be unresponsive at times, we would suggest you to restart the cloudshell and try again.
 
