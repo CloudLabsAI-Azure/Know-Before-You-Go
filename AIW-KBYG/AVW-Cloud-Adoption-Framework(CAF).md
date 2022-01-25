@@ -15,8 +15,8 @@ As compared to the older version of the lab – The ARM template deployment time
 Deployment fails with policy assignments, sometime private DNS endpoint deployment fails. This is a known issue you potentially can run into as described here: https://github.com/Azure/Enterprise-Scale/blob/main/docs/EnterpriseScale-Known-Issues.md#deploying-the-reference-implementation-fails-due-to-policy--cannot-be-found-404
 
 ##### Fix deployment: 
-     * Redeploy the template by following the Exercise 1 Task 1
-     * If redeploying the template fails again, then cleanup the management groups, policy assignments and resource groups which got deployed as part of ARM tremplate deployment in exercise 1 and task 1. Now, deploy the template again.
+* Redeploy the template by following the Exercise 1 Task 1
+* If redeploying the template fails again, then cleanup the management groups, policy assignments and resource groups which got deployed as part of ARM tremplate deployment in exercise 1 and task 1. Now, deploy the template again.
 
 #### 3.  Sometimes template deployment fails with below error.
        
@@ -29,27 +29,27 @@ Deployment fails with policy assignments, sometime private DNS endpoint deployme
         }
        }
        ```
-       ![deployfailed](https://user-images.githubusercontent.com/27498287/149208290-d9743cca-b6f7-4a35-864c-343ff3287fa0.png)
-
+     
+   ![deployfailed](https://user-images.githubusercontent.com/27498287/149208290-d9743cca-b6f7-4a35-864c-343ff3287fa0.png)
        
 ##### Fix deployment: 
     
-      * Navigate to eslz-connectivity management group then Access control (IAM)> **remove** the **Network Contributor** role assignments for all the users and service principal by selecting **IAM** from the navigation menu. Also, remove if there is any role assigned for **Identity not found** type user/SP.
+* Navigate to eslz-connectivity management group then Access control (IAM)> **remove** the **Network Contributor** role assignments for all the users and service principal by selecting **IAM** from the navigation menu. Also, remove if there is any role assigned for **Identity not found** type user/SP.
           ![image](https://user-images.githubusercontent.com/27498287/149206065-f0e630ac-727f-47da-994b-ceb91825c860.png)
 
-      * Navigate to the **connectivity subscription** with name **L1 - Connectivity Sub - XXXX** under **eslz** management group then **remove** the **Network Contributor** role assignments for all the users and service principal by selecting **IAM** from the navigation menu. Also, remove if there is any role assigned for **Identity not found** type user/SP.
-      * Check Root Management group role assignments, if there is any role assignment for **Identity not found**, remove that using below powershell script
-           ```
-            $roleAssignments = Get-AzRoleAssignment | where { $_.Scope -eq "/" -and $_.RoleDefinitionName -eq "User Access Administrator" -or "Owner" -and $_.DisplayName -eq ""}
-            foreach($roleAssignment in $roleAssignments)
-            {
-            $objectid = $roleAssignment.ObjectId
-            $RoleDefinitionName = $roleAssignment.RoleDefinitionName
-            Remove-AzRoleAssignment -ObjectId $objectid -RoleDefinitionName $RoleDefinitionName -Scope "/"
-            }
+* Navigate to the **connectivity subscription** with name **L1 - Connectivity Sub - XXXX** under **eslz** management group then **remove** the **Network Contributor** role assignments for all the users and service principal by selecting **IAM** from the navigation menu. Also, remove if there is any role assigned for **Identity not found** type user/SP.
+* Check Root Management group role assignments, if there is any role assignment for **Identity not found**, remove that using below powershell script.
 
-           ```
-      * Now, redeploy the template by following the Exercise 1 Task 1.
+     ```
+     $roleAssignments = Get-AzRoleAssignment | where { $_.Scope -eq "/" -and $_.RoleDefinitionName -eq "User Access Administrator" -or "Owner" -and $_.DisplayName -eq ""}
+     foreach($roleAssignment in $roleAssignments)
+     {
+      $objectid = $roleAssignment.ObjectId
+      $RoleDefinitionName = $roleAssignment.RoleDefinitionName
+      Remove-AzRoleAssignment -ObjectId $objectid -RoleDefinitionName $RoleDefinitionName -Scope "/"
+     }
+     ```
+* Now, redeploy the template by following the Exercise 1 Task 1.
     
 #### 4. Usage of personal GitHub accounts:
-     The attendees will need to have their own GitHub accounts /will have to create one during the ongoing lab (if not available already). Since provisioning of GitHub accounts for n number of users is not possible, the attendees are required to use their personal GitHub account. For ensuring account securities, we are using the “GitHub personal access token” so as the users don’t have to use their passwords while performing lab. The attendees can also delete the “GitHub personal access token” once they have performed the lab.
+The attendees will need to have their own GitHub accounts /will have to create one during the ongoing lab (if not available already). Since provisioning of GitHub accounts for n number of users is not possible, the attendees are required to use their personal GitHub account. For ensuring account securities, we are using the “GitHub personal access token” so as the users don’t have to use their passwords while performing lab. The attendees can also delete the “GitHub personal access token” once they have performed the lab.
