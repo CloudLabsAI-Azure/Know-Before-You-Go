@@ -1,4 +1,4 @@
-# Azure Immersion Workshop: Ai 
+# Azure Immersion Workshop: AI
 
 Instructor should make sure that the attendees follow the **lab guide** provided in the environment to perform the lab instead of lab guide from MCW repo. Because few instructions may differ from the provided lab guides in GitHub repos. 
 
