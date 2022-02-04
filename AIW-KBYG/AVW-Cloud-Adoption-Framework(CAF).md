@@ -41,7 +41,8 @@ Deployment fails with policy assignments, sometime private DNS endpoint deployme
 * Check Root Management group role assignments, if there is any role assignment for **Identity not found**, remove that using below powershell script.
 
      ```
-     $roleAssignments = Get-AzRoleAssignment | where { $_.Scope -eq "/" -and $_.RoleDefinitionName -eq "User Access Administrator" -or "Owner" -and $_.DisplayName -eq ""}
+     $roleAssignments = Get-AzRoleAssignment | where { $_.Scope -eq "/" -and $_.ObjectType -eq "Unknown"}
+
      foreach($roleAssignment in $roleAssignments)
      {
       $objectid = $roleAssignment.ObjectId
