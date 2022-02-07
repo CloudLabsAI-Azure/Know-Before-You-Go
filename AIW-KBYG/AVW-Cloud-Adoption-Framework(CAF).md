@@ -36,7 +36,16 @@ Deployment fails with policy assignments, sometime private DNS endpoint deployme
     
 Run following script and redepoy the template, by following the Exercise 1 Task 1.
 ```
-connect-AzAccount
+. C:\LabFiles\AzureCreds.ps1
+
+$userName = $AzureUserName
+$password = $AzurePassword
+
+$securePassword = $password | ConvertTo-SecureString -AsPlainText -Force
+$cred = new-object -typename System.Management.Automation.PSCredential -argumentlist $userName, $SecurePassword
+
+Connect-AzAccount -Credential $cred | Out-Null
+
 $roleAssignments = Get-AzRoleAssignment | where { $_.Scope -eq "/" -and $_.ObjectType -eq "Unknown"}
 foreach($roleAssignment in $roleAssignments)
  {
