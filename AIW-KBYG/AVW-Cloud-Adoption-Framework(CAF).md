@@ -44,18 +44,18 @@ foreach($roleAssignment in $roleAssignments)
   Remove-AzRoleAssignment -ObjectId $objectid -RoleDefinitionName $RoleDefinitionName -Scope "/"
  }
  $subscriptions = Get-AzSubscription
- foreach ($subscription in $subscriptions)
+foreach ($subscription in $subscriptions)
+ {
+  $subscriptionId = $subscription.Id
+  Select-AzSubscription -Subscription $subscription.Id
+  $roleAssignments = Get-AzRoleAssignment | where { $_.ObjectType -eq "Unknown"}
+  foreach($roleAssignment in $roleAssignments)
   {
-   $subscriptionId = $subscription.Id
-   Select-AzSubscription -Subscription $subscription.Id
-   $roleAssignments = Get-AzRoleAssignment | where { $_.ObjectType -eq "Unknown"}
-   foreach($roleAssignment in $roleAssignments)
-   {
-    $objectid = $roleAssignment.ObjectId
-    $RoleDefinitionName = $roleAssignment.RoleDefinitionName
-    Remove-AzRoleAssignment -ObjectId $objectid -RoleDefinitionName $RoleDefinitionName -Scope "/subscriptions/$subscriptionId"
-   }
-
+   $objectid = $roleAssignment.ObjectId
+   $RoleDefinitionName = $roleAssignment.RoleDefinitionName
+   Remove-AzRoleAssignment -ObjectId $objectid -RoleDefinitionName $RoleDefinitionName -Scope "/subscriptions/$subscriptionId"
+  }
+ }
 ```
     
 #### 4. Usage of personal GitHub accounts:
