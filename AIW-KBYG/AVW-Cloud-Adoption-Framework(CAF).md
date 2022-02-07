@@ -34,7 +34,7 @@ Deployment fails with policy assignments, sometime private DNS endpoint deployme
        
 ##### Fix deployment: 
     
-Run following script and redepoy the template, by following the Exercise 1 Task 1.
+Run following script in LabVM and redepoy the template, by following the Exercise 1 Task 1.
 ```
 . C:\LabFiles\AzureCreds.ps1
 
