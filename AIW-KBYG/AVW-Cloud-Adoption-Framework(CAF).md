@@ -20,43 +20,43 @@ Deployment fails with policy assignments, sometime private DNS endpoint deployme
 
 #### 3.  Sometimes template deployment fails with below error.
        
-      ```
-       {
-      "status": "Failed",
-      "error": {
-        "code": "RoleAssignmentUpdateNotPermitted",
-        "message": "Tenant ID, application ID, principal ID, and scope are not allowed to be updated."
-        }
-       }
-       ```
+```
+  {
+   "status": "Failed",
+   "error": {
+    "code": "RoleAssignmentUpdateNotPermitted",
+    "message": "Tenant ID, application ID, principal ID, and scope are not allowed to be updated."
+    }
+  }
+```
      
-   ![deployfailed](https://user-images.githubusercontent.com/27498287/149208290-d9743cca-b6f7-4a35-864c-343ff3287fa0.png)
+  ![deployfailed](https://user-images.githubusercontent.com/27498287/149208290-d9743cca-b6f7-4a35-864c-343ff3287fa0.png)
        
 ##### Fix deployment: 
     
 Run following script and redepoy the template, by following the Exercise 1 Task 1.
-     ```
-     $roleAssignments = Get-AzRoleAssignment | where { $_.Scope -eq "/" -and $_.ObjectType -eq "Unknown"}
+```
+$roleAssignments = Get-AzRoleAssignment | where { $_.Scope -eq "/" -and $_.ObjectType -eq "Unknown"}
+foreach($roleAssignment in $roleAssignments)
+ {
+  $objectid = $roleAssignment.ObjectId
+  $RoleDefinitionName = $roleAssignment.RoleDefinitionName
+  Remove-AzRoleAssignment -ObjectId $objectid -RoleDefinitionName $RoleDefinitionName -Scope "/"
+ }
+ $subscriptions = Get-AzSubscription
+ foreach ($subscription in $subscriptions)
+  {
+   $subscriptionId = $subscription.Id
+   Select-AzSubscription -Subscription $subscription.Id
+   $roleAssignments = Get-AzRoleAssignment | where { $_.ObjectType -eq "Unknown"}
+   foreach($roleAssignment in $roleAssignments)
+   {
+    $objectid = $roleAssignment.ObjectId
+    $RoleDefinitionName = $roleAssignment.RoleDefinitionName
+    Remove-AzRoleAssignment -ObjectId $objectid -RoleDefinitionName $RoleDefinitionName -Scope "/subscriptions/$subscriptionId"
+   }
 
-     foreach($roleAssignment in $roleAssignments)
-     {
-      $objectid = $roleAssignment.ObjectId
-      $RoleDefinitionName = $roleAssignment.RoleDefinitionName
-      Remove-AzRoleAssignment -ObjectId $objectid -RoleDefinitionName $RoleDefinitionName -Scope "/"
-     }
-     $subscriptions = Get-AzSubscription
-     foreach ($subscription in $subscriptions)
-     {
-      $subscriptionId = $subscription.Id
-      Select-AzSubscription -Subscription $subscription.Id
-      $roleAssignments = Get-AzRoleAssignment | where { $_.ObjectType -eq "Unknown"}
-      foreach($roleAssignment in $roleAssignments)
-      {
-       $objectid = $roleAssignment.ObjectId
-       $RoleDefinitionName = $roleAssignment.RoleDefinitionName
-       Remove-AzRoleAssignment -ObjectId $objectid -RoleDefinitionName $RoleDefinitionName -Scope "/subscriptions/$subscriptionId"
-      }
-     ```
+```
     
 #### 4. Usage of personal GitHub accounts:
 The attendees will need to have their own GitHub accounts /will have to create one during the ongoing lab (if not available already). Since provisioning of GitHub accounts for n number of users is not possible, the attendees are required to use their personal GitHub account. For ensuring account securities, we are using the “GitHub personal access token” so as the users don’t have to use their passwords while performing lab. The attendees can also delete the “GitHub personal access token” once they have performed the lab.
