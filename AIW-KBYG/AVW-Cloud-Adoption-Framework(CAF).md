@@ -34,12 +34,7 @@ Deployment fails with policy assignments, sometime private DNS endpoint deployme
        
 ##### Fix deployment: 
     
-* Navigate to eslz-connectivity management group then Access control (IAM)> **remove** the **Network Contributor** role assignments for all the users and service principal by selecting **IAM** from the navigation menu. Also, remove if there is any role assigned for **Identity not found** type user/SP.
-          ![image](https://user-images.githubusercontent.com/27498287/149206065-f0e630ac-727f-47da-994b-ceb91825c860.png)
-
-* Navigate to the **connectivity subscription** with name **L1 - Connectivity Sub - XXXX** under **eslz** management group then **remove** the **Network Contributor** role assignments for all the users and service principal by selecting **IAM** from the navigation menu. Also, remove if there is any role assigned for **Identity not found** type user/SP.
-* Check Root Management group role assignments, if there is any role assignment for **Identity not found**, remove that using below powershell script.
-
+Run following script and redepoy the template, by following the Exercise 1 Task 1.
      ```
      $roleAssignments = Get-AzRoleAssignment | where { $_.Scope -eq "/" -and $_.ObjectType -eq "Unknown"}
 
@@ -49,8 +44,19 @@ Deployment fails with policy assignments, sometime private DNS endpoint deployme
       $RoleDefinitionName = $roleAssignment.RoleDefinitionName
       Remove-AzRoleAssignment -ObjectId $objectid -RoleDefinitionName $RoleDefinitionName -Scope "/"
      }
+     $subscriptions = Get-AzSubscription
+     foreach ($subscription in $subscriptions)
+     {
+      $subscriptionId = $subscription.Id
+      Select-AzSubscription -Subscription $subscription.Id
+      $roleAssignments = Get-AzRoleAssignment | where { $_.ObjectType -eq "Unknown"}
+      foreach($roleAssignment in $roleAssignments)
+      {
+       $objectid = $roleAssignment.ObjectId
+       $RoleDefinitionName = $roleAssignment.RoleDefinitionName
+       Remove-AzRoleAssignment -ObjectId $objectid -RoleDefinitionName $RoleDefinitionName -Scope "/subscriptions/$subscriptionId"
+      }
      ```
-* Now, redeploy the template by following the Exercise 1 Task 1.
     
 #### 4. Usage of personal GitHub accounts:
 The attendees will need to have their own GitHub accounts /will have to create one during the ongoing lab (if not available already). Since provisioning of GitHub accounts for n number of users is not possible, the attendees are required to use their personal GitHub account. For ensuring account securities, we are using the “GitHub personal access token” so as the users don’t have to use their passwords while performing lab. The attendees can also delete the “GitHub personal access token” once they have performed the lab.
