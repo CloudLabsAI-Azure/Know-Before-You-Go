@@ -36,6 +36,7 @@ Deployment fails with policy assignments, sometime private DNS endpoint deployme
     
 Run following script and redepoy the template, by following the Exercise 1 Task 1.
 ```
+connect-AzAccount
 $roleAssignments = Get-AzRoleAssignment | where { $_.Scope -eq "/" -and $_.ObjectType -eq "Unknown"}
 foreach($roleAssignment in $roleAssignments)
  {
