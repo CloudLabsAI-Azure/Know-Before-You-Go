@@ -94,9 +94,6 @@ Instructor should make sure that the attendees follow the **lab guide** provided
 	 
      8. Once created, click on **PublishAll** then **publish**.
          
-1. Exercise 3: Power BI integration 
-
-    - Power BI desktop is already downloaded and installed in the virtual machine provided with the lab; the attendees do not have to download it again.
 
 1. Exercise 4  Task 1  Step 8 : **For the Legend (series) column, select CustomerKey**
 
