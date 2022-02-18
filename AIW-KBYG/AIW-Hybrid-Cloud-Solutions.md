@@ -1,5 +1,6 @@
 # Azure Immersion Workshop: Hybrid Cloud Solutions
 
+##### Lab Guide Preview URL: [Lab Guide Preview](https://experience.cloudlabs.ai/#/labguidepreview/7a1ad116-d7a9-4cbf-a4a0-dbb5b3b66906)
 
 ### Known Issues and workarounds
 - [Know issues in Lab Steps](#know-issues-in-lab-steps)
