@@ -1,6 +1,6 @@
 # Azure Immersion Workshop: Analytics
 
-Instructor should make sure that the attendees follow the **lab guide** provided in the environment to perform the lab instead of lab guide from MCW repo. Because few instructions may differ from the provided lab guides in GitHub repos. 
+Instructor should make sure that the attendees follow the **lab guide** provided in the environment to perform the lab. Because few instructions may differ from the provided lab guides in GitHub repos. 
 
 ##### Lab Guide Preview URL: [Lab Guide Preview](https://experience.cloudlabs.ai/#/labguidepreview/614f09b1-3495-48c8-a9a6-c224db3eda3a)
 
