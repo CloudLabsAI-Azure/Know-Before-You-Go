@@ -11,13 +11,6 @@ Instructor should make sure that the attendees follow the **lab guide** provided
 
 #### Know issues in Lab Steps 
 
-1. The dedicated SQL pool is paused by default, the attendee must resume the pool before performing the lab by following the below steps.
-
-    - Navigate to the **Synapse-AIAD-287302** resource group from the Azure portal.
-    
-    - Select dedicated SQL pool **SQLPool01 (asaworkspaceUniqueID/SQLPool01)** and click on **Resume**. 
-    
-    ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/sparkpool.png?raw=true)
 
 1. If attendee face issues while trying to access the environment, follow the below steps:
 
