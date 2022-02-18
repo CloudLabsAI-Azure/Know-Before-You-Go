@@ -83,7 +83,7 @@
 
       1. Delete any extra switch if available.
 
-      2. Re run below code and ensure DHCP server service is running on hyper-v host
+      2. Rerun below code and ensure DHCP server service is running on hyper-v host
       
       ```
       $dnsClient = Get-DnsClient | Where-Object {$_.InterfaceAlias -eq "Ethernet" }
