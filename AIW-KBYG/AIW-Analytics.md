@@ -1,5 +1,9 @@
 # Azure Immersion Workshop: Analytics
 
+Instructor should make sure that the attendees follow the **lab guide** provided in the environment to perform the lab instead of lab guide from MCW repo. Because few instructions may differ from the provided lab guides in GitHub repos. 
+
+##### Lab Guide Preview URL: [Lab Guide Preview](https://experience.cloudlabs.ai/#/labguidepreview/614f09b1-3495-48c8-a9a6-c224db3eda3a)
+
 ### Known Issues and workarounds
 - [Know issues in Lab Steps](#know-issues-in-lab-steps)
 - [Copy paste issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/CopyPaste)
@@ -100,10 +104,6 @@
 1. Exercise 3: Power BI integration 
 
     - Power BI desktop is already downloaded and installed in the virtual machine provided with the lab; the attendees do not have to download it again.
-
-1. Attendee will not be able to perform **Exercise 5 - Data Science with Azure Synapse Spark** as it is **Read-Only** exercise.
-
-      - Exercise 5 is currently Read only/Optional. Attendes can just go through it but will not be able to perform the steps as part of the lab.
 
 1. Exercise 4  Task 1  Step 8 : **For the Legend (series) column, select CustomerKey**
 
