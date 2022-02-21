@@ -1,5 +1,7 @@
 # Azure Virtual Workshop: SAP on Azure
 
+##### Lab Guide Preview URL: [Lab Guide Preview](https://experience.cloudlabs.ai/#/labguidepreview/d398487a-6e6d-47e4-bc18-848736481e31)
+
 ## Known Issues and workarounds
 - [Know issues in Lab Steps](#know-issues-in-lab-steps)
 - [Copy paste issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/CopyPaste)
@@ -9,7 +11,7 @@
 
 1. #### Module 3: Cloud Operations, Governance, Security
 
-     - Module 3 has predeployed and preconfigured SAP HANA resources, attendes will be reviewing the pre-configured resources and perform few steps. Some of the steps are designed as **read-only** and not to be performed as a part of this module.
+     - Module 3 has predeployed and preconfigured SAP HANA resources, attendees will be reviewing the pre-configured resources and perform few steps. Some of the steps are designed as **read-only** and not to be performed as a part of this module.
 
 1. #### Azure API issue: 
 
