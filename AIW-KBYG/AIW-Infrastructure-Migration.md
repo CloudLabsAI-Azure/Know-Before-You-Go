@@ -98,19 +98,6 @@
 
 	 4. Disable network adaptor inside the appliance vm and enable it again.
 
-
-1. **Exercise3 -> Task9 -> Step6**: 
-
-   If you receive any error while accessing the application using UbuntuWAF VM IP address, then follow the below instructions to access the smarthotel application:
-   
-   1. Navigate to the **SmartHotelDBRG** resource group, and then to the **SmartHoteldb<inject key="DeploymentID" enableCopy="false" />** database server to update the    Firewall settings.
-   1. Under Security, select Firewalls and virtual networks. Set 'Deny public network access' to **No** and 'Allow azure service and resources to access this server' to **yes**, then Save your changes.
-
-      ![](https://raw.githubusercontent.com/Kalyani7744/Know-Before-You-Go/main/media/lob-issue-01.png)
-     
-   1. Open a new browser tab and paste the IP address into the address bar. Verify that the SmartHotel360 application is now available in Azure.
-   
-       ![](https://raw.githubusercontent.com/Kalyani7744/Know-Before-You-Go/main/media/lob-issue-02.png)
       
 1. **Azure API issue**: 
 
