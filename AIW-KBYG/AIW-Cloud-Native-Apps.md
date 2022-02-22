@@ -11,7 +11,7 @@ Instructor should make sure that the attendees follow the **lab guide** provide
 
 #### Know issues in Lab Steps
 
-1. Issue in Exercise 1 Task 2 Step 4 
+1. Issue in Exercise 1 Task 2 Step 4:
 
    When adding migration project if attendee gets the error the connection timed out. Possible reasons for this include 
 
@@ -20,7 +20,8 @@ Instructor should make sure that the attendees follow the **lab guide** provide
        
        ```docker container start mongo``` 
        
-1. **Yaml files**:
+1. Editing Yaml files:
+
    While **editing or inserting** the content into the yaml files, attendees should make sure they read the instructions properly and edit the files accordingly. It is better to cross check the files once, after editing and before saving them. 
 
 1. If attendee’s session to build-agent vm gets disconnected,  
