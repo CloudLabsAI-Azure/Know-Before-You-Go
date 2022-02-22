@@ -4,11 +4,11 @@ Lab Guide Preview URL: [Lab Guide Preview](https://experience.cloudlabs.ai/#/lab
 
 ## Known issues and workarounds
 
-- [Know issues in Lab Steps](#know-issues-in-lab-steps)
+- [Known issues in Lab Steps](#Known-issues-in-lab-steps)
 - [Copy paste issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/CopyPaste)
 - [Lab VM connectivity issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/RDP)
 
-## Know issues in Lab Steps 
+## Known issues in Lab Steps 
 
 1. **Exercise1 -> Task2 -> Step3**: 
 
