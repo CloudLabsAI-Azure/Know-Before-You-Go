@@ -6,6 +6,7 @@ Instructor should make sure that the attendees follow the **lab guide** provide
 - [Know issues in Lab Steps](#know-issues-in-lab-steps)
 - [Copy paste issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/CopyPaste)
 - [Lab VM connectivity issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/RDP)
+- **Lab guide preview**: [AIW: Cloud Native Apps Lab guide](https://experience.cloudlabs.ai/#/labguidepreview/01449ec4-1edc-4526-9441-0e115e33dbe4)
 
 #### Know issues in Lab Steps
 
