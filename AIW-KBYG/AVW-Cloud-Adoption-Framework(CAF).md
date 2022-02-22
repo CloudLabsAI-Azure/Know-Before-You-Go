@@ -3,12 +3,12 @@
 ##### Lab Guide Preview URL: [Lab Guide Preview](https://experience.cloudlabs.ai/#/labguidepreview/5d92fd03-65f8-40e3-9a9e-0d29269f4a9a)
 
 ### Known Issues and workarounds
-- [Know issues in Lab Steps](#know-issues-in-lab-steps)
+- [Known issues in Lab Steps](#Known-issues-in-lab-steps)
 - [Copy paste issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/CopyPaste)
 - [Lab VM connectivity issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/RDP)
 
 
-#### Know issues in Lab Steps 
+#### Known issues in Lab Steps 
 
 #### 1. Increased time with ARM template deployment:
 As compared to the older version of the lab – The ARM template deployment time has been increased and it is mentioned in the lab guide instructions that the deployment of ARM template can take up to 90 minutes as it consists of resources which take time to deploy hence it is expected. You can however proceed to the next Exercise i.e. Exercise 2 on the next page of lab guide and you can come back and check if deployment is succeeded, if it is succeeded then you can resume back to the remaining steps in Exercise 1 and then Exercise 3.
