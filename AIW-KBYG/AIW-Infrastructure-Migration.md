@@ -99,18 +99,29 @@
 	 4. Disable network adaptor inside the appliance vm and enable it again.
 
 
-1. **Exercise3 -> Task9 -> Step6**: 
+1. **Exercise1 -> Task6 -> Step1**: 
 
-   If you receive any error while accessing the application using UbuntuWAF VM IP address, then follow the below instructions to access the smarthotel application:
+   If you see that the dependencies is showing as not installed, please perform the following steps to confirm the installation of dependency agents inside VMs using Log Analytics workspace.
    
-   1. Navigate to the **SmartHotelDBRG** resource group, and then to the **SmartHoteldb<inject key="DeploymentID" enableCopy="false" />** database server to update the    Firewall settings.
-   1. Under Security, select Firewalls and virtual networks. Set 'Deny public network access' to **No** and 'Allow azure service and resources to access this server' to **yes**, then Save your changes.
+   1. Search for **AzureMigrateWS** Log Analytics workspace under **Azure Migrate** RG.
 
-      ![](https://raw.githubusercontent.com/Kalyani7744/Know-Before-You-Go/main/media/lob-issue-01.png)
+      ![Screenshot showing the view dependencies button in the Azure Migrate VM group blade.](https://github.com/CloudLabs-MCW/MCW-Line-of-business-application-migration/blob/prod/Hands-on%20lab/images/Exercise1/dependency-1.png?raw=true "View dependencies")
+
+
+   1. Select **Logs (1)** under General category, enter the below query and click on **Run** **(2)** to review the connected servers information.
+
+       ```
+       Heartbeat
+       ```
+
+      ![Screenshot showing the view dependencies button in the Azure Migrate VM group blade.](https://github.com/CloudLabs-MCW/MCW-Line-of-business-application-migration/blob/prod/Hands-on%20lab/images/Exercise1/dependency-2.png?raw=true "View dependencies")
+
+
+
+      ![Screenshot showing the view dependencies button in the Azure Migrate VM group blade.](https://github.com/CloudLabs-MCW/MCW-Line-of-business-application-migration/blob/prod/Hands-on%20lab/images/Exercise1/dependency-2.1.png?raw=true "View dependencies")
      
-   1. Open a new browser tab and paste the IP address into the address bar. Verify that the SmartHotel360 application is now available in Azure.
-   
-       ![](https://raw.githubusercontent.com/Kalyani7744/Know-Before-You-Go/main/media/lob-issue-02.png)
+   1. Notice the **SmartHotelWeb1**, **SmartHotelWeb2** and **UbuntuWAF** servers have the required agents intsalled and are connected to the workspace.
+       ![Screenshot showing the view dependencies button in the Azure Migrate VM group blade.](https://github.com/CloudLabs-MCW/MCW-Line-of-business-application-migration/blob/prod/Hands-on%20lab/images/Exercise1/dependency-3.png?raw=true "View dependencies")
       
 1. **Azure API issue**: 
 
