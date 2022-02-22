@@ -1,11 +1,12 @@
 # Azure Immersion Workshop: Infrastructure Migration
 
+Lab Guide Preview URL: [Lab Guide Preview](https://experience.cloudlabs.ai/#/labguidepreview/4c14777d-6338-4016-9ac6-ba7b050a4816)
+
 ## Known issues and workarounds
 
 - [Know issues in Lab Steps](#know-issues-in-lab-steps)
 - [Copy paste issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/CopyPaste)
 - [Lab VM connectivity issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/RDP)
-- [Lab guide preview URL](https://experience.cloudlabs.ai/#/labguidepreview/4c14777d-6338-4016-9ac6-ba7b050a4816)
 
 ## Know issues in Lab Steps 
 
