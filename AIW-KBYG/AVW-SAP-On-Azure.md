@@ -3,11 +3,11 @@
 ##### Lab Guide Preview URL: [Lab Guide Preview](https://experience.cloudlabs.ai/#/labguidepreview/d398487a-6e6d-47e4-bc18-848736481e31)
 
 ## Known Issues and workarounds
-- [Know issues in Lab Steps](#know-issues-in-lab-steps)
+- [Known issues in Lab Steps](#Known-issues-in-lab-steps)
 - [Copy paste issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/CopyPaste)
 - [Lab VM connectivity issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/RDP)
 
-### Know issues in Lab Steps 
+### Known issues in Lab Steps 
 
 1. #### Module 3: Cloud Operations, Governance, Security
 
