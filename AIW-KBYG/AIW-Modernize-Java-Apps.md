@@ -5,7 +5,7 @@ Instructor should make sure that the attendees follow the lab guide provided in 
 ##### Lab Guide Preview URL: [Lab Guide Preview](https://experience.cloudlabs.ai/#/labguidepreview/b6b935d8-5b46-4da1-9c26-7c76701c5a3b)
 
 ### Common Issues and workarounds
-- [Know issues in Lab Steps](#known-issues-in-the-lab-steps)
+- [Known issues in Lab Steps](#known-issues-in-the-lab-steps)
 - [Copy paste issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/CopyPaste)
 - [Lab VM connectivity issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/RDP)
 
