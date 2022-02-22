@@ -24,7 +24,7 @@ Instructor should make sure that the attendees follow the **lab guide** provided
 	
 	Solution: **Refresh** the browser tab
 	
-      - There might be multiple notebooks open because of which this issue occurs usually ,Refresh will work and also users can cancel any existing spark applications if they are still running under Monitor section.
+      - There might be multiple notebooks open because of which this issue occurs usually, refresh will work and also users can cancel any existing spark applications if they are still running under Monitor section.
       
       - Eventhough notebooks are not open, sometimes attendee might receive this error. Attendee can refresh and try to perform that step again.
       
@@ -38,11 +38,10 @@ Instructor should make sure that the attendees follow the **lab guide** provided
 
 1. If the attendee is not able to find the options **Connect to** to attach spark pool and **Language** that is to be used, attendee can follow any on the listed solutions to reslove the issue.
 
-      1. Attendee needs to reset the zoom level accordingly so that he will be able to see the options and provide values accordingly.
-      1. Attendee can click on more button (**...**), then he will be able to see the options and provide values accordingly.
+      1. Attendees needs to set the zoom level accordingly so that they will be able to see the options and provide values accordingly.
+      1. Attendees can click on more button (**...**), then they will be able to see the options and provide values accordingly.
       
-           ![Linked service](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/AIAD-integratedenv.png?raw=true "Linked service")
-
+         ![Linked service](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/Labs/images/AIAD-integratedenv.png?raw=true "Linked service")
       
 1. Exercise 2 Task 2 : **Enrich Customer Data** data flow execution failure.
 
