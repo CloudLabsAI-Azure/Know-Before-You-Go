@@ -1,5 +1,7 @@
 # Azure Immersion Workshop: DevOps with GitHub
 
+Instructor should make sure that the attendees follow the **lab guide** provided in the environment to perform the lab instead of lab guide from MCW repo. Because few instructions may differ from the provided lab guide and MCW repo lab guide.
+
 ### Known Issues and workarounds
 - [Know issues in Lab Steps](#know-issues-in-lab-steps)
 - [Copy paste issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/CopyPaste)
@@ -13,7 +15,7 @@
 
     - If user face an issue while running above command with respect to default daemon configuration, open docker desktop and click on **Troubleshoot** icon at the right corner and select **Restart** to restart the docker desktop. It might take upto 5 minutes for restarting and rerun the command once restart is completed.
 
-![image](https://github.com/Kalyani7744/Know-Before-You-Go/blob/main/Labs/images/Dockerrestart.png?raw=true)
+     ![image](https://github.com/Kalyani7744/Know-Before-You-Go/blob/main/Labs/images/Dockerrestart.png?raw=true)
 
 2. #### Azure API issue: 
 
