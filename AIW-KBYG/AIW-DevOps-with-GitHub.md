@@ -11,7 +11,7 @@ Instructor should make sure that the attendees follow the **lab guide** provided
 
 #### Know issues in Lab Steps 
 
-1. #### Exercise1 Task3 Step2:
+1. #### Exercise 1 Task 3 Step 2:
 
     - While running the docker-compose YAML files, make sure that the docker desktop is in running state.
 
