@@ -101,7 +101,7 @@
 
 1. **Exercise1 -> Task6 -> Step1**: 
 
-   If you see that the dependencies is showing as not installed, please perform the following steps to confirm the installation of dependency agents and we will check the VMs in log analytics workspace.
+   If you see that the dependencies is showing as not installed, please perform the following steps to confirm the installation of dependency agents inside VMs using Log Analytics workspace.
    
    1. Search for **AzureMigrateWS** Log Analytics workspace under **Azure Migrate** RG.
 
