@@ -1,4 +1,4 @@
-# App Modernization
+# Azure Immersion Workshop: .Net App Modernization
 
 #### Lab Guide Preview URL: [Lab Guide Preview](https://experience.cloudlabs.ai/#/labguidepreview/cf025db5-e574-4ac3-adc7-8928b04212e3)
 
