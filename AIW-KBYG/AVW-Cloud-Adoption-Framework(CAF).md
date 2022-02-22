@@ -1,9 +1,12 @@
 # Azure Virtual Workshop: Cloud Adoption Framework
 
+##### Lab Guide Preview URL: [Lab Guide Preview](https://experience.cloudlabs.ai/#/labguidepreview/5d92fd03-65f8-40e3-9a9e-0d29269f4a9a)
+
 ### Known Issues and workarounds
 - [Know issues in Lab Steps](#know-issues-in-lab-steps)
 - [Copy paste issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/CopyPaste)
 - [Lab VM connectivity issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/RDP)
+
 
 #### Know issues in Lab Steps 
 
