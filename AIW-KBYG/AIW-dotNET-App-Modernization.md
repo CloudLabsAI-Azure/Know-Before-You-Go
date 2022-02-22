@@ -1,11 +1,12 @@
 # App Modernization
 
+#### Lab Guide Preview URL: [Lab Guide Preview](https://experience.cloudlabs.ai/#/labguidepreview/cf025db5-e574-4ac3-adc7-8928b04212e3)
+
 ## Known Issues and workarounds 
 
 - [Known issues](#known-issues)
 - [Copy paste issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/CopyPaste)
 - [Lab VM connectivity issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/RDP)
-- [Lab guide preview URL](https://experience.cloudlabs.ai/#/labguidepreview/cf025db5-e574-4ac3-adc7-8928b04212e3)
 
 ## Known issues
 
