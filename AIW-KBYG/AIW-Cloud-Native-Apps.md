@@ -9,7 +9,7 @@ Instructor should make sure that the attendees follow the **lab guide** provide
 - [Copy paste issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/CopyPaste)
 - [Lab VM connectivity issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/RDP)
 
-#### Know issues in Lab Steps
+#### Known issues in Lab Steps
 
 1. Issue in Exercise 1 Task 2 Step 4:
 
