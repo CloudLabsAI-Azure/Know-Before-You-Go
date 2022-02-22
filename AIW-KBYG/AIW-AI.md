@@ -8,7 +8,7 @@ Instructor should make sure that the attendees follow the **lab guide** provided
 - [Copy paste issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/CopyPaste)
 - [Lab VM connectivity issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/RDP)
 
-#### Known issues in Lab Steps
+#### Know issues in Lab Steps
 
 1. Azure API issue: 
 
