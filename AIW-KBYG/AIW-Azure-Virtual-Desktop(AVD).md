@@ -1,7 +1,11 @@
-# Known Issues and workarounds 
+# Azure Immersion Workshop: Azure Virtual Desktop
 
+##### Lab Guide Preview URL: [Lab Guide Preview](https://experience.cloudlabs.ai/#/labguidepreview/b60c6102-41f1-44c2-a3ce-716ee0f41e03)
+
+### Known Issues and workarounds
 - [Copy paste issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/CopyPaste)
 - [Lab VM connectivity issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/RDP)
+
 
  1. **Azure API issue**: 
 
