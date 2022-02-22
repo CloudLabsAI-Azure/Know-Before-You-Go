@@ -1,10 +1,13 @@
 # Azure Virtual Workshop: Modernize Java Apps
 
+Instructor should make sure that the attendees follow the lab guide provided in the environment to perform the lab instead of lab guide from MCW repo. Because few instructions may differ from the provided lab guides in GitHub repos.
+
+##### Lab Guide Preview URL: [Lab Guide Preview](https://experience.cloudlabs.ai/#/labguidepreview/b6b935d8-5b46-4da1-9c26-7c76701c5a3b)
+
 ### Common Issues and workarounds
 - [Know issues in Lab Steps](#known-issues-in-the-lab-steps)
 - [Copy paste issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/CopyPaste)
 - [Lab VM connectivity issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/RDP)
-- [AVW: Modernize Java Apps Lab Guide](https://experience.cloudlabs.ai/#/labguidepreview/b6b935d8-5b46-4da1-9c26-7c76701c5a3b)
 
 ## Known Issues in the lab steps:
 
