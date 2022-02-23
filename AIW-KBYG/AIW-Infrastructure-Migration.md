@@ -30,7 +30,7 @@ Lab Guide Preview URL: [Lab Guide Preview](https://experience.cloudlabs.ai/#/lab
 
 ### 2. **Exercise1 -> Task3 -> Step17**: 
     
-If attendee see that the discovery process is stuck at **Discoery is in progress** state for more then 5 mintues, then please follow the below steps for workaround.
+If attendee see that the discovery process is stuck at **Discovery is in progress** state for more then 5 mintues, then please follow the below steps for workaround.
     
 ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/media/progress.png?raw=true)
    
