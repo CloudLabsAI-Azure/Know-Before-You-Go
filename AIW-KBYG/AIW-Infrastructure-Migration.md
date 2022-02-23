@@ -74,7 +74,7 @@ If attendee gets below error while connecting to the target SQL database in the 
 
 ### 4. **Exercise1 -> Task6 -> Step1**: 
 
-   If attendees notice that the dependency agent status is showing as Requires Agent Installation instead of Installed even after installing dependency agents in all the three VMs, This is because there is an ongoing issue from Azure end where the latest status is not getting reflected in dependencies blade. Please follow the steps below to confirm dependency agent installation in VMs using Log Analytics workspace.
+   If attendees notice that the dependency agent status is showing as **Requires Agent Installation** instead of Installed even after installing dependency agents in all the three VMs, This is because there is an ongoing issue from Azure end where the latest status is not getting reflected in dependencies blade. Please follow the steps below to confirm dependency agent installation in VMs using **Log Analytics workspace**.
    
    1. Search for **AzureMigrateWS** Log Analytics workspace under **Azure Migrate** RG.
 
