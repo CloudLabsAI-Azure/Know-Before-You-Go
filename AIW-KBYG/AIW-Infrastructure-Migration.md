@@ -10,7 +10,7 @@ Lab Guide Preview URL: [Lab Guide Preview](https://experience.cloudlabs.ai/#/lab
 
 ## Known issues in Lab Steps 
 
-1. **Exercise1 -> Task3 -> Step3**: 
+### **Exercise1 -> Task3 -> Step3**: 
 
    If attendee receive a prompt asking for credentials after launching the **Azure Migrate appliance configuration wizard** using the shortcut available on the desktop, follow the below instructions:
    
@@ -28,7 +28,7 @@ Lab Guide Preview URL: [Lab Guide Preview](https://experience.cloudlabs.ai/#/lab
    
    1. Close the **Azure Migrate appliance configuration wizard** and re-launch it using the desktop shortcut.
 
-1. **Exercise1 -> Task3 -> Step17**: 
+### **Exercise1 -> Task3 -> Step17**: 
     
     If attendee see that the discovery process is stuck at **Discoery is in progress** state for more then 5 mintues, then please follow the below steps for workaround.
     
@@ -64,7 +64,7 @@ Lab Guide Preview URL: [Lab Guide Preview](https://experience.cloudlabs.ai/#/lab
     
     3. If you are able to see the number of server then you can continue the lab from Exercise 1 Task4. 
      
-1. **Exercise2 -> Task3 -> Step16**:    
+### **Exercise2 -> Task3 -> Step16**:    
 
     If attendee gets below error while connecting to the target SQL database in the process of migrate project creation, you can delete the existing **SmartHotel-DB-for-DMS** endpoint, recreate it and then perform Task3 again.
     
@@ -72,7 +72,7 @@ Lab Guide Preview URL: [Lab Guide Preview](https://experience.cloudlabs.ai/#/lab
    ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/media/Lob-dms-issue.png?raw=true)
 
 
-1. **Exercise1 -> Task6 -> Step1**: 
+### **Exercise1 -> Task6 -> Step1**: 
 
    If you see that the dependencies is showing as not installed, please perform the following steps to confirm the installation of dependency agents inside VMs using Log Analytics workspace.
    
@@ -96,6 +96,6 @@ Lab Guide Preview URL: [Lab Guide Preview](https://experience.cloudlabs.ai/#/lab
    1. Notice the **SmartHotelWeb1**, **SmartHotelWeb2** and **UbuntuWAF** servers have the required agents intsalled and are connected to the workspace.
        ![Screenshot showing the view dependencies button in the Azure Migrate VM group blade.](https://github.com/CloudLabs-MCW/MCW-Line-of-business-application-migration/blob/prod/Hands-on%20lab/images/Exercise1/dependency-3.png?raw=true "View dependencies")
       
-1. **Azure API issue**: 
+### **Azure API issue**: 
 
      - Due to recent changes in Azure API's, Azure API's are taking some additional time to fetch the details of the resources. The validation steps for the lab may fail at first, but if you re-run them after 30-45 minutes, they will get succeed if there are no configuration related issues with the lab steps you performed.
