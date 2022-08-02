@@ -22,4 +22,5 @@
 1. AKSHCI deployment issue in HOL4-Azure Stack HCI:
 	
    - In HOL4 Azure Stack HCI-Exercise 2, The deployment of AKSHCI may fail because the kubernetes does not support the nested virtualisation and the deployment can lead to timeout thoughout the AKS-HCI code. Below is the information provided in MS docs:
+   
 	>Note: Nested virtualization should only be used for development purpose when no other solution is available. When nested virtualization is used in Hyper-V, performance is reduced by 30%. When Hyper-V is nested inside another Hyper-V VM, performance is reduced by 80%. Since AKSHCI uses one level of virtualization, creating a multi node environment using nested virtualization results in 80% container performance reduction. This ultimately leads to spurious timeout throughout the AKS-HCI code. Do NOT use in production, it will NOT be supported!
