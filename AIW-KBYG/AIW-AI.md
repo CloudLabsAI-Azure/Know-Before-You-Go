@@ -18,10 +18,16 @@ Instructor should make sure that the attendees follow the **lab guide** provided
 
    **Issue in Form Recognizer Studio while creating a Custom model project**.
 
-   - In some cases user may face an issue that unable to select Storage account in Connect training data source pane.    
+   - In some cases user may face an issue to select Storage account in Connect training data source pane.    
    - **This is an intermittent issue**.
 
    **Solution:**
     
    - Signout and Signin from the Form Recognizer Studio with the given user credentials and re-perform the task from Step-8.
-   - If you are still facing an issue, then delete the **Resource sharing (CORS)** policy which you have configured at Step-4 of the same task and re-perform the task from Step - 4.
+   - If you are still facing the issue, then delete the **Resource sharing (CORS)** policy which you have configured at Step-4 of the same task and re-perform the task from Step-4.
+
+ 3. [Lab 4: Hand-on-Lab > Task 4 - Configure the "COVID cases by age group" Metrics Advisor data feed](https://github.com/CloudLabsAI-Azure/ai-in-a-day/blob/FY-23-AI-Updates/05-metrics-advisor/05-metrics-advisor-new.md)
+
+    **Issue with Get Started button in Metric Advisor workspace in Step-3**.
+    
+    - This is an intermittent issue with the Azure Product. If faced during the lab experience please mail to [CloudLabs Support](cloudlabs-support@spektrasystems.com) or contact the Instructor.
