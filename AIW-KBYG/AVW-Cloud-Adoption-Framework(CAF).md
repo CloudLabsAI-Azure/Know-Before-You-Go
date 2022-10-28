@@ -14,4 +14,4 @@ The attendees will need to have their own GitHub accounts /will have to create o
 
 #### 2. Manual setup of AzOps integration with Azure Landing Zone.
 
-The attendees will need to manually setup the AzOps integration with Azure Landing Zone. It is not possible to automate the process as it requires GitHub login and secrets creation which are dynamic.
+The attendees will need to manually setup the AzOps integration with Azure Landing Zone. It is not possible to automate the process as it requires GitHub login and secrets creation which are dynamic values.
