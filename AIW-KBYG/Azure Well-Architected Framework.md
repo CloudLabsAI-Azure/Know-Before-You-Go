@@ -1,6 +1,6 @@
 # Azure Well-Architected Framework
 
-##### Lab Guide Preview URL: [Lab Guide Preview](https://experience.cloudlabs.ai/#/labguidepreview/5a298780-4f9d-468f-b584-f4ace01da847)
+##### Lab Guide Preview URL: [Lab Guide Preview](https://experience.cloudlabs.ai/#/labguidepreview/a9dbe192-7e71-45a9-8030-f32ee7d5e6c9)
 
 ### Known Issues and workarounds
 - [Copy paste issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/CopyPaste)
