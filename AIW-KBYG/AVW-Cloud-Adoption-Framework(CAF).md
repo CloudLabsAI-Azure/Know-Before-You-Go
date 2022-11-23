@@ -1,4 +1,4 @@
-# Azure Virtual Workshop: Cloud Adoption Framework
+# Azure Virtual Workshop: CAF Ready/Govern Methodology
 
 ##### Lab Guide Preview URL: [Lab Guide Preview](https://experience.cloudlabs.ai/#/labguidepreview/5d92fd03-65f8-40e3-9a9e-0d29269f4a9a)
 
