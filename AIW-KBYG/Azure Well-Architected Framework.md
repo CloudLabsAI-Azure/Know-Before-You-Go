@@ -6,7 +6,13 @@
 - [Copy paste issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/CopyPaste)
 - [Lab VM connectivity issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/RDP)
 
-1. **Azure API issue**: 
+1. **Exercise 2 -> Task 3 -> Create a Logic App ->Step No 14**
+
+   - If you face the **Sign in issue** while loggin into Azure, please make sure you are using the edge browser and re-perform the task again.
+
+   ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/media/logicapp-issue.png?raw=true) 
+
+2. **Azure API issue**: 
 
     - Due to recent changes in Azure api's, azure API's are taking some additional time to fetch the details of the resources. The validation steps might fail initially for the lab, if you re-run the steps again after 30-45 minutes later then it will succeed if there will be no configuration related issue with lab steps you performed.
 
