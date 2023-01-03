@@ -1,4 +1,4 @@
-# Azure Immersion Workshop: Cloud Native Apps V2
+# Azure Immersion Workshop: Cloud Native App
 
 ##### Lab Guide Preview URL: [Lab Guide Preview](https://experience.cloudlabs.ai/#/labguidepreview/7c6cad54-9a63-492d-997b-445a4bee7955)
 
