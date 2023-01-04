@@ -1,4 +1,4 @@
-# Azure Virtual Workshop: Cloud Adoption Framework Security Methodology
+# Azure Virtual Workshop: CAF Secure Methodology
 
 ##### Lab Guide Preview URL: [Lab Guide Preview](https://experience.cloudlabs.ai/#/labguidepreview/8f3cacd2-d25e-4568-8b15-0dab5dd11b14)
 
