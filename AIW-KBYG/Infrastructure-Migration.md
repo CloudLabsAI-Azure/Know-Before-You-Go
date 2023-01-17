@@ -38,7 +38,7 @@ If attendee face an issue while verifying the Azure Migrate Project key in **Che
     
      - Create a **new project** with the name **SmartHotelAppl123**, select that newly created project in Azure Migrate and generate the key again.
      
-        ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/media/lob-issue-03.png?raw=true)
+        ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/media/azmigrate-03.png?raw=true)
 
 ### 3. **HOL1 -> Exercise3 -> Task1 -> Step13**: 
     
