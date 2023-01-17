@@ -32,13 +32,18 @@ Lab Guide Preview URL: [Lab Guide Preview](https://experience.cloudlabs.ai/#/lab
 
 If attendee face an issue while verifying the Azure Migrate Project key in **Check latest updates and register appliance** wizard, follow the below instructions:
 
-     - Go to the **Azure Migrate** in the portal and open the Azure Migrate **Overview** blade. 
+1. Go to the **Azure Migrate** in the portal and open the Azure Migrate **Overview** blade. 
     
-     - Select **Discover, assess and migrate** and then select **Create project**. Select your subscription and resource group named **AzureMigrateRG**.
+1. Select **Discover, assess and migrate** and then select **Create project**. Select your subscription and resource group named **AzureMigrateRG**.
     
-     - Create a **new project** with the name **SmartHotelAppl123**, select that newly created project in Azure Migrate and generate the key again.
+1. Create a **new project** with the name **SmartHotelAppl123**, select that newly created project in Azure Migrate and generate the key again.
      
-        ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/media/azmigrate-03.png?raw=true)
+    ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/media/upd-key.png?raw=true)
+        
+ 1. At the **Check latest updates and register appliance** wizard, paste the **Azure Migrate project key (1)** that you created from the Azure portal earlier and select **Verify (2)** to verify the Azure Migrate project key. 
+    
+    ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/media/upd-key.png?raw=true)
+       
 
 ### 3. **HOL1 -> Exercise3 -> Task1 -> Step13**: 
     
