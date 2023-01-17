@@ -32,7 +32,7 @@ Lab Guide Preview URL: [Lab Guide Preview](https://experience.cloudlabs.ai/#/lab
 
 If attendee face an issue while verifying the Azure Migrate Project key in **Check latest updates and register appliance** wizard, follow the below instructions:
 
-1. Go to the **Azure Migrate** in the portal and open the Azure Migrate **Overview** blade. 
+1. Go to the **Azure Migrate** in the Azure portal and open the Azure Migrate **Overview** blade. 
     
 1. Select **Discover, assess and migrate** and then select **Create project**. Select your subscription and resource group named **AzureMigrateRG**.
     
