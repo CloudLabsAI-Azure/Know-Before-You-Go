@@ -28,7 +28,24 @@ Lab Guide Preview URL: [Lab Guide Preview](https://experience.cloudlabs.ai/#/lab
    
    1. Close the **Azure Migrate appliance configuration wizard** and re-launch it using the desktop shortcut.
 
-### 2. **HOL1 -> Exercise3 -> Task1 -> Step13**: 
+### 2. **HOL1 -> Exercise1 -> Step20**:
+
+If attendee face an issue while verifying the Azure Migrate Project key in **Check latest updates and register appliance** wizard, follow the below instructions:
+
+1. Go to the **Azure Migrate** in the Azure portal and open the Azure Migrate **Overview** blade. 
+    
+1. Select **Discover, assess and migrate** and then select **Create project**. Select your subscription and resource group named **AzureMigrateRG**.
+    
+1. Create a **new project** with the name **SmartHotelAppl123**, select that newly created project in Azure Migrate and generate the key again.
+     
+    ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/media/upd-key.png?raw=true)
+        
+ 1. At the **Check latest updates and register appliance** wizard, paste the **Azure Migrate project key (1)** that you created from the Azure portal earlier and select **Verify (2)** to verify the Azure Migrate project key. 
+    
+    ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/media/azmigrate-04.1.png?raw=true)
+       
+
+### 3. **HOL1 -> Exercise3 -> Task1 -> Step13**: 
     
 If attendee see that the discovery process is stuck at **Discovery is in progress** state for more then 5 mintues, then please follow the below steps for workaround.
     
@@ -67,7 +84,7 @@ If attendee see that the discovery process is stuck at **Discovery is in progres
    3. If you are able to see the number of server then you can continue the lab from Exercise 1 Task4. 
      
 
-### 3. **HOL1 -> Exercise2 -> Task2 -> Step32**: 
+### 4. **HOL1 -> Exercise2 -> Task2 -> Step32**: 
 
    If attendees notice that the dependency agent status is showing as **Requires Agent Installation** instead of Installed even after installing dependency agents in all the three VMs, This is because there is an ongoing issue from Azure end where the latest status is not getting reflected in dependencies blade. Please follow the steps below to confirm dependency agent installation in VMs using **Log Analytics workspace**.
    
@@ -91,6 +108,6 @@ If attendee see that the discovery process is stuck at **Discovery is in progres
    1. Notice the **SmartHotelWeb1**, **SmartHotelWeb2** and **UbuntuWAF** servers have the required agents intsalled and are connected to the workspace.
        ![Screenshot showing the view dependencies button in the Azure Migrate VM group blade.](https://github.com/CloudLabs-MCW/MCW-Line-of-business-application-migration/blob/prod/Hands-on%20lab/images/Exercise1/dependency-3.png?raw=true "View dependencies")
       
-### 4. **Azure API issue**: 
+### 5. **Azure API issue**: 
 
 - Due to recent changes in Azure API's, Azure API's are taking some additional time to fetch the details of the resources. The validation steps for the lab may fail at first, but if you re-run them after 30-45 minutes, they will get succeed if there are no configuration related issues with the lab steps you performed.
