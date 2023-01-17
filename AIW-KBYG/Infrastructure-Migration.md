@@ -42,7 +42,7 @@ If attendee face an issue while verifying the Azure Migrate Project key in **Che
         
  1. At the **Check latest updates and register appliance** wizard, paste the **Azure Migrate project key (1)** that you created from the Azure portal earlier and select **Verify (2)** to verify the Azure Migrate project key. 
     
-    ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/media/upd-key.png?raw=true)
+    ![](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/media/azmigrate-04.1.png?raw=true)
        
 
 ### 3. **HOL1 -> Exercise3 -> Task1 -> Step13**: 
