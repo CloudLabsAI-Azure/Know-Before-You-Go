@@ -2,7 +2,7 @@
 
 Navigate to this location `C:\inetpub\SmartHotel.Registration.Wcf` and edit the `web.config` file.
 
-![1681218042600](image/db-string/1681218042600.png)
+![1681219686854](image/db-string/1681219686854.png)
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
