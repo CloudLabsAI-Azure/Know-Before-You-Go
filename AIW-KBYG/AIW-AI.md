@@ -2,7 +2,7 @@
 
 Instructor should make sure that the attendees follow the **lab guide** provided in the environment to perform the lab instead of lab guide from MCW repo. Because few instructions may differ from the provided lab guides in GitHub repos. 
 
-##### Lab Guide Preview URL: [Lab Guide Preview](https://experience.cloudlabs.ai/#/labguidepreview/3dbb2116-28d1-4a47-9e52-25969482acb8)
+##### Lab Guide Preview URL: [Lab Guide Preview](https://experience.cloudlabs.ai/#/labguidepreview/0f7131b7-1208-4051-a32b-44afc42fbf14)
 
 ### Known Issues and workarounds
 - [Copy paste issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/CopyPaste)
