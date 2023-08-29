@@ -1,6 +1,6 @@
 # Azure Immersion Workshop: Azure Virtual Desktop
 
-##### Lab Guide Preview URL: [Lab Guide Preview](https://experience.cloudlabs.ai/#/labguidepreview/b60c6102-41f1-44c2-a3ce-716ee0f41e03)
+##### Lab Guide Preview URL: [Lab Guide Preview](https://experience.cloudlabs.ai/#/labguidepreview/8256ead2-c380-4c5d-aabe-5f422d0b0fc4)
 
 ### Known Issues and workarounds
 - [Copy paste issue](https://docs.cloudlabs.ai/Learner/Troubleshooting/CopyPaste)
