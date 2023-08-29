@@ -14,7 +14,7 @@ Instructor should make sure that the attendees follow the **lab guide** provided
 
    - Due to recent changes in Azure api's, azure API's are taking some additional time to fetch the details of the resources . The validation steps might fail initially for the lab, if you re-run the steps again after 30-45 minutes later then it will succeed if there will be no configuration related issue with lab steps you performed.
 
-2. [Lab 2a - Task 6 Using the Form Recognizer Studio](https://github.com/CloudLabsAI-Azure/ai-in-a-day/blob/FY-23-AI-Updates/03-knowledge-mining/2a-document-processing-and-summarization.md)
+2. [Lab 2 - Task 6 Using the Form Recognizer Studio](https://github.com/CloudLabsAI-Azure/ai-in-a-day/blob/prod1/03-knowledge-mining/2-document-processing-and-summarization.md)
 
    **Issue in Form Recognizer Studio while creating a Custom model project**.
 
@@ -26,7 +26,7 @@ Instructor should make sure that the attendees follow the **lab guide** provided
    - Signout and Signin from the Form Recognizer Studio with the given user credentials and re-perform the task from Step-8.
    - If you are still facing the issue, then delete the **Resource sharing (CORS)** policy which you have configured at Step-4 of the same task and re-perform the task from Step-4.
 
- 3. [Lab 4: Hand-on-Lab > Task 4 - Configure the "COVID cases by age group" Metrics Advisor data feed](https://github.com/CloudLabsAI-Azure/ai-in-a-day/blob/FY-23-AI-Updates/05-metrics-advisor/05-metrics-advisor-new.md)
+ 3. [Lab 5: Hands-on-Lab > Task 3 - Configure the "COVID cases by age group" Metrics Advisor data feed](https://github.com/CloudLabsAI-Azure/ai-in-a-day/blob/prod1/05-metrics-advisor/05-metrics-advisor-latest.md)
 
     **Issue with Get Started button in Metric Advisor workspace in Step-3**.
     
