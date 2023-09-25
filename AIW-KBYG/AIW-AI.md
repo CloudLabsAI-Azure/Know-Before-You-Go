@@ -14,9 +14,9 @@ Instructor should make sure that the attendees follow the **lab guide** provided
 
    - Due to recent changes in Azure api's, azure API's are taking some additional time to fetch the details of the resources . The validation steps might fail initially for the lab, if you re-run the steps again after 30-45 minutes later then it will succeed if there will be no configuration related issue with lab steps you performed.
 
-2. [Lab 2 - Task 6 Using the Form Recognizer Studio](https://github.com/CloudLabsAI-Azure/ai-in-a-day/blob/prod1/03-knowledge-mining/2-document-processing-and-summarization.md)
+2. [Lab 2 - Task 6 Using the Document Intelligence Studio](https://github.com/CloudLabsAI-Azure/ai-in-a-day/blob/prod1/03-knowledge-mining/2-document-processing-and-summarization.md)
 
-   **Issue in Form Recognizer Studio while creating a Custom model project**.
+   **Issue in Document Intelligence Studio while creating a Custom model project**.
 
    - In some cases user may face an issue to select Storage account in Connect training data source pane.    
    - **This is an intermittent issue**.
