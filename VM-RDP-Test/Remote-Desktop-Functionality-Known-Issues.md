@@ -1,16 +1,10 @@
 # Remote Desktop Functionality Known Issues :
 
-
-
-
-
 #### Sometime, JumpBox/LabVM RDP Connection (RDP Gateway connection) doesn't work at customers/attendee's network due to following reasons :
   * Organization firewall/policy blocking the connection.
   * User is connected to any VPN (Virtual Private Network), which may restrict the connection based on network policies.
   * There may be cookies and cache problem in internet browser.
   * Low network bandwidth (Network bandwidth recommended: 8 Mbps).
-
-
 
 #### It can be fixed by trying the following steps:
   * Make sure you are connected with good internet connection with minimum network bandwidth 8 Mbps.
@@ -18,17 +12,15 @@
   * Try to launch the lab in **Private/Incognito** browsing mode.
   * If all the above steps won't work, then try to connect VM using [Remote Desktop Connection](#connect-vm-using-remote-desktop-connection-from-your-system) in your Computer/Laptop. Jump Box/LabVM **credentials** are provided on lab **Environment Details** page. Steps are documented [here](#connect-vm-using-remote-desktop-connection-from-your-system) to connect to JumpBOX/LabVM using Remote Desktop Connection. 
   * If the above step doesn't work check with Network Administrator of your organization if that specific traffic is getting blocked or have any restrictions.
-  * Try to Restart the VM from the Lab Environment Page (as shown in the image below).
+  * Try to Stop/Start/Restart the VM from the **Resources** Page (as shown in the image below).
 
-   ![](media/RDPoverHTTP%201.png)
-  
+    ![](media/manage-resources.png)
 
+#### Connect VM using Remote Desktop Connection from your System
 
-### Connect VM using Remote Desktop Connection from your System
+* Open the **notepad** in the LabVM. Copy the **LabVM/JumpVM DNS Name, Username** and **Password** from **Environment Details** page and try to paste in the notepad insite VM.
 
-* Copy the **LabVM/JumpVM DNS Name, Username** and **Password** from **Environment Details** page 
-
-  ![](media/copypasteissue-2.png)
+  ![](media/checkcopypaste.png)
 
 * Search for **Remote Desktop Connection** Application from Start Menu of your local Laptop/Desktop and then select the **Remote Desktop Connection** Application (as mentioned in the image below).
 
@@ -40,7 +32,7 @@
 
 * Click on **More choices** (as mentioned in the image below).
 
-  ![](media/copypasteissue-5.png)
+  ![](media/rdpmorechoice.png)
 
 * Now, click on the **Use a different account** (as mentioned in the image below).
 
@@ -54,8 +46,6 @@
 
   ![](media/copypasteissue-8.png)
   
-
-
 ### Steps to Enable Cookies in the Browsers
 
 #### If you are using Safari browser, then please follow the below steps:
@@ -76,7 +66,6 @@
 -> Turn off cookies: Turn off Allow sites to save and read cookie data.
 
 #### If you are using Firefox browser, then please follow the below steps: 
-
 
 In the Menu bar at the top of the screen, click Firefox and select Preferences.
 -> Click the menu button and select Options.
